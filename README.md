@@ -2,7 +2,7 @@
 
 ![A photo of the solder:bit Gamepad PCB](/media/IMG_7025.jpeg "My first attempt at soldering the solder:bit Gamepad.")
 
-The solder:bit Gamepad originated as an innovative workshop idea for the upcoming [Device prototyping and production summer school](https://prosquared.org/event/2024-summer-school/) held at Lancaster University. Designed primarily to introduce participants to the fundamentals of surface mount soldering, this project not only demystifies a key skill in electronics but also integrates the fun and educational platform of the BBC micro:bit.
+The solder:bit Gamepad originated as a workshop idea for the upcoming [Device prototyping and production summer school](https://prosquared.org/event/2024-summer-school/) held at Lancaster University. Designed primarily to introduce participants to the fundamentals of surface mount soldering, this project not only demystifies a key skill in electronics but also integrates the fun and educational platform of the BBC micro:bit.
 
 As we developed the first prototype, it became clear that the gamepad could spearhead a series of kits under the solder:bit brand, each varying in complexity and purpose. Currently, our focus is on perfecting the solder:bit Gamepad. However, looking ahead, we are excited about the possibility of expanding our line to include additional kits that cater to a range of skills and educational outcomes.
 
