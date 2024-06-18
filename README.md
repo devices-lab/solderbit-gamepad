@@ -20,7 +20,7 @@ There are two ways to get started with the solder:bit Gamepad, depending on whet
 
 ### Starting with the kit
 
-If you already have the PCB and all the required components listed in the [bill of materials (BOM)](#bill-of-materials), follow these steps to get your gamepad up and running:
+If you already have the PCB and all the required components listed in the [bill of materials (BOM)](#bill-of-materials-bom), follow these steps to get your gamepad up and running:
 
 1. **Soldering and assembly**: a guide will be released soon.
 2. **Programming**: an extension for MakeCode is planned.
