@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connector_Microbit_Edge")(type "KiCad")(uri "/Users/aroneggens/Desktop/Microbit work/PCB soldering accessory/KiCad/components/edge_connector/Connector_Microbit_Edge.pretty")(options "")(descr ""))
+  (lib (name "74HC165")(type "KiCad")(uri "/Users/aroneggens/Desktop/Microbit work/PCB soldering accessory/KiCad/components/74HC165")(options "")(descr ""))
+  (lib (name "WS2812B")(type "KiCad")(uri "/Users/aroneggens/Desktop/Microbit work/PCB soldering accessory/KiCad/components/WS2812B")(options "")(descr ""))
+  (lib (name "TS-1002S")(type "KiCad")(uri "/Users/aroneggens/Desktop/Microbit work/PCB soldering accessory/KiCad/components/TS-1002S")(options "")(descr ""))
+  (lib (name "TS-1037")(type "KiCad")(uri "/Users/aroneggens/Desktop/Microbit work/PCB soldering accessory/KiCad/components/TS-1037_right_angle/TS-1037.pretty")(options "")(descr ""))
+  (lib (name "devices-lab")(type "KiCad")(uri "/Users/aroneggens/Desktop/Microbit work/PCB soldering accessory/KiCad/components/devices-lab.pretty")(options "")(descr ""))
+  (lib (name "Lancaster_Cityscape")(type "KiCad")(uri "/Users/aroneggens/Desktop/Microbit work/PCB soldering accessory/KiCad/components/Lancaster_Cityscape")(options "")(descr ""))
+)
