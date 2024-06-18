@@ -1,9 +1,9 @@
-## [v0.1]
+## v0.1
 ### Added
  - New KiCad project
  - Basic schematic with through-hole symbols/footprints
 
-## [v0.2] 
+## v0.2 
 ### Added
  - New and improved schematic with SMT 
  - First PCB layout with surface-mount footprints
@@ -14,7 +14,7 @@
 ### Removed 
  - Previous footprints with THT
 
-## [v0.3]
+## v0.3
 ### Added 
  - Lancaster cityscape graphic on the back of the PCB
  - Two bumber buttons
@@ -26,7 +26,7 @@
 ### Removed 
  - Silkscreen graphics similar to micro:bit triangles
 
-## [v0.4] 
+## v0.4
 ### Added 
  - Devices Lab logo and footprint
  - Two more buttons for a complete D-pad
@@ -38,7 +38,7 @@
 ### Removed 
  - 0.1uF capacitor near the shift register
 
-## [v0.5] 18 June, 2024
+## v0.5 (18 June, 2024)
 ### Added 
  - Pads under the rings on the edge connector footprint
  - Mechanical holes for the bumper buttons
@@ -52,5 +52,5 @@
  - Make the thermal relief smaller everywhere on the GND plane
  - Move the pads for the bumper buttons all the way up
 ### Removed 
- - Lancaster cityscape
+ - Lancaster cityscape on the back of the PCB, to make space for the battery pack
  - Right-angle bumper buttons
