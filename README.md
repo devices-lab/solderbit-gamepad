@@ -14,7 +14,7 @@ The solder:bit Gamepad is currently in the development stage, undergoing rigorou
 
 See [CHANGELOG](/CHANGELOG.md) for the latest pre-release versions and changes.
 
-## Getting Started
+## Getting started
 
 There are two ways to get started with the solder:bit Gamepad, depending on whether you already have the necessary parts or if you prefer to generate and order the components yourself.
 
@@ -70,8 +70,8 @@ If you prefer not to generate your own files, we have provided ready-to-use Gerb
 
 ## Credits
 
-Special thanks to everyone at the Lancaster University Devices Lab, including Steve Hodges, Joe Finney,
-Kobi Hartley, Lorraine Underwood, and Matthew Oppenheim.
+Special thanks to everyone at the Lancaster University Devices Lab, including [Steve Hodges](https://github.com/sehodges), [Joe Finney](https://github.com/finneyj),
+Kobi Hartley, Lorraine Underwood, and [Matt Oppenheim](https://github.com/mattoppenheim).
 
 ## License
 
