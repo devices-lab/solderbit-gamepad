@@ -1,4 +1,4 @@
-23375202601271416
+23383806864875932
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88277,12 +88277,40 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 48
 48
 Solderbit_Gamepad
+1206_Capacitor
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Solderbit_Gamepad
+1206_Resistor
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+Solderbit_Gamepad
 Devices-Lab_Logo
 
 
 0
 0
 0
+Solderbit_Gamepad
+Devices-Lab_Logo_New
+
+
+0
+0
+0
+Solderbit_Gamepad
+Key_Chain_Hole
+
+
+0
+1
+1
 Solderbit_Gamepad
 Lancaster_Cityscape
 
@@ -88323,8 +88351,15 @@ Tactile_Switch_Right_Angle
 
 
 0
-4
+5
 2
+Solderbit_Gamepad
+drawing
+
+
+0
+0
+0
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

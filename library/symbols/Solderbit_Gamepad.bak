@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(symbol "Devices-Lab_Logo_Placeholder"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "G"
 			(at -4.826 0 0)
@@ -12,6 +12,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -20,6 +21,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Devices-Lab_Logo"
@@ -76,7 +78,80 @@
 		)
 		(symbol "Devices-Lab_Logo_Placeholder_1_1"
 			(text "Devices Lab logo \nplaceholder"
-				(at 0.254 -8.382 0)
+				(at 0.254 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Key_Chain_Hole"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "G"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:Key_Chain_Hole"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Key_Chain_Hole_0_1"
+			(circle
+				(center 0 -2.54)
+				(radius 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Key_Chain_Hole_1_1"
+			(text "Key chain hole"
+				(at 0.254 -5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -87,7 +162,7 @@
 	)
 	(symbol "Lancaster_Cityscape_Image"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "G"
 			(at 0 0 0)
@@ -95,6 +170,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
@@ -103,10 +179,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Lancaster_Cityscape"
-			(at 0 0 0)
+			(at 0 2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,7 +284,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "REF**"
+		(property "Reference" "REF"
 			(at -22.86 5.08 0)
 			(effects
 				(font
@@ -224,7 +301,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Microbit_Edge_Connector"
-			(at 0 1.27 0)
+			(at -1.524 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -538,8 +615,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "LED"
-			(at 0 0 0)
+		(property "Reference" "D"
+			(at -5.588 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -548,16 +625,17 @@
 			)
 		)
 		(property "Value" "NeoPixel_WS2812B"
-			(at 0 0 0)
+			(at -1.524 -7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:NeoPixel_WS2812B"
-			(at 0 0 0)
+			(at -1.778 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -566,7 +644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,7 +653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,8 +663,8 @@
 		)
 		(symbol "NeoPixel_WS2812B_0_0"
 			(rectangle
-				(start -7.62 -5.08)
-				(end 7.62 10.16)
+				(start -6.35 7.62)
+				(end 5.08 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -595,368 +673,8 @@
 					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy -6.35 2.54) (xy -5.08 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -6.35 5.08) (xy -5.08 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -6.35 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -5.08 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -3.81 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -3.81 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 7.62) (xy -5.08 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.81 2.54) (xy -5.08 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 2.54) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 5.08) (xy 0 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy -5.08 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 2.54) (xy -2.54 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 2.54) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 2.54) (xy 0 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 5.08) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 7.62) (xy -5.08 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -4.064) (xy 0 -5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 5.08) (xy -1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 5.08) (xy 2.54 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 5.08) (xy 2.54 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 2.54 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 3.81 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 2.54) (xy 3.81 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 5.08) (xy 2.54 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 7.62) (xy -1.27 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 7.62) (xy 5.08 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.81 5.08) (xy 2.54 5.08)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 10.16) (xy 5.08 7.62)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(text "WS2812B"
-				(at -4.064 8.382 0)
+				(at -6.604 -3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -964,8 +682,24 @@
 					(justify left bottom)
 				)
 			)
+		)
+		(symbol "NeoPixel_WS2812B_0_1"
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NeoPixel_WS2812B_1_0"
 			(pin power_in line
-				(at 5.08 15.24 270)
+				(at -11.43 5.08 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -974,7 +708,7 @@
 						)
 					)
 				)
-				(number "1-VDD"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -983,16 +717,16 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -2.54 180)
+				(at -11.43 1.27 0)
 				(length 5.08)
-				(name "DO"
+				(name "DOUT"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2-DOUT"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1001,16 +735,16 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 90)
+				(at 10.16 1.27 180)
 				(length 5.08)
-				(name "GND"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "3-GND"
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1019,16 +753,16 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at 10.16 5.08 180)
 				(length 5.08)
-				(name "DI"
+				(name "DIN"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "4-DIN"
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1410,17 +1144,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Tactile_Switch_Button"
-			(at -7.62 -8.382 0)
+		(property "Value" ""
+			(at -7.112 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "TS04-66-95-BK-100-SMT:SW_TS04-66-95-BK-100-SMT"
-			(at 0 0 0)
+		(property "Footprint" "Solderbit_Gamepad:Tactile_Switch"
+			(at 0.254 -10.922 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,138 +1182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "CUI Devices"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "6 x 6 mm, 9.5 mm Actuator Height, 100 gf, Black, Surface Mount, SPST, Tactile Switch"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/TS04-66-95-BK-100-SMT/CUI+Devices/view-part/?ref=eda"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.0"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS04-66-95-BK-100-SMT/CUI+Devices/view-part/?ref=snap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "TS04-66-95-BK-100-SMT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "CUI_purchase_URL" "https://www.cuidevices.com/product/switches/tactile-switches/ts04-66-95-bk-100-smt?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "CUI Devices"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(symbol "Tactile_Switch_Button_0_0"
-			(rectangle
-				(start -7.62 -7.62)
-				(end 7.62 7.62)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(circle
 				(center 0 -1.905)
 				(radius 0.635)
@@ -1755,6 +1359,19 @@
 							(size 1.016 1.016)
 						)
 					)
+				)
+			)
+		)
+		(symbol "Tactile_Switch_Button_1_0"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

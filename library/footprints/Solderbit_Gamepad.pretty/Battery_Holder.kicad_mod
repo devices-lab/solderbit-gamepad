@@ -1,0 +1,115 @@
+(footprint "Battery_Holder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b6105b24-13ff-446c-bc87-e0eb0629516d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9e12ba51-32b3-4de1-b9a4-741c991f85af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Battery_Holder"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96c7360d-144c-45c6-b005-1a636c37b0fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3ae51e8-5f48-44b9-93e9-683697499b3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3e0a910-d687-40bd-afe2-af03c59b58da")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy -24.13 -2.264833) (xy -31.601833 -2.264833) (xy -31.601833 -8.382) (xy -24.13 -8.382) (xy -24.13 -2.264833)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "97eb9e21-de8c-498b-acc5-dea037b14bff")
+	)
+	(fp_poly
+		(pts
+			(xy -24.13 8.741833) (xy -31.601833 8.741833) (xy -31.601833 2.624667) (xy -24.13 2.624667) (xy -24.13 8.741833)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "2d835099-0beb-46cc-90d4-f2618bdeab76")
+	)
+	(fp_poly
+		(pts
+			(xy 31.623 -2.264833) (xy 24.151167 -2.264833) (xy 24.151167 -8.382) (xy 31.623 -8.382) (xy 31.623 -2.264833)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "bc3b2406-aab4-4708-8704-3a31f010b75c")
+	)
+	(fp_poly
+		(pts
+			(xy 31.623 8.741833) (xy 24.151167 8.741833) (xy 24.151167 2.624667) (xy 31.623 2.624667) (xy 31.623 8.741833)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "0fa8b98d-d39a-41ee-95a6-05b9bc5e9f46")
+	)
+)
