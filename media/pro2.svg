@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4725 1359" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="pro2_logo" transform="matrix(0.830872,0,0,0.564196,-154.673,-287.364)">
+        <rect x="186.158" y="509.334" width="5686.09" height="2407.44" style="fill:none;"/>
+        <g transform="matrix(0.595403,0,0,0.87683,-906.14,-441.435)">
+            <g>
+                <g transform="matrix(28.3691,0,0,28.3691,62.5633,-3434.81)">
+                    <g transform="matrix(50,0,0,50,397.963,235.559)">
+                    </g>
+                    <text x="188.213px" y="235.559px" style="font-family:'ArticulatCF-Bold', 'Articulat CF';font-weight:700;font-size:50px;">n<tspan x="215.763px 241.363px 257.863px 296.763px 323.063px 341.013px 367.713px " y="235.559px 235.559px 235.559px 235.559px 235.559px 235.559px 235.559px ">etwork+</tspan></text>
+                </g>
+                <g transform="matrix(23.3871,0,0,19.2425,-109073,-15184.7)">
+                    <g transform="matrix(1.95328,0,0,2.38015,4374.07,397.594)">
+                        <g transform="matrix(50,0,0,50,262.763,235.559)">
+                        </g>
+                        <text x="188.213px" y="235.559px" style="font-family:'ArticulatCF-Bold', 'Articulat CF';font-weight:700;font-size:50px;">p<tspan x="216.013px 233.963px " y="235.559px 235.559px ">ro</tspan></text>
+                    </g>
+                    <g transform="matrix(0.887942,0,0,1.082,4701.76,636.24)">
+                        <g transform="matrix(50,0,0,50,217.163,235.559)">
+                        </g>
+                        <text x="188.213px" y="235.559px" style="font-family:'ArticulatCF-Bold', 'Articulat CF';font-weight:700;font-size:50px;">2</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

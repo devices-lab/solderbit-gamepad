@@ -211,4 +211,15 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "3c7cd2d0-164c-4927-aab1-98ac8b7d9cf5")
 	)
+	(model "${SOLDERBIT_GAMEPAD}/library/3d_models/neopixel_WS2812B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )

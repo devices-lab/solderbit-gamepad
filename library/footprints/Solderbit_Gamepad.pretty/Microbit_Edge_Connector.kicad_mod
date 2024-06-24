@@ -805,9 +805,9 @@
 		(primitives)
 		(uuid "0a210bc1-7204-4bb5-bfc2-d27f42bdbe3a")
 	)
-	(model "/Users/aroneggens/Desktop/solderbit-gamepad/library/3d_models/microbit_v2.step"
+	(model "${SOLDERBIT_GAMEPAD}/library/3d_models/microbit_v2.step"
 		(offset
-			(xyz 0 -6.85 -15)
+			(xyz 0 -6.85 -4)
 		)
 		(scale
 			(xyz 1 1 1)

@@ -1,4 +1,4 @@
-23388965729720622
+23395842924449268
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88333,6 +88333,20 @@ Key_Chain_Hole
 1
 1
 Solderbit_Gamepad
+LSS_L
+
+
+0
+0
+0
+Solderbit_Gamepad
+LSS_R
+
+
+0
+0
+0
+Solderbit_Gamepad
 Lancaster_Cityscape
 
 
@@ -88353,6 +88367,13 @@ NeoPixel_WS2812B
 0
 4
 4
+Solderbit_Gamepad
+Pro2_Logo
+
+
+0
+0
+0
 Solderbit_Gamepad
 Shift_Register_74HC165D
 
@@ -88381,6 +88402,13 @@ Tactile_Switch_Right_Angle
 0
 5
 2
+Solderbit_Gamepad
+UKRI_Logo
+
+
+0
+0
+0
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

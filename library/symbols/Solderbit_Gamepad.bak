@@ -160,6 +160,168 @@
 			)
 		)
 	)
+	(symbol "LSS_Left"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "G"
+			(at -4.826 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:LSS_L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LSS_Left_0_1"
+			(rectangle
+				(start -1.27 -1.27)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LSS_Left_1_1"
+			(text "L"
+				(at 0.508 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "Lancaster city \nleft"
+				(at 1.016 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LSS_Right"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "G"
+			(at -4.826 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:LSS_R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LSS_Right_0_1"
+			(rectangle
+				(start -1.27 -1.27)
+				(end 2.54 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LSS_Right_1_1"
+			(text "Lancaster city \nright"
+				(at 1.016 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "R"
+				(at 0.508 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Lancaster_Cityscape_Image"
 		(exclude_from_sim no)
 		(in_bom no)
@@ -772,6 +934,91 @@
 			)
 		)
 	)
+	(symbol "Pro2_Logo_Placeholder"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "G"
+			(at -4.826 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:Pro2_Logo"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Pro2_Logo_Placeholder_0_1"
+			(rectangle
+				(start -3.81 -1.27)
+				(end 5.08 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.27) (xy 5.08 -6.35) (xy 5.08 -1.27) (xy -3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Pro2_Logo_Placeholder_1_1"
+			(text "Pro2 logo \nplaceholder"
+				(at 0.254 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Shift_Register_74HC165D"
 		(pin_names
 			(offset 1.016)
@@ -1136,7 +1383,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at -7.62 8.382 0)
+			(at -7.112 0.762 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,6 +1620,91 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+	)
+	(symbol "UKRI_Logo_Placeholder"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "G"
+			(at -4.826 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:UKRI_Logo"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "UKRI_Logo_Placeholder_0_1"
+			(rectangle
+				(start -3.81 -1.27)
+				(end 5.08 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -1.27) (xy 5.08 -6.35) (xy 5.08 -1.27) (xy -3.81 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "UKRI_Logo_Placeholder_1_1"
+			(text "UKRI logo \nplaceholder"
+				(at 0.254 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 		)

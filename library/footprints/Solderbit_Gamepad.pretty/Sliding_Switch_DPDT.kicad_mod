@@ -231,4 +231,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "db0c6965-ae8a-4cd3-a1d7-82ee078df267")
 	)
+	(model "${SOLDERBIT_GAMEPAD}/library/3d_models/slide_switch.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

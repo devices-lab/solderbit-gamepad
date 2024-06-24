@@ -542,4 +542,15 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "26c5a779-e34c-44cb-b745-60b1e3a12a1e")
 	)
+	(model "${SOLDERBIT_GAMEPAD}/library/3d_models/battery_holder.step"
+		(offset
+			(xyz 0 5.5 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 )

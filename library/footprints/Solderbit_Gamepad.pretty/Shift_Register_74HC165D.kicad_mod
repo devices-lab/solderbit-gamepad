@@ -700,7 +700,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "bd74331f-aeed-4741-aaa7-aa66cf5611f4")
 	)
-	(model "/Users/aroneggens/Desktop/Microbit work/PCB soldering accessory/KiCad/components/74HC165/74HC165D_653.step"
+	(model "${SOLDERBIT_GAMEPAD}/library/3d_models/shift_register_74HC165D.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -708,7 +708,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz 90 180 90)
 		)
 	)
 )

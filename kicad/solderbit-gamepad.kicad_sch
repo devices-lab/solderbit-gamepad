@@ -644,6 +644,168 @@
 				)
 			)
 		)
+		(symbol "Solderbit_Gamepad:LSS_Left"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "G"
+				(at -4.826 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Solderbit_Gamepad:LSS_L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LSS_Left_0_1"
+				(rectangle
+					(start -1.27 -1.27)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LSS_Left_1_1"
+				(text "L"
+					(at 0.508 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "Lancaster city \nleft"
+					(at 1.016 -9.144 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Solderbit_Gamepad:LSS_Right"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "G"
+				(at -4.826 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Solderbit_Gamepad:LSS_R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LSS_Right_0_1"
+				(rectangle
+					(start -1.27 -1.27)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LSS_Right_1_1"
+				(text "Lancaster city \nright"
+					(at 1.016 -9.144 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at 0.508 -3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Solderbit_Gamepad:Microbit_Edge_Connector"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1131,6 +1293,91 @@
 							(font
 								(size 1.016 1.016)
 							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Solderbit_Gamepad:Pro2_Logo_Placeholder"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "G"
+				(at -4.826 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Solderbit_Gamepad:Pro2_Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pro2_Logo_Placeholder_0_1"
+				(rectangle
+					(start -3.81 -1.27)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy 5.08 -6.35) (xy 5.08 -1.27) (xy -3.81 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Pro2_Logo_Placeholder_1_1"
+				(text "Pro2 logo \nplaceholder"
+					(at 0.254 -9.144 0)
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -1737,6 +1984,91 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Solderbit_Gamepad:UKRI_Logo_Placeholder"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "G"
+				(at -4.826 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Solderbit_Gamepad:UKRI_Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UKRI_Logo_Placeholder_0_1"
+				(rectangle
+					(start -3.81 -1.27)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy 5.08 -6.35) (xy 5.08 -1.27) (xy -3.81 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "UKRI_Logo_Placeholder_1_1"
+				(text "UKRI logo \nplaceholder"
+					(at 0.254 -9.144 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -3307,7 +3639,7 @@
 	)
 	(rectangle
 		(start 237.49 62.23)
-		(end 279.4 99.06)
+		(end 279.4 160.02)
 		(stroke
 			(width 1)
 			(type default)
@@ -4065,6 +4397,70 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Solderbit_Gamepad:LSS_Right")
+		(at 267.97 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13d659ad-22b3-45aa-876f-abbdceed324b")
+		(property "Reference" "G6"
+			(at 263.144 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:LSS_R"
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "G6")
 					(unit 1)
 				)
 			)
@@ -5713,6 +6109,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Solderbit_Gamepad:UKRI_Logo_Placeholder")
+		(at 257.81 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a3a6c88-247f-42bd-9763-e30bbd9198aa")
+		(property "Reference" "G4"
+			(at 252.984 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:UKRI_Logo"
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "G4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 50.8 133.35 270)
 		(mirror x)
@@ -6457,6 +6917,70 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Solderbit_Gamepad:LSS_Left")
+		(at 247.65 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d27fb8f-4be8-47f8-adc5-898905ec8369")
+		(property "Reference" "G5"
+			(at 242.824 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:LSS_L"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "G5")
 					(unit 1)
 				)
 			)
@@ -7440,6 +7964,70 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Solderbit_Gamepad:Pro2_Logo_Placeholder")
+		(at 257.81 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1047cd9-3ec5-43b8-a257-1cd769cb8073")
+		(property "Reference" "G2"
+			(at 252.984 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:Pro2_Logo"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "G2")
 					(unit 1)
 				)
 			)
