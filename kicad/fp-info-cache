@@ -1,4 +1,4 @@
-23383806864875932
+23388965729720622
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88291,7 +88291,28 @@ resistor handsolder
 2
 2
 Solderbit_Gamepad
+Battery_Holder
+
+
+0
+4
+2
+Solderbit_Gamepad
 Devices-Lab_Logo
+
+
+0
+0
+0
+Solderbit_Gamepad
+Devices-Lab_Logo_H9mm
+
+
+0
+0
+0
+Solderbit_Gamepad
+Devices-Lab_Logo_H10mm
 
 
 0
@@ -88340,6 +88361,13 @@ Shift_Register_74HC165D
 16
 16
 Solderbit_Gamepad
+Sliding_Switch_DPDT
+
+
+0
+6
+3
+Solderbit_Gamepad
 Tactile_Switch
 
 
@@ -88353,13 +88381,6 @@ Tactile_Switch_Right_Angle
 0
 5
 2
-Solderbit_Gamepad
-drawing
-
-
-0
-0
-0
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking

@@ -4,9 +4,10 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -3.5 0)
+		(at 0.25 5.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "6d47cf0d-3a53-4a4d-96c4-d096643a93a4")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "684369b1-7332-41dd-8a2f-7e65a1654280")
 		(effects
 			(font
@@ -67,18 +69,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_text user "${REFERENCE}"
-		(at 0 5.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "2599a09f-1a8a-401e-98c1-d1089bebd906")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 3.4 3.4)

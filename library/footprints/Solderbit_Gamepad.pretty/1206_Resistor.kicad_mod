@@ -6,19 +6,40 @@
 	(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor handsolder")
 	(property "Reference" "R"
-		(at 0 0 0)
+		(at 0 -0.05 0)
 		(layer "F.SilkS")
 		(uuid "ce97687b-1f59-4518-85f5-1f90382e40dc")
 		(effects
 			(font
+				(face "Arial Black")
 				(size 1 0.75)
 				(thickness 0.15)
+			)
+		)
+		(render_cache "R" 0
+			(polygon
+				(pts
+					(xy 0.099984 -0.634551) (xy 0.14071 -0.631347) (xy 0.181265 -0.624794) (xy 0.219253 -0.613737)
+					(xy 0.226597 -0.61075) (xy 0.26327 -0.588965) (xy 0.294705 -0.557195) (xy 0.318737 -0.519647) (xy 0.337284 -0.475287)
+					(xy 0.348962 -0.425251) (xy 0.353599 -0.375365) (xy 0.353908 -0.357714) (xy 0.351279 -0.307902)
+					(xy 0.342311 -0.258288) (xy 0.32698 -0.214099) (xy 0.304088 -0.172048) (xy 0.275529 -0.136384)
+					(xy 0.253341 -0.116158) (xy 0.217941 -0.094298) (xy 0.181018 -0.079594) (xy 0.171459 -0.076591)
+					(xy 0.207546 -0.057845) (xy 0.232275 -0.039221) (xy 0.258001 -0.004234) (xy 0.269461 0.014511)
+					(xy 0.291917 0.054525) (xy 0.302251 0.077526) (xy 0.415091 0.365) (xy 0.151309 0.365) (xy 0.026745 0.058963)
+					(xy 0.006925 0.014979) (xy -0.015569 -0.018217) (xy -0.049744 -0.038157) (xy -0.072722 -0.04142)
+					(xy -0.093422 -0.04142) (xy -0.093422 0.365) (xy -0.327712 0.365) (xy -0.327712 -0.228998) (xy -0.093422 -0.228998)
+					(xy 0.004946 -0.228998) (xy 0.043449 -0.236064) (xy 0.066862 -0.242676) (xy 0.099991 -0.266542)
+					(xy 0.10478 -0.273939) (xy 0.11892 -0.320053) (xy 0.119435 -0.332069) (xy 0.111234 -0.381575) (xy 0.096171 -0.406318)
+					(xy 0.060119 -0.426519) (xy 0.020787 -0.431981) (xy 0.009159 -0.432208) (xy -0.093422 -0.432208)
+					(xy -0.093422 -0.228998) (xy -0.327712 -0.228998) (xy -0.327712 -0.635418) (xy 0.061183 -0.635418)
+				)
 			)
 		)
 	)
 	(property "Value" "1206_Resistor"
 		(at 0 1.82 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "cd5f1ebf-965c-4615-b7c3-fd6c33eebdc8")
 		(effects
 			(font
@@ -63,6 +84,7 @@
 			)
 		)
 	)
+	(solder_mask_margin 0.038)
 	(attr smd)
 	(fp_line
 		(start -0.727064 -0.91)
@@ -164,28 +186,17 @@
 		(layer "F.Fab")
 		(uuid "b097dc10-f199-4020-acc7-a78c98d5f695")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -1.75 0)
-		(layer "F.Fab")
-		(uuid "79c57c29-1041-4a4a-870f-4b862fdc472a")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
 	(pad "1" smd roundrect
 		(at -1.7 0)
 		(size 1.6 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.192308)
 		(uuid "c41c746c-9fb7-49ab-8c04-10a45f29a2bd")
 	)
 	(pad "2" smd roundrect
 		(at 1.7 0)
 		(size 1.6 1.75)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.192308)
 		(uuid "ecf3622d-8c02-42c9-bbeb-380c2f28a756")
 	)
