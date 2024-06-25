@@ -339,8 +339,8 @@
 	)
 	(pad "" thru_hole oval
 		(at 0 -3)
-		(size 2.7 1)
-		(drill oval 2.2 0.5)
+		(size 2.7 1.1)
+		(drill oval 2.2 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
