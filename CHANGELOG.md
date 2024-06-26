@@ -65,9 +65,6 @@
 - Pads under the rings on the edge connector footprint
 - Mechanical holes for the bumper buttons
 - All footprint pads now account for soldermask expansion of 0.038mm
-
-  TODO:
-
 - Battery holder on the back of the PCB
 
 ### Changed
@@ -78,27 +75,29 @@
 - Renamed and reorganised imported symbols and footprints
 - Fixed the shoulder buttons to include a mechanical through hole for better support
 
-  TODO:
-
-- New and improved layout
-- Make the thermal relief smaller everywhere on the GND plane
-- Ask Joe to label skilkscreen to start with ZERO, and probably call it L, rather than like the refernece designator "D"
-- Move the Edge_Cut further away from the rings
-- Place all designators udner the components - good habits for (switch, shift register)
-- Make triangles bigger, to match the MB labels
-- Add labels for ON/OFF
-- Make switch footprint pads a little bigger
-- Bold devices lab logo
-- Options for the battery holder
-  - SMT (downside - it's expensive)
-  - JST battery holder (can use existing battery holders), attached with a double-sided foam pad
-  - THT mount (but leads would stick out through)
-  - Battery holder with just two cables coming out, soldered to an SMT pad on the board
-  - Battery pack held in place using rubber bands/nitrile bands
-    - C or U shape cutouts on the board to keep the batery pack in place
-    - Cut-outs on the edges of the board
-
 ### Removed
 
 - Lancaster cityscape on the back of the PCB, to make space for the battery pack
 - Manufacturer's links in the footprints
+
+## TODO
+
+- [ ] Make the thermal relief smaller everywhere on the GND plane
+- [x] Ask Joe to label skilkscreen to start with ZERO, and probably call it L, rather than like the refernece designator "D"
+- [x] Move the Edge_Cut further away from the rings
+- [x] Ensure the B_Mask does not overlap with where the microbit will rest
+- [x] Remove the notches for on the MB footprint
+- [x] Place all designators udner the components - good habits for (switch, shift register)
+- [ ] Make triangles bigger, to match the MB labels
+- [ ] Center the key hole
+- [x] Add labels for ON/OFF
+- [ ] Make switch footprint pads a little bigger
+- [ ] Bold devices lab logo
+- [ ] Options for the battery holder
+  - [ ] SMT (downside - it's expensive)
+  - [ ] JST battery holder (can use existing battery holders), attached with a double-sided foam pad
+  - [ ] THT mount (but leads would stick out through)
+  - [ ] Battery holder with just two cables coming out, soldered to an SMT pad on the board
+  - [ ] Battery pack held in place using rubber bands/nitrile bands
+    - [ ] C or U shape cutouts on the board to keep the batery pack in place
+    - [ ] Cut-outs on the edges of the board
