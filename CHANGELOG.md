@@ -97,8 +97,6 @@
   - Battery pack held in place using rubber bands/nitrile bands
     - C or U shape cutouts on the board to keep the batery pack in place
     - Cut-outs on the edges of the board
-    
-
 
 ### Removed
 
