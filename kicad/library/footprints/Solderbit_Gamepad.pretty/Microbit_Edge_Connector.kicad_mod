@@ -805,7 +805,7 @@
 		(primitives)
 		(uuid "0a210bc1-7204-4bb5-bfc2-d27f42bdbe3a")
 	)
-	(model "${SOLDERBIT_GAMEPAD}/library/3d_models/microbit_v2.step"
+	(model "${KIPRJMOD}/library/3d_models/microbit_v2.step"
 		(offset
 			(xyz 0 -6.85 -4)
 		)

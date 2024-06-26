@@ -350,7 +350,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "65c0a887-76e0-416e-af26-f28cda40ad81")
 	)
-	(model "${SOLDERBIT_GAMEPAD}/library/3d_models/tactile_switch.step"
+	(model "${KIPRJMOD}/library/3d_models/tactile_switch.step"
 		(offset
 			(xyz 0 0 0)
 		)

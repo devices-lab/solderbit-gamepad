@@ -700,7 +700,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "bd74331f-aeed-4741-aaa7-aa66cf5611f4")
 	)
-	(model "${SOLDERBIT_GAMEPAD}/library/3d_models/shift_register_74HC165D.step"
+	(model "${KIPRJMOD}/library/3d_models/shift_register_74HC165D.step"
 		(offset
 			(xyz 0 0 0)
 		)

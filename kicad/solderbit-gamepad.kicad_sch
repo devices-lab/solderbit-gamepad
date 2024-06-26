@@ -7064,7 +7064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a603b8de-3b90-4fed-adfc-979277ac50f7")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 206.502 138.938 0)
 			(effects
 				(font
@@ -7125,7 +7125,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7208,7 +7208,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba4149d4-8bd9-45aa-bb92-d4f573f54564")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 206.502 113.538 0)
 			(effects
 				(font
@@ -7269,7 +7269,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8381,7 +8381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f59b2f35-edba-462c-83df-7748ecf49f73")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 206.502 37.338 0)
 			(effects
 				(font
@@ -8442,7 +8442,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8523,7 +8523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb3049f8-3a57-4dee-8545-2343cf3a4d96")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 206.502 62.738 0)
 			(effects
 				(font
@@ -8584,7 +8584,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
