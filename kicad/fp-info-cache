@@ -1,4 +1,4 @@
-23395843027716590
+23390689641487168
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88312,6 +88312,13 @@ Devices-Lab_Logo_H9mm
 0
 0
 Solderbit_Gamepad
+Devices-Lab_Logo_H9mm_Bold
+
+
+0
+0
+0
+Solderbit_Gamepad
 Devices-Lab_Logo_H10mm
 
 
@@ -95472,31 +95479,3 @@ Varistor VF
 0
 2
 2
-microbit-v2-edge-connector
-microbit-v2-edge-connector
-
-
-0
-55
-22
-microbit-v2-edge-connector
-microbit-v2-edge-connector_just_big_pads
-
-
-0
-10
-5
-microbit-v2-edge-connector
-microbit-v2-edge-connector_onsided
-
-
-0
-30
-21
-microbit-v2-edge-connector
-microbit-v2-ring-connector
-
-
-0
-10
-5

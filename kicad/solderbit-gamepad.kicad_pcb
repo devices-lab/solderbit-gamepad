@@ -165,6 +165,7 @@
 	(net 32 "unconnected-(D5-DOUT-Pad2)")
 	(net 33 "Net-(BT1-+)")
 	(net 34 "unconnected-(SW1-A-Pad1)_0")
+	(net 35 "unconnected-(SW1-A-Pad1)")
 	(footprint "Solderbit_Gamepad:NeoPixel_WS2812B"
 		(layer "F.Cu")
 		(uuid "00e5fa27-3828-4804-a7c1-a5775e78a68c")
@@ -181,7 +182,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "NeoPixel_WS2812B"
 			(at 0 6.25 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3718,7 +3719,7 @@
 		(path "/9d27fb8f-4be8-47f8-adc5-898905ec8369")
 		(sheetname "Root")
 		(sheetfile "solderbit-gamepad.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -7.096125 0.532986) (xy -7.14375 0.53975) (xy -7.14375 1.49225) (xy -7.0485 1.505778) (xy -7.0485 0.526223)
@@ -4508,7 +4509,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "NeoPixel_WS2812B"
 			(at 0 6.25 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4989,7 +4990,7 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "Shift_Register_74HC165D"
 			(at 0 11.5 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -6411,7 +6412,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "NeoPixel_WS2812B"
 			(at 0 6.25 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6958,7 +6959,7 @@
 		(path "/7a3a6c88-247f-42bd-9763-e30bbd9198aa")
 		(sheetname "Root")
 		(sheetfile "solderbit-gamepad.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -1.502833 2.032) (xy -1.164167 2.032) (xy -1.164167 0.381) (xy -1.502833 0.381) (xy -1.502833 2.032)
@@ -8195,7 +8196,7 @@
 		(path "/13d659ad-22b3-45aa-876f-abbdceed324b")
 		(sheetname "Root")
 		(sheetfile "solderbit-gamepad.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy 1.561101 0.924894) (xy 1.492327 0.940741) (xy 1.423985 0.97341) (xy 1.413437 0.97952) (xy 1.311265 1.062374)
@@ -11675,7 +11676,7 @@
 		(path "/e1047cd9-3ec5-43b8-a257-1cd769cb8073")
 		(sheetname "Root")
 		(sheetfile "solderbit-gamepad.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -11.578167 -1.317871) (xy -12.5095 -1.317871) (xy -12.5095 -0.809871) (xy -11.578167 -0.809871)
@@ -12155,7 +12156,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "NeoPixel_WS2812B"
 			(at 0 6.25 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13551,7 +13552,7 @@
 			(at 2.5 -3.25)
 			(size 1 2)
 			(layers "F.Cu" "F.Mask")
-			(net 34 "unconnected-(SW1-A-Pad1)_0")
+			(net 35 "unconnected-(SW1-A-Pad1)")
 			(pinfunction "A")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
@@ -13886,7 +13887,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "NeoPixel_WS2812B"
 			(at 0 6.25 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15146,7 +15147,7 @@
 		)
 		(fp_arc
 			(start 25.600166 4.000001)
-			(mid 24.696298 6.133965)
+			(mid 24.696297 6.133962)
 			(end 22.546702 6.999998)
 			(stroke
 				(width 0.12)
@@ -15700,7 +15701,7 @@
 		(path "/3c72d130-7852-4b18-bd3e-55d9fb844661")
 		(sheetname "Root")
 		(sheetfile "solderbit-gamepad.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 3.4 3.4)
