@@ -93,11 +93,21 @@
 - [x] Add labels for ON/OFF
 - [X] Make switch footprint pads a little bigger
 - [ ] Bold devices lab logo
-- [ ] Options for the battery holder
-  - [ ] SMT (downside - it's expensive)
-  - [ ] JST battery holder (can use existing battery holders), attached with a double-sided foam pad
-  - [ ] THT mount (but leads would stick out through)
-  - [ ] Battery holder with just two cables coming out, soldered to an SMT pad on the board
-  - [ ] Battery pack held in place using rubber bands/nitrile bands
-    - [ ] C or U shape cutouts on the board to keep the batery pack in place
-    - [ ] Cut-outs on the edges of the board
+- [ ] Battery holder alterations
+  - [X] SMT footprint on the back
+  - [ ] Add JST connector footprint
+  - [ ] Add U/C slots for rubber bands
+- [ ] Add Schottky diode to switch between sources
+  - https://github.com/microsoft/jacdac-ddk/tree/main/electronics/generic/suggested-components
+  - https://tech.microbit.org/hardware/powersupply/
+
+
+
+## New BOM
+- JST 2-pin female connectors [?]
+- Slide switch [C2906280]
+- SMD battery holder [C964881]
+- Loose battery holder with JST male connector [?]
+- Schottky diode [?]
+- 
+
