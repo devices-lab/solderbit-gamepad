@@ -89,9 +89,9 @@
 - [x] Remove the notches for on the MB footprint
 - [x] Place all designators udner the components - good habits for (switch, shift register)
 - [ ] Make triangles bigger, to match the MB labels
-- [ ] Center the key hole
+- [X] Center the key hole
 - [x] Add labels for ON/OFF
-- [ ] Make switch footprint pads a little bigger
+- [X] Make switch footprint pads a little bigger
 - [ ] Bold devices lab logo
 - [ ] Options for the battery holder
   - [ ] SMT (downside - it's expensive)
