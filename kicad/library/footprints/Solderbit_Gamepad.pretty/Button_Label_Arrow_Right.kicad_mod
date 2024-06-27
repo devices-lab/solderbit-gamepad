@@ -1,0 +1,79 @@
+(footprint "Button_Label_Arrow_Right"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 0.2 5.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "76e8022a-9d6b-4ae8-880c-c16db3546e7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0.15 3.1 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f71bbdca-e455-4aad-894a-b451bc04734d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cf0cd6d-772e-452a-985c-247e6ceabc02")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86a6795a-6f57-4702-a1c9-67f40b4dcee5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bd41782-77a4-45e5-96b8-48fe504336ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 1.065607 0) (xy 0.002975 1.062632) (xy -1.059656 2.125264) (xy -1.059656 -2.125263) (xy 1.065607 0)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f7b9ec84-0d68-4198-939b-82b06c905e64")
+	)
+)

@@ -1,4 +1,4 @@
-23655829972966202
+23667867800209611
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89215,7 +89215,63 @@ Battery_Holder
 4
 2
 Solderbit_Gamepad
-Devices-Lab_Logo
+Button_Label_Arrow_Down
+
+
+0
+0
+0
+Solderbit_Gamepad
+Button_Label_Arrow_Left
+
+
+0
+0
+0
+Solderbit_Gamepad
+Button_Label_Arrow_Right
+
+
+0
+0
+0
+Solderbit_Gamepad
+Button_Label_Arrow_Up
+
+
+0
+0
+0
+Solderbit_Gamepad
+Button_Label_L
+
+
+0
+0
+0
+Solderbit_Gamepad
+Button_Label_R
+
+
+0
+0
+0
+Solderbit_Gamepad
+Button_Label_X
+
+
+0
+0
+0
+Solderbit_Gamepad
+Button_Label_Y
+
+
+0
+0
+0
+Solderbit_Gamepad
+Devices-Lab_Logo_11mm
 
 
 0
@@ -89229,13 +89285,6 @@ Devices-Lab_Logo_H9mm
 0
 0
 Solderbit_Gamepad
-Devices-Lab_Logo_H9mm_Bold
-
-
-0
-0
-0
-Solderbit_Gamepad
 Devices-Lab_Logo_H10mm
 
 
@@ -89243,12 +89292,12 @@ Devices-Lab_Logo_H10mm
 0
 0
 Solderbit_Gamepad
-Devices-Lab_Logo_New
-
-
+JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
 0
-0
-0
+4
+3
 Solderbit_Gamepad
 Key_Chain_Hole
 

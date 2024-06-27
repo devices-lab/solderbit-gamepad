@@ -11,6 +11,145 @@
 		(company "Aron Eggens")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Battery"
 			(pin_numbers hide)
 			(pin_names
@@ -3613,7 +3752,7 @@
 	)
 	(rectangle
 		(start 237.49 19.05)
-		(end 279.4 58.42)
+		(end 279.4 88.9)
 		(stroke
 			(width 1)
 			(type default)
@@ -3638,7 +3777,7 @@
 		(uuid 679b33ad-942d-40b5-bbb7-556123d1cbd1)
 	)
 	(rectangle
-		(start 237.49 62.23)
+		(start 237.49 92.71)
 		(end 279.4 160.02)
 		(stroke
 			(width 1)
@@ -3799,7 +3938,7 @@
 	)
 	(text "Decorative footprints"
 		(exclude_from_sim no)
-		(at 241.3 67.564 0)
+		(at 240.03 97.536 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4404,7 +4543,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:LSS_Right")
-		(at 267.97 137.16 0)
+		(at 267.97 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4413,7 +4552,7 @@
 		(fields_autoplaced yes)
 		(uuid "13d659ad-22b3-45aa-876f-abbdceed324b")
 		(property "Reference" "G6"
-			(at 263.144 137.16 0)
+			(at 263.144 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4422,7 +4561,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 267.97 137.16 0)
+			(at 267.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +4570,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:LSS_R"
-			(at 267.97 137.16 0)
+			(at 267.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 137.16 0)
+			(at 267.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4449,7 +4588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 137.16 0)
+			(at 267.97 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4884,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:Devices-Lab_Logo_Placeholder")
-		(at 257.81 71.12 0)
+		(at 257.81 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4754,7 +4893,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bb09dd1-7fa7-4fe9-810c-3d053d8ba6f6")
 		(property "Reference" "G1"
-			(at 252.984 71.12 0)
+			(at 252.984 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4902,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 257.81 71.12 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,7 +4911,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Devices-Lab_Logo_H9mm"
-			(at 257.81 71.12 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4781,7 +4920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 71.12 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4790,7 +4929,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 71.12 0)
+			(at 257.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,6 +5020,76 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 252.73 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2080d564-5e8a-4909-81e1-310686416f74")
+		(property "Reference" "J1"
+			(at 255.27 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 255.27 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ae30f44-24f9-4230-960a-0fbca0f012a1")
+		)
+		(pin "1"
+			(uuid "c40c3035-d0b4-4ad2-88ee-f7283b623da7")
+		)
+		(instances
+			(project ""
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5160,7 +5369,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:Key_Chain_Hole")
-		(at 259.08 87.63 0)
+		(at 259.08 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5169,7 +5378,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c72d130-7852-4b18-bd3e-55d9fb844661")
 		(property "Reference" "G3"
-			(at 259.08 87.63 0)
+			(at 259.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +5387,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 259.08 87.63 0)
+			(at 259.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5396,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Key_Chain_Hole"
-			(at 259.08 87.63 0)
+			(at 259.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 87.63 0)
+			(at 259.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 87.63 0)
+			(at 259.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6110,7 +6319,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:UKRI_Logo_Placeholder")
-		(at 257.81 118.11 0)
+		(at 257.81 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6119,7 +6328,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a3a6c88-247f-42bd-9763-e30bbd9198aa")
 		(property "Reference" "G4"
-			(at 252.984 118.11 0)
+			(at 252.984 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +6337,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 257.81 118.11 0)
+			(at 257.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6137,7 +6346,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:UKRI_Logo"
-			(at 257.81 118.11 0)
+			(at 257.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 118.11 0)
+			(at 257.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6364,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 118.11 0)
+			(at 257.81 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +7133,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:LSS_Left")
-		(at 247.65 137.16 0)
+		(at 247.65 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6933,7 +7142,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d27fb8f-4be8-47f8-adc5-898905ec8369")
 		(property "Reference" "G5"
-			(at 242.824 137.16 0)
+			(at 242.824 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +7151,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 247.65 137.16 0)
+			(at 247.65 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +7160,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:LSS_L"
-			(at 247.65 137.16 0)
+			(at 247.65 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +7169,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 137.16 0)
+			(at 247.65 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +7178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 137.16 0)
+			(at 247.65 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7971,7 +8180,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:Pro2_Logo_Placeholder")
-		(at 257.81 100.33 0)
+		(at 257.81 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7980,7 +8189,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1047cd9-3ec5-43b8-a257-1cd769cb8073")
 		(property "Reference" "G2"
-			(at 252.984 100.33 0)
+			(at 252.984 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7989,7 +8198,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 257.81 100.33 0)
+			(at 257.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,7 +8207,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Pro2_Logo"
-			(at 257.81 100.33 0)
+			(at 257.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +8216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 100.33 0)
+			(at 257.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +8225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 100.33 0)
+			(at 257.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)

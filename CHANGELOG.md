@@ -88,26 +88,25 @@
 - [x] Ensure the B_Mask does not overlap with where the microbit will rest
 - [x] Remove the notches for on the MB footprint
 - [x] Place all designators udner the components - good habits for (switch, shift register)
-- [ ] Make triangles bigger, to match the MB labels
-- [X] Center the key hole
+- [X] Make triangles bigger, to match the MB labels
+- [x] Center the key hole
 - [x] Add labels for ON/OFF
-- [X] Make switch footprint pads a little bigger
-- [ ] Bold devices lab logo
+- [x] Make switch footprint pads a little bigger
+- [X] Bold devices lab logo
+- [x] Change fonts to Segoe UI
 - [ ] Battery holder alterations
-  - [X] SMT footprint on the back
+  - [x] SMT footprint on the back
   - [ ] Add JST connector footprint
   - [ ] Add U/C slots for rubber bands
 - [ ] Add Schottky diode to switch between sources
   - https://github.com/microsoft/jacdac-ddk/tree/main/electronics/generic/suggested-components
   - https://tech.microbit.org/hardware/powersupply/
 
-
-
 ## New BOM
-- JST 2-pin female connectors [?]
+
+- JST S2B-PH-SM4-TB female connector [C295747]
 - Slide switch [C2906280]
 - SMD battery holder [C964881]
 - Loose battery holder with JST male connector [?]
 - Schottky diode [?]
-- 
-
+-
