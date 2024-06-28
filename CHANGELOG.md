@@ -88,6 +88,7 @@
 - [x] Ensure the B_Mask does not overlap with where the microbit will rest
 - [x] Remove the notches for on the MB footprint
 - [x] Place all designators udner the components - good habits for (switch, shift register)
+- [X] ROtate all designators to the same direction (horizontal)
 - [X] Make triangles bigger, to match the MB labels
 - [x] Center the key hole
 - [x] Add labels for ON/OFF
