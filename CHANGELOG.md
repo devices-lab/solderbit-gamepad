@@ -65,7 +65,7 @@
 - Pads under the rings on the edge connector footprint
 - Mechanical holes for the bumper buttons
 - All footprint pads now account for soldermask expansion of 0.038mm
-- Battery holder on the back of the PCB
+- Battery holder on the back of the PCB, along with a switch
 
 ### Changed
 
@@ -88,26 +88,30 @@
 - [x] Ensure the B_Mask does not overlap with where the microbit will rest
 - [x] Remove the notches for on the MB footprint
 - [x] Place all designators udner the components - good habits for (switch, shift register)
-- [X] ROtate all designators to the same direction (horizontal)
-- [X] Make triangles bigger, to match the MB labels
+- [x] Rotate all designators to the same direction (horizontal)
+- [x] Make triangles bigger, to match the MB labels
 - [x] Center the key hole
 - [x] Add labels for ON/OFF
 - [x] Make switch footprint pads a little bigger
-- [X] Bold devices lab logo
+- [ ] Make is so that the DPDT slide switch can switch between battery power and micro:bit power
+- [x] Bold devices lab logo
 - [x] Change fonts to Segoe UI
-- [ ] Battery holder alterations
+- [X] Battery holder alterations
   - [x] SMT footprint on the back
-  - [ ] Add JST connector footprint
-  - [ ] Add U/C slots for rubber bands
-- [ ] Add Schottky diode to switch between sources
+  - [-] (In the next version) add JST connector footprint
+  - [-] (In the next version) add U/C slots for rubber bands
+- [X] Add Schottky diode to prevent the current running from micro:bit to the battery
   - https://github.com/microsoft/jacdac-ddk/tree/main/electronics/generic/suggested-components
   - https://tech.microbit.org/hardware/powersupply/
+- [X] Rewire power lines, to adjust for the new diode and DPDT switch
 
 ## New BOM
 
-- JST S2B-PH-SM4-TB female connector [C295747]
 - Slide switch [C2906280]
 - SMD battery holder [C964881]
-- Loose battery holder with JST male connector [?]
-- Schottky diode [?]
--
+- Schottky diode [C37704]
+
+## Future BOM items
+
+- Loose battery holder with JST male connector [source later]
+- JST S2B-PH-SM4-TB female connector [C295747]

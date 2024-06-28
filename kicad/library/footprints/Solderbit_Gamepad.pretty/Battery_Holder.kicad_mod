@@ -69,8 +69,8 @@
 	(solder_mask_margin 0.038)
 	(attr through_hole)
 	(fp_line
-		(start 27.875 -5.5)
-		(end 27.875 5.5)
+		(start 25.3 -5.5)
+		(end 25.3 5.5)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -120,7 +120,7 @@
 	)
 	(fp_line
 		(start 0 -11)
-		(end 27.25 -11)
+		(end 22.25 -11)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -147,6 +147,16 @@
 		)
 		(layer "B.SilkS")
 		(uuid "63488c82-9aef-44df-b008-885babc36b09")
+	)
+	(fp_line
+		(start 27.25 -11)
+		(end 24.648517 -11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "21efeacf-6cc9-49b3-a007-ad17dd51b72e")
 	)
 	(fp_line
 		(start 27.25 -11)
@@ -491,6 +501,13 @@
 				)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at 23.45 -10.45)
+		(size 1 1)
+		(drill 1.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "cd93327b-f325-4455-832c-bf706624d11d")
 	)
 	(pad "" smd rect
 		(at 27.875 -5.5)
