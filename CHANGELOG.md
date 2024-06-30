@@ -82,7 +82,7 @@
 
 ## TODO
 
-- [x] Make the thermal relief smaller everywhere on the GND plane
+- [x] Make the thermal relief smaller everywhere on the GND plane (made spoke width 0.2mm and gap 0.75mm, from 0.25mm and 0.5mm, respectively)
 - [x] Ask Joe to label skilkscreen to start with ZERO, and probably call it L, rather than like the refernece designator "D"
 - [x] Move the Edge_Cut further away from the rings
 - [x] Ensure the B_Mask does not overlap with where the microbit will rest
@@ -106,6 +106,7 @@
 - [x] Rewire power lines, to adjust for the new diode and DPDT switch
 - [x] Change the BATTERY/MICRO:BIT silkscreen writing to icons
 - [x] Make the contact pads for screws wider on the front
+- [x] Fix the groound edge connector back pad to clear the gap between it and the copper zone fill
 
 ## New BOM
 

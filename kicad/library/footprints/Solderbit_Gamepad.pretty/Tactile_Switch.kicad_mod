@@ -328,25 +328,25 @@
 	(pad "1" smd rect
 		(at -4.55 -2.25)
 		(size 2.1 1.4)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9927acc2-e2d9-494e-8361-b0919d2c852e")
 	)
 	(pad "2" smd rect
 		(at -4.55 2.25)
 		(size 2.1 1.4)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "fc58c4a0-7f67-4eb5-a46c-10470b72f00f")
 	)
 	(pad "3" smd rect
 		(at 4.55 -2.25)
 		(size 2.1 1.4)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "6d2858a1-ffd4-4754-8df3-a615cfa2d850")
 	)
 	(pad "4" smd rect
 		(at 4.55 2.25)
 		(size 2.1 1.4)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "65c0a887-76e0-416e-af26-f28cda40ad81")
 	)
 	(model "${KIPRJMOD}/library/3d_models/tactile_switch.step"

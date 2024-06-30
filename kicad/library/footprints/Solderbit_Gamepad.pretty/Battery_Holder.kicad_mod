@@ -69,16 +69,6 @@
 	(solder_mask_margin 0.038)
 	(attr through_hole)
 	(fp_line
-		(start 25.3 -5.5)
-		(end 25.3 5.5)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(layer "B.Cu")
-		(uuid "12f41bed-00f1-49a8-95a4-2f0a5ad0d066")
-	)
-	(fp_line
 		(start -27.25 -11)
 		(end -27.25 -8.75)
 		(stroke
@@ -509,39 +499,51 @@
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "cd93327b-f325-4455-832c-bf706624d11d")
 	)
-	(pad "" smd rect
-		(at 27.875 -5.5)
-		(size 7.45 6.1)
-		(layers "B.Cu" "B.Mask")
-		(uuid "5d7123be-ffa7-4627-b2df-2db07d136bd6")
-	)
-	(pad "" smd rect
+	(pad "" smd custom
 		(at 27.875 5.5)
 		(size 7.45 6.1)
-		(layers "B.Cu" "B.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_line
+				(start -2.575 -11)
+				(end -2.575 0)
+				(width 0.5)
+			)
+			(gr_poly
+				(pts
+					(xy -3.725 -14.05) (xy 3.725 -14.05) (xy 3.725 -7.95) (xy -3.725 -7.95)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "51acfaa4-ef98-4aac-a86d-3cc8479e5654")
 	)
 	(pad "1" smd rect
 		(at -27.875 -5.5)
 		(size 7.45 6.1)
-		(layers "B.Cu" "B.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "9f18d175-4f9b-4bc2-ab12-ac5af8fdfc16")
 	)
 	(pad "2" smd rect
 		(at -27.875 5.5)
 		(size 7.45 6.1)
-		(layers "B.Cu" "B.Mask")
+		(layers "B.Cu" "B.Paste" "B.Mask")
 		(uuid "26c5a779-e34c-44cb-b745-60b1e3a12a1e")
 	)
 	(model "${KIPRJMOD}/library/3d_models/battery_holder.step"
 		(offset
-			(xyz 0 5.5 -2)
+			(xyz 0 -5.5 -2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 0)
+			(xyz 90 0 -180)
 		)
 	)
 )

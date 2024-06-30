@@ -119,18 +119,18 @@
 		(uuid "dfcab24b-96af-4f8f-adb7-b53e6e423155")
 	)
 	(fp_line
-		(start 2.5 -2.5)
-		(end 2.5 2.5)
+		(start 2.469409 0.1528)
+		(end -0.14961 -2.466219)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "035f2084-7595-4f75-9fc3-c70f1c52f1cd")
+		(uuid "af168e83-bbe0-4fe0-a1e4-0cc0eced997f")
 	)
 	(fp_line
-		(start 2.5 -0.75)
-		(end 1.75 -1.5)
+		(start 2.488264 -0.726396)
+		(end 1.738264 -1.476396)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -139,14 +139,14 @@
 		(uuid "7861b903-9cb6-4f4a-b570-8480938aab21")
 	)
 	(fp_line
-		(start 2.5 0)
-		(end 0 -2.5)
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.127)
+			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "af168e83-bbe0-4fe0-a1e4-0cc0eced997f")
+		(uuid "035f2084-7595-4f75-9fc3-c70f1c52f1cd")
 	)
 	(fp_poly
 		(pts
@@ -166,25 +166,25 @@
 	(pad "1" smd rect
 		(at -1.625 2.975 90)
 		(size 2.55 1.25)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "718ada94-3ded-44be-8df8-fac0f78d7962")
 	)
 	(pad "2" smd rect
 		(at 1.625 2.975 90)
 		(size 2.55 1.25)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "636410c6-b197-4e96-8ab1-fe613a0e2d49")
 	)
 	(pad "3" smd rect
 		(at 1.625 -2.975 90)
 		(size 2.55 1.25)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7d487852-2878-4356-a8ee-ee53d357aa78")
 	)
 	(pad "4" smd rect
 		(at -1.625 -2.975 90)
 		(size 2.55 1.25)
-		(layers "F.Cu" "F.Mask")
+		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3c7cd2d0-164c-4927-aab1-98ac8b7d9cf5")
 	)
 	(model "${KIPRJMOD}/library/3d_models/neopixel_WS2812B.step"
