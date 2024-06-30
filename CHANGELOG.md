@@ -82,7 +82,7 @@
 
 ## TODO
 
-- [ ] Make the thermal relief smaller everywhere on the GND plane
+- [x] Make the thermal relief smaller everywhere on the GND plane
 - [x] Ask Joe to label skilkscreen to start with ZERO, and probably call it L, rather than like the refernece designator "D"
 - [x] Move the Edge_Cut further away from the rings
 - [x] Ensure the B_Mask does not overlap with where the microbit will rest
@@ -93,7 +93,7 @@
 - [x] Center the key hole
 - [x] Add labels for ON/OFF
 - [x] Make switch footprint pads a little bigger
-- [ ] Make is so that the DPDT slide switch can switch between battery power and micro:bit power
+- [x] Make is so that the DPDT slide switch can switch between battery power and micro:bit power
 - [x] Bold devices lab logo
 - [x] Change fonts to Segoe UI
 - [x] Battery holder alterations
@@ -111,7 +111,7 @@
 
 - Slide switch [C2906280]
 - SMD battery holder [C964881]
-- Schottky diode [C37704]
+- Schottky diode BAT60B [C3018529]
 
 ## Future BOM items
 
