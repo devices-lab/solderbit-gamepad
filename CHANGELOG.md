@@ -96,14 +96,16 @@
 - [ ] Make is so that the DPDT slide switch can switch between battery power and micro:bit power
 - [x] Bold devices lab logo
 - [x] Change fonts to Segoe UI
-- [X] Battery holder alterations
+- [x] Battery holder alterations
   - [x] SMT footprint on the back
   - [-] (In the next version) add JST connector footprint
   - [-] (In the next version) add U/C slots for rubber bands
-- [X] Add Schottky diode to prevent the current running from micro:bit to the battery
+- [x] Add Schottky diode to prevent the current running from micro:bit to the battery
   - https://github.com/microsoft/jacdac-ddk/tree/main/electronics/generic/suggested-components
   - https://tech.microbit.org/hardware/powersupply/
-- [X] Rewire power lines, to adjust for the new diode and DPDT switch
+- [x] Rewire power lines, to adjust for the new diode and DPDT switch
+- [x] Change the BATTERY/MICRO:BIT silkscreen writing to icons
+- [x] Make the contact pads for screws wider on the front
 
 ## New BOM
 

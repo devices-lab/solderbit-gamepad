@@ -534,7 +534,6 @@
 		(uuid "26c5a779-e34c-44cb-b745-60b1e3a12a1e")
 	)
 	(model "${KIPRJMOD}/library/3d_models/battery_holder.step"
-		(hide yes)
 		(offset
 			(xyz 0 5.5 -2)
 		)

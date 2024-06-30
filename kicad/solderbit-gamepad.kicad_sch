@@ -365,22 +365,23 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky_Dual_CommonCathode_AAK"
+		(symbol "Device:D_Schottky"
+			(pin_numbers hide)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 1.27 -2.54 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D_Schottky_Dual_CommonCathode_AAK"
-				(at 0 2.54 0)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -405,7 +406,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Dual Schottky diode, common cathode on pin 3"
+			(property "Description" "Schottky diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -414,7 +415,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -423,10 +424,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_Dual_CommonCathode_AAK_0_1"
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
 				(polyline
 					(pts
-						(xy -3.81 0) (xy 3.81 0)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -438,19 +448,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -462,7 +460,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -472,93 +470,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -1.016) (xy -0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.778 -1.27) (xy 1.778 -1.016) (xy 1.778 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0.762 1.27) (xy 0.762 1.016) (xy 0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 1.016) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 1.27 0) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			)
+			(symbol "D_Schottky_1_1"
 				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "A"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -574,8 +491,8 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
+					(at 3.81 0 180)
+					(length 2.54)
 					(name "A"
 						(effects
 							(font
@@ -584,24 +501,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2934,6 +2833,12 @@
 		(uuid "10e7c942-4558-4038-9773-7137ae72b5f5")
 	)
 	(junction
+		(at 261.62 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17454873-4ad6-4919-876d-dc2bdcd384f2")
+	)
+	(junction
 		(at 170.18 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2950,12 +2855,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "334e8385-a3a6-4150-a7ee-3101f3226589")
-	)
-	(junction
-		(at 240.03 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a8d0e60-840e-4300-a704-72d2e82b01e3")
 	)
 	(junction
 		(at 30.48 123.19)
@@ -2976,10 +2875,10 @@
 		(uuid "44d543a5-c396-4ffa-b5a7-e8e475d3f657")
 	)
 	(junction
-		(at 261.62 57.15)
+		(at 240.03 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53079179-f748-49f3-aa19-3d8f226953f7")
+		(uuid "4cd3144d-d844-4baf-8397-53eb702b1677")
 	)
 	(junction
 		(at 96.52 163.83)
@@ -3012,12 +2911,6 @@
 		(uuid "68fee7fa-c5c6-4883-afd5-3fc637a4d6c4")
 	)
 	(junction
-		(at 170.18 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ed95649-3918-4517-8b62-2bd494cb2d04")
-	)
-	(junction
 		(at 21.59 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3036,6 +2929,12 @@
 		(uuid "86655e57-e7a9-48ed-ba6b-c08aaa1f2bb8")
 	)
 	(junction
+		(at 170.18 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8848c254-fe10-4b8f-8f6e-a830367e33d7")
+	)
+	(junction
 		(at 21.59 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3048,7 +2947,7 @@
 		(uuid "89638677-d222-4d43-b1ff-7481a1d74693")
 	)
 	(junction
-		(at 240.03 54.61)
+		(at 240.03 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93927d37-4345-42a5-a55a-63f365b05128")
@@ -3083,14 +2982,8 @@
 		(color 0 0 0 0)
 		(uuid "eac26791-18a8-4ac2-ba0c-7eaf7d84fcd6")
 	)
-	(junction
-		(at 246.38 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0e9107b-a645-457b-a1dc-acadf33f119f")
-	)
 	(no_connect
-		(at 255.27 52.07)
+		(at 255.27 55.88)
 		(uuid "07cae6db-6dd6-4259-a2bb-3571b3b8eeb2")
 	)
 	(no_connect
@@ -3110,7 +3003,7 @@
 		(uuid "8fbaac9f-5fb9-4236-8ebd-d4accab808e1")
 	)
 	(no_connect
-		(at 245.11 87.63)
+		(at 245.11 72.39)
 		(uuid "cd7bad00-b92b-401a-aefb-50e48b189f75")
 	)
 	(no_connect
@@ -3141,7 +3034,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 38.1) (xy 170.18 40.64)
+			(xy 170.18 39.37) (xy 170.18 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3201,13 +3094,23 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 57.15) (xy 261.62 71.12)
+			(xy 254 43.18) (xy 261.62 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1027554f-b4c9-4faa-83e1-c8a80ea340f0")
+		(uuid "0f58e7a4-29ff-47e9-85e9-f592da79bd87")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 128.27 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122d34bb-d2e8-47ec-bef4-695d872376cb")
 	)
 	(wire
 		(pts
@@ -3221,7 +3124,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 54.61) (xy 240.03 71.12)
+			(xy 240.03 58.42) (xy 240.03 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3231,33 +3134,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 46.99) (xy 135.89 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "215002aa-5b89-4bbf-baf7-540f9c4d01bb")
-	)
-	(wire
-		(pts
-			(xy 269.24 90.17) (xy 269.24 96.52)
+			(xy 269.24 74.93) (xy 269.24 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "27f27cf2-62a1-4816-8b26-e55b279424e4")
-	)
-	(wire
-		(pts
-			(xy 240.03 71.12) (xy 240.03 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "295ef7bb-4d2c-404a-82c0-ed8b871bd36f")
 	)
 	(wire
 		(pts
@@ -3291,16 +3174,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 78.74) (xy 246.38 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b58ad0-27fb-48c1-8f16-4b0b17e7b85d")
-	)
-	(wire
-		(pts
 			(xy 30.48 73.66) (xy 30.48 90.17)
 		)
 		(stroke
@@ -3321,7 +3194,7 @@
 	)
 	(polyline
 		(pts
-			(xy 247.65 55.88) (xy 234.95 55.88)
+			(xy 250.19 59.69) (xy 242.57 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3382,26 +3255,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 63.5) (xy 246.38 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47478150-64ff-4fcf-870d-4a7544d08e02")
-	)
-	(wire
-		(pts
-			(xy 240.03 71.12) (xy 246.38 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a710694-ea7a-4364-90bb-4ad01ee8dd1c")
-	)
-	(wire
-		(pts
 			(xy 170.18 115.57) (xy 170.18 116.84)
 		)
 		(stroke
@@ -3419,16 +3272,6 @@
 			(type default)
 		)
 		(uuid "4f40ef20-77c4-4b4a-b3ce-f84316e1b8dc")
-	)
-	(wire
-		(pts
-			(xy 135.89 46.99) (xy 135.89 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f8c2894-3f0a-4714-aab2-383139e6eec4")
 	)
 	(wire
 		(pts
@@ -3452,7 +3295,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 54.61) (xy 240.03 54.61)
+			(xy 245.11 58.42) (xy 240.03 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3462,7 +3305,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.95 90.17) (xy 247.65 90.17)
+			(xy 242.57 74.93) (xy 250.19 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3470,6 +3313,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "633f9823-5980-4a20-9bd3-852d1df501a8")
+	)
+	(wire
+		(pts
+			(xy 240.03 43.18) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b7ff86-2e74-487b-9270-e067dc37af3d")
 	)
 	(wire
 		(pts
@@ -3490,26 +3343,6 @@
 			(type default)
 		)
 		(uuid "6e6fdb48-8ee0-4a86-8cc0-94226973832d")
-	)
-	(wire
-		(pts
-			(xy 240.03 46.99) (xy 240.03 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72929db0-bce9-4a24-96d2-81046fae081a")
-	)
-	(wire
-		(pts
-			(xy 118.11 54.61) (xy 135.89 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c7955d-fa3a-4017-902f-5aceec801170")
 	)
 	(wire
 		(pts
@@ -3560,16 +3393,6 @@
 			(type default)
 		)
 		(uuid "81e60d59-8a1b-4eb7-b652-d92b4d631289")
-	)
-	(wire
-		(pts
-			(xy 246.38 71.12) (xy 246.38 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83d134d4-7bc3-498d-a9f4-95fb125b529a")
 	)
 	(wire
 		(pts
@@ -3630,6 +3453,16 @@
 			(type default)
 		)
 		(uuid "94ff8fa3-f6bf-4c31-97b3-263ed1d0bd15")
+	)
+	(wire
+		(pts
+			(xy 170.18 64.77) (xy 170.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9515dbda-8d13-4df6-9db7-604d9c65b465")
 	)
 	(wire
 		(pts
@@ -3713,13 +3546,23 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 92.71) (xy 245.11 92.71)
+			(xy 240.03 77.47) (xy 245.11 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a07b37e9-57c4-4d12-894a-f4b93a09f769")
+	)
+	(wire
+		(pts
+			(xy 240.03 43.18) (xy 246.38 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a256fdf8-5792-4d47-9b3c-0968b4604d0b")
 	)
 	(wire
 		(pts
@@ -3753,16 +3596,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 71.12) (xy 261.62 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad1aa3cd-b86a-4408-bd25-662ebc20546c")
-	)
-	(wire
-		(pts
 			(xy 185.42 69.85) (xy 185.42 80.01)
 		)
 		(stroke
@@ -3783,7 +3616,17 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 57.15) (xy 261.62 57.15)
+			(xy 118.11 54.61) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e4e52b-aba5-4a04-b88f-8db81342c485")
+	)
+	(wire
+		(pts
+			(xy 255.27 60.96) (xy 261.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3803,7 +3646,7 @@
 	)
 	(polyline
 		(pts
-			(xy 247.65 55.88) (xy 247.65 55.88)
+			(xy 250.19 59.69) (xy 247.65 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3820,6 +3663,16 @@
 			(type default)
 		)
 		(uuid "b8a0564a-0925-4fe4-954b-92b3e0ad7e20")
+	)
+	(wire
+		(pts
+			(xy 135.89 46.99) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b926f19c-364d-47ff-9111-9a8a3a1b6332")
 	)
 	(wire
 		(pts
@@ -3840,6 +3693,16 @@
 			(type default)
 		)
 		(uuid "bce8c742-5934-4585-a010-ef7c0b4999a8")
+	)
+	(wire
+		(pts
+			(xy 261.62 36.83) (xy 261.62 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5d631a-3577-48dc-9309-93b9c8374f7a")
 	)
 	(wire
 		(pts
@@ -3903,16 +3766,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 64.77) (xy 170.18 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9fc0640-8441-4379-a9cc-0e83a8a6e8ed")
-	)
-	(wire
-		(pts
 			(xy 205.74 29.21) (xy 209.55 29.21)
 		)
 		(stroke
@@ -3933,6 +3786,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 36.83) (xy 240.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfcedb7-4175-42d4-b9dc-4095fd4a3584")
+	)
+	(wire
+		(pts
 			(xy 44.45 57.15) (xy 30.48 57.15)
 		)
 		(stroke
@@ -3940,16 +3803,6 @@
 			(type default)
 		)
 		(uuid "ce069f8e-0437-4d28-ad0e-cd3811a233ea")
-	)
-	(wire
-		(pts
-			(xy 135.89 54.61) (xy 135.89 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce279dad-d170-419c-9ecd-c7bb5dbf01fa")
 	)
 	(wire
 		(pts
@@ -3963,7 +3816,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 90.17) (xy 257.81 90.17)
+			(xy 255.27 74.93) (xy 257.81 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4033,7 +3886,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 90.17) (xy 269.24 90.17)
+			(xy 267.97 74.93) (xy 269.24 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4053,7 +3906,7 @@
 	)
 	(polyline
 		(pts
-			(xy 234.95 55.88) (xy 234.95 90.17)
+			(xy 242.57 59.69) (xy 242.57 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4061,6 +3914,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "e8d002e5-ee30-49b7-897b-79c0e295fe5d")
+	)
+	(wire
+		(pts
+			(xy 118.11 46.99) (xy 135.89 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea56e46e-db7e-4ea7-a065-fb7a53f7f199")
 	)
 	(wire
 		(pts
@@ -4084,16 +3947,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 46.99) (xy 261.62 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee7c536c-3c72-4c01-a292-e7146b57aa9a")
-	)
-	(wire
-		(pts
 			(xy 55.88 163.83) (xy 69.85 163.83)
 		)
 		(stroke
@@ -4104,13 +3957,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 78.74) (xy 246.38 78.74)
+			(xy 261.62 43.18) (xy 261.62 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5921fff-c6b0-42d0-b4a4-d98b13a58375")
+		(uuid "f71218ee-0ca8-46f4-9681-a08172459966")
 	)
 	(wire
 		(pts
@@ -4167,7 +4020,7 @@
 	)
 	(rectangle
 		(start 226.06 19.05)
-		(end 279.4 116.84)
+		(end 279.4 90.17)
 		(stroke
 			(width 1)
 			(type default)
@@ -4192,8 +4045,8 @@
 		(uuid 679b33ad-942d-40b5-bbb7-556123d1cbd1)
 	)
 	(rectangle
-		(start 226.06 121.92)
-		(end 279.4 160.02)
+		(start 226.06 95.25)
+		(end 279.4 133.35)
 		(stroke
 			(width 1)
 			(type default)
@@ -4353,7 +4206,7 @@
 	)
 	(text "Decorative footprints"
 		(exclude_from_sim no)
-		(at 228.6 126.492 0)
+		(at 228.6 99.822 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4958,7 +4811,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:LSS_Right")
-		(at 267.97 144.78 0)
+		(at 267.97 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4967,7 +4820,7 @@
 		(fields_autoplaced yes)
 		(uuid "13d659ad-22b3-45aa-876f-abbdceed324b")
 		(property "Reference" "G6"
-			(at 263.144 144.78 0)
+			(at 263.144 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4829,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 267.97 144.78 0)
+			(at 267.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +4838,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:LSS_R"
-			(at 267.97 144.78 0)
+			(at 267.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +4847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 144.78 0)
+			(at 267.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +4856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 144.78 0)
+			(at 267.97 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5022,7 +4875,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 261.62 46.99 0)
+		(at 261.62 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5030,7 +4883,7 @@
 		(dnp no)
 		(uuid "1404ecd7-ccd6-46e1-99c9-cfbd3f60328d")
 		(property "Reference" "#PWR025"
-			(at 261.62 50.8 0)
+			(at 261.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +4892,7 @@
 			)
 		)
 		(property "Value" "Vubit"
-			(at 260.35 41.91 0)
+			(at 260.35 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +4900,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 46.99 0)
+			(at 261.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +4909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 46.99 0)
+			(at 261.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +4918,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 261.62 46.99 0)
+			(at 261.62 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +5152,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:Devices-Lab_Logo_Placeholder")
-		(at 236.22 130.81 0)
+		(at 236.22 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5308,7 +5161,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bb09dd1-7fa7-4fe9-810c-3d053d8ba6f6")
 		(property "Reference" "G1"
-			(at 231.394 130.81 0)
+			(at 231.394 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5170,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 236.22 130.81 0)
+			(at 236.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5179,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Devices-Lab_Logo_H9mm"
-			(at 236.22 130.81 0)
+			(at 236.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 130.81 0)
+			(at 236.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 130.81 0)
+			(at 236.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5527,7 +5380,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 173.99 45.7199 0)
 			(effects
 				(font
@@ -5714,7 +5567,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:Key_Chain_Hole")
-		(at 267.97 134.62 0)
+		(at 267.97 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5723,7 +5576,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c72d130-7852-4b18-bd3e-55d9fb844661")
 		(property "Reference" "G3"
-			(at 267.97 134.62 0)
+			(at 267.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5585,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 267.97 134.62 0)
+			(at 267.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5594,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Key_Chain_Hole"
-			(at 267.97 134.62 0)
+			(at 267.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 134.62 0)
+			(at 267.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5612,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 134.62 0)
+			(at 267.97 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +5631,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 250.19 90.17 180)
+		(at 250.19 74.93 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5786,7 +5639,7 @@
 		(dnp no)
 		(uuid "4143b4cc-928e-48bb-b264-0a669533d83d")
 		(property "Reference" "SW1"
-			(at 250.19 81.28 0)
+			(at 250.19 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,7 +5647,7 @@
 			)
 		)
 		(property "Value" "DPDT"
-			(at 250.19 83.82 0)
+			(at 250.19 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5655,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Sliding_Switch_DPDT"
-			(at 250.19 90.17 0)
+			(at 250.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,7 +5664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 90.17 0)
+			(at 250.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +5673,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 250.19 90.17 0)
+			(at 250.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6034,7 +5887,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 96.52 0)
+		(at 269.24 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6043,7 +5896,7 @@
 		(fields_autoplaced yes)
 		(uuid "5248f743-e2c4-49ef-93bf-3604c448a66e")
 		(property "Reference" "#PWR09"
-			(at 269.24 102.87 0)
+			(at 269.24 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6052,7 +5905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 101.6 0)
+			(at 269.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +5913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 96.52 0)
+			(at 269.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +5922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 96.52 0)
+			(at 269.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +5931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 96.52 0)
+			(at 269.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,8 +5961,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "562d76c4-3bff-489b-bcc6-7863672f4b15")
-		(property "Reference" "REF1"
-			(at 111.125 40.64 90)
+		(property "Reference" "J1"
+			(at 111.125 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +5970,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 110.49 62.23 0)
+			(at 111.125 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,78 +6022,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "REF1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Dual_CommonCathode_AAK")
-		(at 254 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59f7c9ef-c277-4f79-8c69-e9cbd6097cb3")
-		(property "Reference" "D6"
-			(at 250.19 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Schottky Dual Common Cathode"
-			(at 263.398 55.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Solderbit_Gamepad:Schottky_Diode_SOT-23"
-			(at 254 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 254 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Schottky diode, common cathode on pin 3"
-			(at 254 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c7fdd18c-cfaa-4315-a5de-fd4cceedabee")
-		)
-		(pin "1"
-			(uuid "fe68810b-abae-4c0f-981a-f115985c6768")
-		)
-		(pin "2"
-			(uuid "963165ae-a269-47d0-9859-d4035f8168fd")
-		)
-		(instances
-			(project "solderbit-gamepad"
-				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6525,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:UKRI_Logo_Placeholder")
-		(at 236.22 144.78 0)
+		(at 236.22 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6752,7 +6534,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a3a6c88-247f-42bd-9763-e30bbd9198aa")
 		(property "Reference" "G4"
-			(at 231.394 144.78 0)
+			(at 231.394 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6543,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 236.22 144.78 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6552,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:UKRI_Logo"
-			(at 236.22 144.78 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +6561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 144.78 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +6570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 144.78 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7008,7 +6790,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 170.18 38.1 0)
+		(at 170.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7017,7 +6799,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a1487df-9168-412a-8179-fcc2956d776a")
 		(property "Reference" "#PWR019"
-			(at 170.18 41.91 0)
+			(at 170.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7026,7 +6808,7 @@
 			)
 		)
 		(property "Value" "Vneo"
-			(at 170.18 33.02 0)
+			(at 170.18 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +6816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 38.1 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +6825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 38.1 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +6834,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 170.18 38.1 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7623,7 +7405,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:LSS_Left")
-		(at 252.73 144.78 0)
+		(at 252.73 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7632,7 +7414,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d27fb8f-4be8-47f8-adc5-898905ec8369")
 		(property "Reference" "G5"
-			(at 247.904 144.78 0)
+			(at 247.904 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7641,7 +7423,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 252.73 144.78 0)
+			(at 252.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +7432,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:LSS_L"
-			(at 252.73 144.78 0)
+			(at 252.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +7441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 144.78 0)
+			(at 252.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +7450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 144.78 0)
+			(at 252.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7763,7 +7545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a603b8de-3b90-4fed-adfc-979277ac50f7")
-		(property "Reference" "D1"
+		(property "Reference" "D5"
 			(at 191.262 138.938 0)
 			(effects
 				(font
@@ -7824,7 +7606,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7832,7 +7614,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 262.89 90.17 90)
+		(at 262.89 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7841,7 +7623,7 @@
 		(fields_autoplaced yes)
 		(uuid "b44b5501-de0a-46e1-a7a0-3824d60da5cd")
 		(property "Reference" "BT1"
-			(at 262.3185 82.55 90)
+			(at 262.3185 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +7631,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 262.3185 85.09 90)
+			(at 262.3185 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +7639,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Battery_Holder"
-			(at 261.366 90.17 90)
+			(at 261.366 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7866,7 +7648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.366 90.17 90)
+			(at 261.366 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7875,7 +7657,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 262.89 90.17 0)
+			(at 262.89 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +7689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba4149d4-8bd9-45aa-bb92-d4f573f54564")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 191.262 113.538 0)
 			(effects
 				(font
@@ -7968,7 +7750,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8276,7 +8058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 173.99 71.1199 0)
 			(effects
 				(font
@@ -8401,6 +8183,74 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 250.19 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d47c6dfb-8988-4c27-9852-ee6dd6aad3f4")
+		(property "Reference" "D6"
+			(at 250.5075 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 250.5075 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:Schottky_Diode_SOD-323"
+			(at 250.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 250.19 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c2374aaa-7607-4361-81a7-16039262b689")
+		)
+		(pin "1"
+			(uuid "6739f1f9-97d5-411a-b0d2-761279146509")
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8539,7 +8389,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 240.03 46.99 0)
+		(at 240.03 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8548,7 +8398,7 @@
 		(fields_autoplaced yes)
 		(uuid "db56ce02-d33c-44d5-93e2-e5bdd8c7da77")
 		(property "Reference" "#PWR024"
-			(at 240.03 50.8 0)
+			(at 240.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8557,7 +8407,7 @@
 			)
 		)
 		(property "Value" "Vneo"
-			(at 240.03 41.91 0)
+			(at 240.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8565,7 +8415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 46.99 0)
+			(at 240.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8574,7 +8424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 46.99 0)
+			(at 240.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8433,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 240.03 46.99 0)
+			(at 240.03 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +8520,7 @@
 	)
 	(symbol
 		(lib_id "Solderbit_Gamepad:Pro2_Logo_Placeholder")
-		(at 252.73 130.81 0)
+		(at 252.73 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8679,7 +8529,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1047cd9-3ec5-43b8-a257-1cd769cb8073")
 		(property "Reference" "G2"
-			(at 247.904 130.81 0)
+			(at 247.904 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8688,7 +8538,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 252.73 130.81 0)
+			(at 252.73 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8697,7 +8547,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Pro2_Logo"
-			(at 252.73 130.81 0)
+			(at 252.73 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +8556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 130.81 0)
+			(at 252.73 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8715,7 +8565,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 130.81 0)
+			(at 252.73 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8800,7 +8650,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 135.89 41.91 0)
+		(at 128.27 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8808,7 +8658,7 @@
 		(dnp no)
 		(uuid "e81d438c-c56b-4284-99a1-6a802474e846")
 		(property "Reference" "#PWR010"
-			(at 135.89 45.72 0)
+			(at 128.27 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,7 +8667,7 @@
 			)
 		)
 		(property "Value" "Vubit"
-			(at 135.89 36.83 0)
+			(at 128.27 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8825,7 +8675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 41.91 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8834,7 +8684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 41.91 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8843,7 +8693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 135.89 41.91 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,7 +8929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f59b2f35-edba-462c-83df-7748ecf49f73")
-		(property "Reference" "D5"
+		(property "Reference" "D1"
 			(at 191.262 37.338 0)
 			(effects
 				(font
@@ -9140,7 +8990,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9214,7 +9064,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 250.19 54.61 0)
+		(at 250.19 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9223,7 +9073,7 @@
 		(fields_autoplaced yes)
 		(uuid "f65a9d2f-2be7-423e-bec4-ab4b1914857b")
 		(property "Reference" "SW1"
-			(at 250.19 45.72 0)
+			(at 250.19 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9081,7 @@
 			)
 		)
 		(property "Value" "DPDT"
-			(at 250.19 48.26 0)
+			(at 250.19 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9089,7 @@
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Sliding_Switch_DPDT"
-			(at 250.19 54.61 0)
+			(at 250.19 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 54.61 0)
+			(at 250.19 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9257,7 +9107,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 250.19 54.61 0)
+			(at 250.19 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb3049f8-3a57-4dee-8545-2343cf3a4d96")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 191.262 62.738 0)
 			(effects
 				(font
@@ -9362,7 +9212,7 @@
 		(instances
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
