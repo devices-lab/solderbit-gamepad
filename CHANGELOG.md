@@ -114,6 +114,15 @@
 - SMD battery holder [C964881]
 - Schottky diode BAT60B [C3018529]
 
+## v0.6 (1 July, 2024)
+
+- Corrected schematic for all capacitors to have value of 1uF (previously D3, D4, and D5 had capacitor values of 100nF)
+- Removed copper from the machanical hole on the battery holder
+- Created pads out of the copper polygons in the edge connector
+- Created extra footprint for the left bumper button, due to a swapped pin orientation
+- Added dimensions of the board in the User.1 layer
+- Made the GND pad on B.Cu a little longer to enure good connection with the GND zone
+
 ## Future BOM items
 
 - Loose battery holder with JST male connector [source later]

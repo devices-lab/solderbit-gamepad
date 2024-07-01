@@ -1,4 +1,4 @@
-23407891998110200
+23409612074420073
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88414,7 +88414,7 @@ Microbit_Edge_Connector
 
 
 0
-5
+15
 5
 Solderbit_Gamepad
 Microbit_Edge_Connector_Notches
@@ -88473,7 +88473,14 @@ Tactile_Switch
 4
 4
 Solderbit_Gamepad
-Tactile_Switch_Right_Angle
+Tactile_Switch_Left_90_Degrees
+
+
+0
+5
+2
+Solderbit_Gamepad
+Tactile_Switch_Right_90_Degrees
 
 
 0

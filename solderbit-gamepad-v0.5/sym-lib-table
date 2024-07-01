@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Solderbit_Gamepad")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/Solderbit_Gamepad.kicad_sym")(options "")(descr ""))
+)

@@ -5319,7 +5319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Solderbit_Gamepad:Tactile_Switch_Right_Angle"
+		(property "Footprint" "Solderbit_Gamepad:Tactile_Switch_Left_90_Degrees"
 			(at 60.96 143.51 0)
 			(effects
 				(font
@@ -5523,7 +5523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Solderbit_Gamepad:Tactile_Switch_Right_Angle"
+		(property "Footprint" "Solderbit_Gamepad:Tactile_Switch_Right_90_Degrees"
 			(at 60.96 158.75 0)
 			(effects
 				(font
@@ -6336,7 +6336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 173.99 96.5199 0)
 			(effects
 				(font
@@ -6406,7 +6406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 173.99 147.3199 0)
 			(effects
 				(font
@@ -7220,7 +7220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 173.99 121.9199 0)
 			(effects
 				(font

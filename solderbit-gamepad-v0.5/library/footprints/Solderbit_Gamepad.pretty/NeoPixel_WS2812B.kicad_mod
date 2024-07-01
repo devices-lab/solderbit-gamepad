@@ -1,0 +1,201 @@
+(footprint "NeoPixel_WS2812B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "D"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5f0935bc-4c52-450d-aeca-f1925124ae2a")
+		(effects
+			(font
+				(face "Segoe UI This")
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+		(render_cache "D" 0
+			(polygon
+				(pts
+					(xy 0.009338 -0.567912) (xy 0.068797 -0.562288) (xy 0.124155 -0.552914) (xy 0.175413 -0.539791)
+					(xy 0.22257 -0.522918) (xy 0.285616 -0.490578) (xy 0.339437 -0.449802) (xy 0.384031 -0.40059) (xy 0.419399 -0.342941)
+					(xy 0.44554 -0.276856) (xy 0.457842 -0.228113) (xy 0.466043 -0.175619) (xy 0.470144 -0.119377)
+					(xy 0.470656 -0.089849) (xy 0.468416 -0.033777) (xy 0.461696 0.019402) (xy 0.450495 0.06969) (xy 0.434814 0.117084)
+					(xy 0.414652 0.161586) (xy 0.38315 0.213145) (xy 0.344647 0.260185) (xy 0.327286 0.277735) (xy 0.290016 0.309906)
+					(xy 0.249769 0.337788) (xy 0.206546 0.361381) (xy 0.160346 0.380683) (xy 0.111169 0.395697) (xy 0.059016 0.40642)
+					(xy 0.003885 0.412855) (xy -0.054221 0.415) (xy -0.403244 0.415) (xy -0.403244 0.234993) (xy -0.181227 0.234993)
+					(xy -0.071318 0.234993) (xy -0.019377 0.231953) (xy 0.035685 0.220723) (xy 0.084787 0.201218) (xy 0.127929 0.173439)
+					(xy 0.155095 0.148531) (xy 0.187071 0.107711) (xy 0.211194 0.060908) (xy 0.227463 0.008121) (xy 0.235157 -0.041886)
+					(xy 0.23716 -0.086919) (xy 0.234292 -0.137563) (xy 0.223697 -0.191308) (xy 0.205294 -0.239303)
+					(xy 0.179084 -0.281548) (xy 0.155583 -0.308203) (xy 0.116856 -0.339703) (xy 0.071841 -0.363467)
+					(xy 0.020538 -0.379494) (xy -0.028439 -0.387073) (xy -0.072783 -0.389047) (xy -0.181227 -0.389047)
+					(xy -0.181227 0.234993) (xy -0.403244 0.234993) (xy -0.403244 -0.569787) (xy -0.054221 -0.569787)
+				)
+			)
+		)
+	)
+	(property "Value" "WS2812B"
+		(at 0.275 9.275 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02669a30-2fc7-4652-8222-8cf09c34a552")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "NeoPixel_WS2812B"
+		(at 0.025 10.775 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89f18c08-e0ec-4f10-9be4-74e10d70504b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d55084dc-c76a-4c99-8508-c6ef96bb7057")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 -90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80204f59-66b2-4a48-be6a-c38f20cfc635")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.038)
+	(attr smd)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c69d6f7-a470-4d0e-b126-469ece8629b7")
+	)
+	(fp_line
+		(start -0.75 -2.5)
+		(end 0.75 -2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "758b765c-8b4d-4813-a0fa-ed0c9eb97ae3")
+	)
+	(fp_line
+		(start 0.75 2.5)
+		(end -0.75 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfcab24b-96af-4f8f-adb7-b53e6e423155")
+	)
+	(fp_line
+		(start 2.469409 0.1528)
+		(end -0.14961 -2.466219)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af168e83-bbe0-4fe0-a1e4-0cc0eced997f")
+	)
+	(fp_line
+		(start 2.488264 -0.726396)
+		(end 1.738264 -1.476396)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7861b903-9cb6-4f4a-b570-8480938aab21")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "035f2084-7595-4f75-9fc3-c70f1c52f1cd")
+	)
+	(fp_poly
+		(pts
+			(xy -1.75 1.25) (xy -1.76903 1.154329) (xy -1.823223 1.073223) (xy -1.904329 1.01903) (xy -2 1) (xy -2.095671 1.01903)
+			(xy -2.176777 1.073223) (xy -2.23097 1.154329) (xy -2.25 1.25) (xy -2.23097 1.345671) (xy -2.176777 1.426777)
+			(xy -2.095671 1.48097) (xy -2 1.5) (xy -1.904329 1.48097) (xy -1.823223 1.426777) (xy -1.76903 1.345671)
+			(xy -1.75 1.25)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "81b8eb42-17c9-4604-bda3-4637a440e28f")
+	)
+	(pad "1" smd rect
+		(at -1.625 2.975 90)
+		(size 2.55 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "718ada94-3ded-44be-8df8-fac0f78d7962")
+	)
+	(pad "2" smd rect
+		(at 1.625 2.975 90)
+		(size 2.55 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "636410c6-b197-4e96-8ab1-fe613a0e2d49")
+	)
+	(pad "3" smd rect
+		(at 1.625 -2.975 90)
+		(size 2.55 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7d487852-2878-4356-a8ee-ee53d357aa78")
+	)
+	(pad "4" smd rect
+		(at -1.625 -2.975 90)
+		(size 2.55 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3c7cd2d0-164c-4927-aab1-98ac8b7d9cf5")
+	)
+	(model "${KIPRJMOD}/library/3d_models/neopixel_WS2812B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

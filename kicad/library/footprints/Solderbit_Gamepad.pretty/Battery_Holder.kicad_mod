@@ -494,9 +494,9 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 23.45 -10.45)
-		(size 1 1)
+		(size 1.8 1.8)
 		(drill 1.8)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Mask")
 		(uuid "cd93327b-f325-4455-832c-bf706624d11d")
 	)
 	(pad "" smd custom
