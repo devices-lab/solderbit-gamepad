@@ -10,7 +10,7 @@
 	(title_block
 		(title "solder:bit Gamepad soldering kit (with bumpers)")
 		(date "2024-05-31")
-		(rev "v1.4")
+		(rev "v0.4")
 		(company "Lancaster University")
 		(comment 1 "Aron Eggens")
 	)

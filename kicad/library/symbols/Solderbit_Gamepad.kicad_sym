@@ -254,7 +254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "LSS_R"
 			(at 0 0 0)
 			(effects
 				(font
@@ -444,9 +444,9 @@
 	)
 	(symbol "Microbit_Edge_Connector"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(property "Reference" "REF"
+		(property "Reference" "J"
 			(at -22.86 5.08 0)
 			(effects
 				(font
@@ -454,12 +454,13 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Custom_PCB_Connector"
 			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Microbit_Edge_Connector"
@@ -786,7 +787,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "NeoPixel_WS2812B"
+		(property "Value" "WS2812B-B/T"
 			(at -1.524 -7.112 0)
 			(effects
 				(font
@@ -814,7 +815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NeoPixel (WS2812B)"
 			(at -2.54 0 0)
 			(effects
 				(font
@@ -1035,7 +1036,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Shift_Register_74HC165D"
+		(property "Value" "74HC165D,653"
 			(at -11.43 -19.05 0)
 			(effects
 				(font
@@ -1063,7 +1064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shift register"
 			(at -6.35 -25.4 0)
 			(effects
 				(font
@@ -1392,7 +1393,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TS-1002S-AR06026"
 			(at -7.112 -5.842 0)
 			(effects
 				(font
@@ -1421,7 +1422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tactile switch button"
 			(at 0 0 0)
 			(effects
 				(font

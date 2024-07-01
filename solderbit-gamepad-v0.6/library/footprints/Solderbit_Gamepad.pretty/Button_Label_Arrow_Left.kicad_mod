@@ -1,0 +1,90 @@
+(footprint "Button_Label_Arrow_Left"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 0 3.7 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb79e201-d088-49ab-b25b-fbbace24ef7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 5.65 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3b77155c-3960-4d8c-8d3f-f9bf5a8bf655")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9196bd6e-cf66-437c-b6b6-f784973b3444")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4c85905-e96c-4efc-9b6c-b64fb1965067")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58c7cba2-f6d9-4fdf-abaa-e0df1a265950")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 1.063625 -0.000992) (xy 1.063623 0.12848) (xy 1.063617 0.255957) (xy 1.063609 0.381212) (xy 1.063596 0.504013)
+			(xy 1.063581 0.624132) (xy 1.063562 0.741339) (xy 1.06354 0.855404) (xy 1.063515 0.966097) (xy 1.063487 1.07319)
+			(xy 1.063457 1.176451) (xy 1.063424 1.275652) (xy 1.063388 1.370562) (xy 1.06335 1.460953) (xy 1.06331 1.546594)
+			(xy 1.063267 1.627256) (xy 1.063222 1.702709) (xy 1.063176 1.772724) (xy 1.063127 1.83707) (xy 1.063077 1.895519)
+			(xy 1.063025 1.94784) (xy 1.062971 1.993804) (xy 1.062916 2.033181) (xy 1.06286 2.065741) (xy 1.062802 2.091255)
+			(xy 1.062743 2.109494) (xy 1.062683 2.120227) (xy 1.06263 2.123281) (xy 1.059783 2.120507) (xy 1.051518 2.112312)
+			(xy 1.038028 2.098891) (xy 1.019505 2.080436) (xy 0.996145 2.05714) (xy 0.968138 2.029198) (xy 0.935681 1.996801)
+			(xy 0.898964 1.960143) (xy 0.858183 1.919418) (xy 0.81353 1.874818) (xy 0.765199 1.826537) (xy 0.713383 1.774768)
+			(xy 0.658276 1.719704) (xy 0.60007 1.661538) (xy 0.53896 1.600464) (xy 0.475138 1.536675) (xy 0.408798 1.470364)
+			(xy 0.340134 1.401723) (xy 0.269338 1.330948) (xy 0.196605 1.258229) (xy 0.122127 1.183762) (xy 0.046098 1.107738)
+			(xy -0.000001 1.061639) (xy -1.061636 -0.000002) (xy 0.000994 -1.062633) (xy 1.063625 -2.125263)
+			(xy 1.063625 -0.000992)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "08ac0601-58c8-43c1-a905-8360fb92d97c")
+	)
+)

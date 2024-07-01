@@ -7,7 +7,7 @@
 	(title_block
 		(title "Micro:bit SMT soldering kit (with bumpers)")
 		(date "2024-05-23")
-		(rev "v1.3")
+		(rev "v0.3")
 		(company "Aron Eggens")
 	)
 	(lib_symbols

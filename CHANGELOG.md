@@ -122,6 +122,16 @@
 - Created extra footprint for the left bumper button, due to a swapped pin orientation
 - Added dimensions of the board in the User.1 layer
 - Made the GND pad on B.Cu a little longer to enure good connection with the GND zone
+- Change version numbers to v0.6
+
+## v0.7
+
+- Imporoved schematic labels and reference designators
+
+### TODO
+
+- [ ] Rename SW7 and SW8 to S7 and S8 in layout
+- [ ]
 
 ## Future BOM items
 

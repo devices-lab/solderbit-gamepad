@@ -7,7 +7,7 @@
 	(title_block
 		(title "Micro:bit SMT soldering kit (with bumpers)")
 		(date "2024-05-23")
-		(rev "v1.4")
+		(rev "v0.4")
 		(company "Aron Eggens")
 	)
 	(lib_symbols
@@ -3933,7 +3933,7 @@
 			(uuid "ae261c0b-b123-4bb7-a707-9f4586641f81")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR015")
 					(unit 1)
@@ -4000,7 +4000,7 @@
 			(uuid "a05cc847-7e4d-4ba8-a36d-6aa66af98886")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR02")
 					(unit 1)
@@ -4187,7 +4187,7 @@
 			(uuid "def13aa7-6621-45b2-9229-9334418fb924")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S2")
 					(unit 1)
@@ -4253,7 +4253,7 @@
 			(uuid "e236deb5-e6bb-4e16-b482-2ccf5ce7c66d")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR08")
 					(unit 1)
@@ -4440,7 +4440,7 @@
 			(uuid "ed999d70-6186-4d41-a3ae-dcf2843febac")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S4")
 					(unit 1)
@@ -4507,7 +4507,7 @@
 			(uuid "94c97462-18d0-4118-a16e-73fc5afd12fe")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S7")
 					(unit 1)
@@ -4577,7 +4577,7 @@
 			(uuid "67b200e2-6d49-4aac-98a7-4ac7501c02d4")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "C2")
 					(unit 1)
@@ -4643,7 +4643,7 @@
 			(uuid "bc9b8a98-a6ca-4fcc-b170-abfe13fe4754")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR03")
 					(unit 1)
@@ -4710,7 +4710,7 @@
 			(uuid "c23ba969-d635-48ed-a576-2a6fa262e7eb")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S8")
 					(unit 1)
@@ -4942,7 +4942,7 @@
 			(uuid "328829ac-baee-43fc-8e34-f69cb6010d08")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "U1")
 					(unit 1)
@@ -5020,7 +5020,7 @@
 			(uuid "fa37d6c6-862d-40bf-a144-b0b82e194ffc")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "REF1")
 					(unit 1)
@@ -5095,7 +5095,7 @@
 			(uuid "a2bdd107-cad4-416d-873b-251f5db7fbea")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "D3")
 					(unit 1)
@@ -5282,7 +5282,7 @@
 			(uuid "54c2de33-8d83-4fa2-bd10-68674040cda5")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S1")
 					(unit 1)
@@ -5347,7 +5347,7 @@
 			(uuid "8dc4f357-8af6-4bf6-9463-981252247763")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR013")
 					(unit 1)
@@ -5416,7 +5416,7 @@
 			(uuid "ba788105-bc29-467f-a9d1-4a370936dbe3")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R4")
 					(unit 1)
@@ -5486,7 +5486,7 @@
 			(uuid "521efea5-fe34-48e2-a7e2-2e8d3919c4ad")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "C4")
 					(unit 1)
@@ -5556,7 +5556,7 @@
 			(uuid "1d75bc3c-b1f9-4c8e-a9b7-6c5f2f6715aa")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "C6")
 					(unit 1)
@@ -5622,7 +5622,7 @@
 			(uuid "2ba4f71f-5ac3-4597-beff-ac2e5d5413c5")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR012")
 					(unit 1)
@@ -5691,7 +5691,7 @@
 			(uuid "01b290ef-1751-430c-a5b8-fff40b0671a8")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R6")
 					(unit 1)
@@ -5761,7 +5761,7 @@
 			(uuid "7faa5267-1721-4bb8-9e1a-f05ab2ab123d")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R9")
 					(unit 1)
@@ -5830,7 +5830,7 @@
 			(uuid "823692ad-d8c0-4f60-8922-4ddf9878974f")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R7")
 					(unit 1)
@@ -6017,7 +6017,7 @@
 			(uuid "b9ab5b38-46f1-446e-b90b-b3fc0b3767ce")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S6")
 					(unit 1)
@@ -6084,7 +6084,7 @@
 			(uuid "423a7e58-4d45-43f9-ad54-894f191527fe")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR01")
 					(unit 1)
@@ -6150,7 +6150,7 @@
 			(uuid "2d0eeb53-3384-4f37-b658-01c08d0fb573")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR011")
 					(unit 1)
@@ -6220,7 +6220,7 @@
 			(uuid "27795232-e721-4e67-ac36-7993a1c0b58b")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "C5")
 					(unit 1)
@@ -6286,7 +6286,7 @@
 			(uuid "5cf55896-cd8f-4acd-aa97-073133d2d959")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR04")
 					(unit 1)
@@ -6352,7 +6352,7 @@
 			(uuid "86038a04-05d7-48aa-a64b-d3793a82eb87")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR016")
 					(unit 1)
@@ -6421,7 +6421,7 @@
 			(uuid "3abe4fee-8748-4e73-94b3-beed05534cb1")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "C1")
 					(unit 1)
@@ -6496,7 +6496,7 @@
 			(uuid "74c83367-0b10-497c-9c33-3c8b4618384e")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "D5")
 					(unit 1)
@@ -6571,7 +6571,7 @@
 			(uuid "5e7b4f5a-b5b7-4f48-85fd-53263aa57feb")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "D4")
 					(unit 1)
@@ -6633,7 +6633,7 @@
 			)
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "G1")
 					(unit 1)
@@ -6820,7 +6820,7 @@
 			(uuid "203dcb15-281a-4229-ba08-da48ffa4d1ec")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S5")
 					(unit 1)
@@ -6889,7 +6889,7 @@
 			(uuid "7776c042-c83c-430d-b228-8cc3277e2949")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R3")
 					(unit 1)
@@ -6958,7 +6958,7 @@
 			(uuid "aeb10ff4-240a-4e1f-9191-9d12f501aead")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R8")
 					(unit 1)
@@ -7028,7 +7028,7 @@
 			(uuid "00048b0d-641b-4868-9404-5145a0375837")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "C3")
 					(unit 1)
@@ -7215,7 +7215,7 @@
 			(uuid "73fcd22a-07d1-4d49-8fa1-86e41551157e")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S3")
 					(unit 1)
@@ -7281,7 +7281,7 @@
 			(uuid "6e003f6a-2392-465a-ab97-52689bac0439")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR010")
 					(unit 1)
@@ -7350,7 +7350,7 @@
 			(uuid "b2985866-08cf-4cd2-99d6-5e05b4abba48")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R5")
 					(unit 1)
@@ -7419,7 +7419,7 @@
 			(uuid "f8dbd6a2-bf70-437f-9949-5c5ab62daa4f")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R1")
 					(unit 1)
@@ -7485,7 +7485,7 @@
 			(uuid "ecf279ef-9da1-4b32-afcb-d75aaaf8ab21")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR09")
 					(unit 1)
@@ -7554,7 +7554,7 @@
 			(uuid "54c79608-7225-459e-94f9-854dba0d2a0e")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R2")
 					(unit 1)
@@ -7629,7 +7629,7 @@
 			(uuid "b0beddb0-4337-428a-984d-3feee384cb68")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "D1")
 					(unit 1)
@@ -7695,7 +7695,7 @@
 			(uuid "7c105305-1ed4-4b8f-8618-b3268401deaa")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR07")
 					(unit 1)
@@ -7770,7 +7770,7 @@
 			(uuid "94a30b06-a154-4a7c-8ae5-f0b0908545bb")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "D2")
 					(unit 1)
@@ -7836,7 +7836,7 @@
 			(uuid "816c7d9d-49b9-4243-b460-d287cbe60d20")
 		)
 		(instances
-			(project "basic_kit_SMT_bumpers_D_pad"
+			(project "solderbit-gamepad-v0.4"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR014")
 					(unit 1)
