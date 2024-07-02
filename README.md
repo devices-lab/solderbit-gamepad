@@ -1,6 +1,6 @@
 # solder:bit Gamepad for the BBC micro:bit
 
-![Render of the solder:bit Gamepad PCB](/media/cover-image.jpeg "A render of the latest version of the board")
+![Render of the solder:bit Gamepad PCB](/media/cover-image.png "A render of the latest version of the board")
 
 The solder:bit Gamepad originated as a workshop idea for the upcoming [Device prototyping and production summer school](https://prosquared.org/event/2024-summer-school/) held at Lancaster University. Designed primarily to introduce participants to the fundamentals of surface mount soldering, this project not only demystifies a key skill in electronics but also integrates the fun and educational platform of the BBC micro:bit.
 
