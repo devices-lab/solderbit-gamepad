@@ -1,6 +1,6 @@
 # solder:bit Gamepad for the BBC micro:bit
 
-![A photo of the solder:bit Gamepad PCB](/media/IMG_7025.jpeg "My first attempt at soldering the solder:bit Gamepad.")
+![Render of the solder:bit Gamepad PCB](/media/cover-image.jpeg "A render of the latest version of the board")
 
 The solder:bit Gamepad originated as a workshop idea for the upcoming [Device prototyping and production summer school](https://prosquared.org/event/2024-summer-school/) held at Lancaster University. Designed primarily to introduce participants to the fundamentals of surface mount soldering, this project not only demystifies a key skill in electronics but also integrates the fun and educational platform of the BBC micro:bit.
 
@@ -10,9 +10,9 @@ Join us as we explore the intersection of learning, gaming, and creativity with 
 
 ## Project status
 
-The solder:bit Gamepad is currently in the development stage, undergoing rigorous testing with its second prototype. At this point, the gamepad is not yet ready for deployment in workshops or teaching environments. We are actively refining the design to ensure it meets our educational objectives and user expectations.
+The solder:bit Gamepad is currently in the development stage, undergoing rigorous testing with its second prototype. We are actively refining the design to ensure it meets our educational objectives and user expectations.
 
-See [CHANGELOG](/CHANGELOG.md) for the latest pre-release versions and changes.
+See [CHANGELOG.md](/CHANGELOG.md) for the latest pre-release versions and changes.
 
 ## Getting started
 
@@ -27,46 +27,55 @@ If you already have the PCB and all the required components listed in the [bill 
 
 ### Generating and ordering PCB
 
-If you prefer to generate the PCB yourself and order it from a manufacturer, follow these steps:
+If you prefer to generate the fabrication files yourself and order it from a manufacturer, follow these steps:
 
 1. **Gerber files and ordering**: See [this](#gerber-files-and-ordering) section below.
-2. **Ordering**: Submit these Gerber files to a PCB manufacturer of your choice (JLCPCB).
+2. **Ordering**: Submit fabrication files to a PCB manufacturer of your choice.
 
-Once you receive the PCB and components, proceed as described in the first method:
-
-3. **Soldering and assembly**: a guide will be released soon.
-4. **Programming**: an extension for MakeCode is planned.
-
-This guide should help you through the process of building and programming your solder:bit Gamepad, whether you start from scratch or use a pre-prepared kit.
+Once you receive the PCB and components, proceed with assembly and programming.
 
 ## Bill of materials (BOM)
 
-Below is the BOM needed to assemble the solder:bit Gamepad. Each component is listed with its corresponding ID, designator, quantity, description, and LCSC Part number (if applicable).
+Below is the BOM needed to assemble the solder:bit Gamepad v0.5/v0.6. Each component is listed with its corresponding designator, manufacturer part number, description of the component, and and quantity total quantity of the compoenent.
 
-| ID  | Designator                     | Quantity | Designation           | LCSC Part # |
-| --- | ------------------------------ | -------- | --------------------- | ----------- |
-| 1   | D1, D5, D2, D3, D4             | 5        | WS2812B               | C2761795    |
-| 2   | S5, S6, S1, S2, S4, S3         | 6        | TS04-66-95-BK-100-SMT | C2835240    |
-| 3   | S8, S7                         | 2        | SW_Push               | C499324     |
-| 4   | R2, R7, R5, R6, R4, R1, R3, R8 | 8        | 100k                  | C2907421    |
-| 5   | C6, C5, C3, C7, C4, C1         | 6        | 0.1uF (100nF)         | C24497      |
-| 6   | R9                             | 1        | 300Ω                  | C25372      |
-| 7   | C2                             | 1        | 1uF                   | C90539      |
-| 8   | U1                             | 1        | 74HC165D_653          | C5613       |
+| Designator                     | Manufacturer part number | Description                  | Quantity |
+| ------------------------------ | ------------------------ | ---------------------------- | -------- |
+| BT1                            | BH-AAA-B5AA001           | Battery holder               | 1        |
+| C1, C2, C3, C4, C5, C6         | CL31B105KBHNNNE          | 1 uF capacitors              | 6        |
+| D1, D2, D3, D4, D5             | WS2812B-B/T              | NeoPixels                    | 5        |
+| D6                             | BAT60B                   | Schottky diode               | 1        |
+| R1, R2, R3, R4, R5, R6, R7, R8 | FRC1206J104 TS           | 100k Ohm resistors           | 8        |
+| R9                             | 1206W4J0301T5E           | 300 Ohm resistor             | 1        |
+| S1, S2, S3, S4, S5, S6         | TS-1002S-AR06026         | Tactile switches             | 6        |
+| SW7, SW8                       | TS-1037-A4B3-D2          | Right-angle tactile switches | 2        |
+| SW1                            | MST22D18G2 125           | Sliding switch               | 1        |
+| U1                             | 74HC165D,653             | PISO shift register          | 1        |
 
 Ensure all components are correctly placed according to the designators and quantities specified for proper assembly.
 
 ## Generating Gerber files and ordering PCBs
 
-For those who wish to generate their own Gerber files or order PCBs, we provide detailed guidelines to ensure compatibility with our recommended PCB fabrication house, JLCPCB.
+Gerber files are the standard file format used in the electronics industry to communicate design information to PCB manufacturers. They contain all the necessary details for producing printed circuit boards (PCBs), including copper layering, solder mask, silkscreen, and drill data. Essentially, Gerber files serve as the blueprint for your PCB, ensuring that the manufacturer can accurately reproduce your design. Each file represents a single layer of the PCB, such as the top copper layer, bottom copper layer, or solder mask layer. Using this standard allows designers to convey precise and clear instructions to virtually any PCB manufacturer worldwide.
 
 ### Using KiCad (version 7 or newer)
 
-To generate Gerber files for the solder:bit Gamepad using KiCad, follow the specific steps outlined by JLCPCB to ensure the files meet their manufacturing requirements. You can find a detailed guide on how to export Gerber and drill files from KiCad on the [JLCPCB help page](https://jlcpcb.com/help/article/362-how-to-generate-gerber-and-drill-files-in-kicad-7).
+Generating Gerber files is a crucial step in the PCB manufacturing process. If you are using KiCad version 7 or newer, follow these general steps to generate your Gerber and drill files:
+
+1. **Select the project version.** Clone this repo and select the version of the device you would like to generate Gerber files for (we recommend the latest version).
+2. **Check the design rules.** Confirm that your PCB design complies with the design rules of your chosen PCB manufacturer.
+3. **Generate Gerber and drill files.** Select 'Gerbers (.grb)...' option in the 'File' menu under 'Fabrication Outputs'. Select the layers you need and make sure the formats match the requirements of your PCB manufacturer. Ensure to plot the drill files, as well as the drill map file if required by your fabrication house.
+4. **Verify the files.** Use a Gerber viewer tool (such as [Tracespace](https://tracespace.io)) to check the files before sending them to the manufacturer to avoid any potential issues.
+
+A detailed guide on how to export these files from KiCad can usually be found in the documentation or help section of your PCB design software or on online electronics forums and resources.
 
 ### Using pre-made Gerber files
 
-If you prefer not to generate your own files, we have provided ready-to-use Gerber files in the `fabrication` folder of this repository. These files adhere to the JLCPCB specifications and are the exact versions we used for our latest manufacturing run. Simply download these files and upload them to the JLCPCB website when placing your order.
+If you prefer not to generate your own files, we have provided ready-to-use Gerber files in the `fabrication` folder of this repository. These files are designed to meet general specifications required by most PCB manufacturers. To use them:
+
+1. **Download the Gerber files** from the `fabrication` folder. Inside, you'll find separate subfolders labeled for different manufacturers, such as Eurocircuits and JLCPCB. These files are identical to the ones we sent to the respective fabrication houses.
+2. **Upload the files to the PCB manufacturer's website** when placing your order. Be sure to review any specific requirements or settings that your chosen manufacturer may require to ensure proper fabrication of your PCB.
+
+This flexibility allows you to either use a direct approach with pre-made files or customize the process by generating your own files, fitting your level of expertise and specific needs.
 
 ## Credits
 
