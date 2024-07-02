@@ -1,3 +1,14 @@
+# PCB Design Changelog for solder:bit Gamepad
+
+This changelog documents the iterative design process and changes made to the Solder:bit Gamepad PCB across various versions. The changelog is intended to provide a clear, historical record of modifications, enhancements, and decisions made throughout the project development. Each version captures specific changes categorized under "Added", "Changed", "Removed", and "Fixed" to provide a structured overview of the development progression.
+
+## Categories Explained
+
+- **Added**: New components, features, or enhancements included in the PCB design.
+- **Changed**: Modifications to existing components, features, or design aspects that were altered but not completely removed.
+- **Removed**: Components, features, or elements that were completely eliminated from the PCB design.
+- **Fixed**: Corrections or adjustments made to improve previous design versions without significant alterations.
+
 ## v0.1
 
 ### Added
@@ -5,7 +16,7 @@
 - New KiCad project.
 - Basic schematic with through-hole symbols/footprints.
 
-## v0.2
+## v0.2 (started on 19 May, 2024)
 
 ![Device in version 0.2](media/version-images/solderbit-gamepad-v0.2.png "solder:bit Gamepad v0.2")
 
@@ -24,7 +35,7 @@
 
 - Previous through-hole footprints.
 
-## v0.3
+## v0.3 (started on 23 May, 2024)
 
 ![Device in version 0.3](media/version-images/solderbit-gamepad-v0.3.png "solder:bit Gamepad v0.3")
 
@@ -44,7 +55,7 @@
 
 - Silkscreen graphics that resembled micro:bit triangles to simplify the design.
 
-## v0.4
+## v0.4 (started on 31 May, 2024)
 
 ![Device in version 0.4](media/version-images/solderbit-gamepad-v0.4.png "solder:bit Gamepad v0.4")
 
@@ -64,7 +75,7 @@
 
 - Removed the 0.1uF capacitor located near the shift register because it is not needed.
 
-## v0.5 (18 June, 2024)
+## v0.5 (started 18 June, 2024)
 
 ![Device in version 0.5](media/version-images/solderbit-gamepad-v0.5.png "solder:bit Gamepad v0.5")
 
@@ -112,7 +123,7 @@
 - Fixed the shoulder buttons to include a mechanical through hole for better support.
 - Ensured the B_Mask does not overlap with where the micro:bit will rest.
 
-## v0.6 (1 July, 2024)
+## v0.6 (started 1 July, 2024)
 
 ![Device in version 0.6](media/version-images/solderbit-gamepad-v0.6.png "solder:bit Gamepad v0.6")
 
@@ -134,7 +145,7 @@
 
 ## v0.7
 
-### Changes
+### Changes (started 2 July, 2024)
 
 - Imporoved and cleaned up schematic labels and reference designators.
 
