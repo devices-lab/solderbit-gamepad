@@ -29,7 +29,7 @@ If you already have the PCB and all the required components listed in the [bill 
 
 If you prefer to generate the fabrication files yourself and order it from a manufacturer, follow these steps:
 
-1. **Gerber files and ordering**: See [this](#gerber-files-and-ordering) section below.
+1. **Gerber files and ordering**: See [this](#generating-gerber-files-and-ordering-pcbs) section below.
 2. **Ordering**: Submit fabrication files to a PCB manufacturer of your choice.
 
 Once you receive the PCB and components, proceed with assembly and programming.
