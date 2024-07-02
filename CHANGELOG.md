@@ -2,138 +2,135 @@
 
 ### Added
 
-- New KiCad project
-- Basic schematic with through-hole symbols/footprints
+- New KiCad project.
+- Basic schematic with through-hole symbols/footprints.
 
 ## v0.2
 
+![`Device in version 0.2](media/version-images/solderbit-gamepad-v0.2.png "solder:bit Gamepad version 0.2")
+
 ### Added
 
-- New and improved schematic with SMT
-- First PCB layout with surface-mount footprints
-- micro:bit edge connector footprint
-- Silkscreen graphics similar to micro:bit triangles, labels for buttons
+- New and improved schematic with Surface Mount Technology (SMT).
+- First PCB layout with surface-mount footprints.
+- Micro:bit edge connector footprint.
+- Silkscreen graphics, inspired by micro:bit triangles, including labels for buttons.
 
 ### Changed
 
-- The positioning of the L/R buttons to in-line
+- Aligned the L/R buttons to be in-line.
 
 ### Removed
 
-- Previous footprints with THT
+- Previous through-hole footprints.
 
 ## v0.3
 
 ### Added
 
-- Lancaster cityscape graphic on the back of the PCB
-- Two bumber buttons
-- Larger pads (hand-solder version)
+- Lancaster cityscape graphic on the back of the PCB.
+- Two bumper buttons.
+- Larger pads suitable for hand-soldering.
 
 ### Changed
 
-- Renamed the buttons L/R to X/Y
-- Modified micro:bit edge connector
-- Placed X/Y buttons in a diagonal layout
+- Renamed the buttons from L/R to X/Y.
+- Modified the micro:bit edge connector to improve compatibility.
+- Reconfigured the X/Y buttons into a diagonal layout.
 
 ### Removed
 
-- Silkscreen graphics similar to micro:bit triangles
+- Silkscreen graphics that resembled micro:bit triangles to simplify the design.
 
 ## v0.4
 
 ### Added
 
-- Devices Lab logo and footprint
-- Two more buttons for a complete D-pad
+- Devices Lab logo and corresponding footprint.
+- Additional buttons to complete a directional pad (D-pad).
 
 ### Changed
 
-- Moved the X/Y buttons into a diagonal layout
-- Improved the micro:bit edge connector
-- New silkscreen labels and font
-- Made the entire PCB larger to accommodate the new and improved micro:bit edge connector footprint
+- Transitioned the X/Y buttons to a diagonal layout for ergonomic improvements.
+- Enhanced the micro:bit edge connector for better fit and connectivity.
+- Updated the silkscreen labels and adopted a new font for clearer readability.
+- Expanded the overall PCB size to accommodate the enhanced micro:bit edge connector footprint.
 
 ### Removed
 
-- 0.1uF capacitor near the shift register
+- Removed the 0.1uF capacitor located near the shift register because it is not needed.
 
 ## v0.5 (18 June, 2024)
 
 ### Added
 
-- Pads under the rings on the edge connector footprint
-- Mechanical holes for the bumper buttons
-- All footprint pads now account for soldermask expansion of 0.038mm
-- Battery holder on the back of the PCB, along with a switch
+- SMD battery holder [C964881] on the back of the PCB.
+- SMT footprint on the back for the battery holder.
+- A new slide switch [C2906280] to select to draw power from the battery/micro:bit.
+- Labels for sliding switch.
+- Schottky diode BAT60B [C3018529] to prevent current running from micro:bit to the battery.
+- Pads under the rings on the edge connector footprint.
+- Bigger contact pads for screws on the front.
+- Mechanical holes for the bumper buttons.
 
 ### Changed
 
-- Made larger pads for shift register and NeoPixels
-- Corrected the version number printed on the board from v1.4 (from previous v0.4) to v0.5
-- Removed copper underneath the Devices Lab logo for better adhesion
-- Renamed and reorganised imported symbols and footprints
-- Fixed the shoulder buttons to include a mechanical through hole for better support
+- All footprint pads now account for soldermask expansion of 0.038mm.
+- Made larger pads for shift register and NeoPixels.
+- Corrected the version number printed on the board from v1.4 (from previous v0.4) to v0.5.
+- Renamed and reorganized imported symbols and footprints.
+- Fonts changed to Segoe UI.
+- Made the thermal relief smaller everywhere on the GND plane (changed spoke width to 0.2mm and gap to 0.75mm, from 0.25mm and 0.5mm respectively).
+- Moved the Edge_Cut further away from the rings.
+- Adjusted designators under components to promote better practices (applied to switch, shift register).
+- Rotated all designators to the same direction (horizontal).
+- Increased the size of the triangles to match the micro:bit labels.
+- Centered the key hole.
+- Swapped the capacitor from near the shift register from 0.1uF to 1uF.
+- Made switch footprint pads a little larger.
+- Rewired power lines to adjust for the new diode and DPDT switch.
+- Changed BATTERY/MICRO:BIT silkscreen writing to icons.
+- DPDT slide switch adjusted to switch between battery power and micro:bit power.
+- Bolded Devices Lab logo.
+- Fixed the ground edge connector back pad to clear the gap between it and the copper zone fill.
 
 ### Removed
 
-- Lancaster cityscape on the back of the PCB, to make space for the battery pack
-- Manufacturer's links in the footprints
+- Lancaster cityscape on the back of the PCB, to make space for the battery pack.
+- Manufacturer's links in the footprints.
+- Notches on the MB footprint.
 
-## TODO
+### Fixed
 
-- [x] Make the thermal relief smaller everywhere on the GND plane (made spoke width 0.2mm and gap 0.75mm, from 0.25mm and 0.5mm, respectively)
-- [x] Ask Joe to label skilkscreen to start with ZERO, and probably call it L, rather than like the refernece designator "D"
-- [x] Move the Edge_Cut further away from the rings
-- [x] Ensure the B_Mask does not overlap with where the microbit will rest
-- [x] Remove the notches for on the MB footprint
-- [x] Place all designators udner the components - good habits for (switch, shift register)
-- [x] Rotate all designators to the same direction (horizontal)
-- [x] Make triangles bigger, to match the MB labels
-- [x] Center the key hole
-- [x] Add labels for ON/OFF
-- [x] Make switch footprint pads a little bigger
-- [x] Make is so that the DPDT slide switch can switch between battery power and micro:bit power
-- [x] Bold devices lab logo
-- [x] Change fonts to Segoe UI
-- [x] Battery holder alterations
-  - [x] SMT footprint on the back
-  - [-] (In the next version) add JST connector footprint
-  - [-] (In the next version) add U/C slots for rubber bands
-- [x] Add Schottky diode to prevent the current running from micro:bit to the battery
-  - https://github.com/microsoft/jacdac-ddk/tree/main/electronics/generic/suggested-components
-  - https://tech.microbit.org/hardware/powersupply/
-- [x] Rewire power lines, to adjust for the new diode and DPDT switch
-- [x] Change the BATTERY/MICRO:BIT silkscreen writing to icons
-- [x] Make the contact pads for screws wider on the front
-- [x] Fix the groound edge connector back pad to clear the gap between it and the copper zone fill
-
-## New BOM
-
-- Slide switch [C2906280]
-- SMD battery holder [C964881]
-- Schottky diode BAT60B [C3018529]
+- Removed copper underneath the Devices Lab logo for better adhesion.
+- Fixed the shoulder buttons to include a mechanical through hole for better support.
+- Ensured the B_Mask does not overlap with where the micro:bit will rest.
 
 ## v0.6 (1 July, 2024)
 
-- Corrected schematic for all capacitors to have value of 1uF (previously D3, D4, and D5 had capacitor values of 100nF)
-- Removed copper from the machanical hole on the battery holder
-- Created pads out of the copper polygons in the edge connector
-- Created extra footprint for the left bumper button, due to a swapped pin orientation
-- Added dimensions of the board in the User.1 layer
-- Made the GND pad on B.Cu a little longer to enure good connection with the GND zone
-- Change version numbers to v0.6
+### Added
+
+- Created pads out of the copper polygons in the edge connector.
+- Created an extra footprint for the left bumper button, due to a swapped pin orientation.
+- Added dimensions of the board in the User.1 layer.
+
+### Changed
+
+- Corrected schematic for all capacitors to have a value of 1uF (previously D3, D4, and D5 had capacitor values of 100nF).
+- Made the GND pad on B.Cu a little longer to ensure good connection with the GND zone.
+- Updated version numbers on the board to v0.6.
+
+### Removed
+
+- Removed copper from the mechanical hole on the battery holder.
 
 ## v0.7
 
-- Imporoved schematic labels and reference designators
+### Changes
 
-### TODO
+- Imporoved and cleaned up schematic labels and reference designators.
+
+## Future work and BOM items
 
 - [ ] Rename SW7 and SW8 to S7 and S8 in layout
-- [ ]
-
-## Future BOM items
-
-- Loose battery holder with JST male connector [source later]
-- JST S2B-PH-SM4-TB female connector [C295747]
+- [ ] Add support for standalone battery holder with JST JST S2B-PH-SM4-TB [C295747]

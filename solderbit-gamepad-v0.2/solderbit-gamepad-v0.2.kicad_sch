@@ -7,7 +7,7 @@
 	(title_block
 		(title "solder:bit Gamepad")
 		(date "2024-05-19")
-		(rev "v0.1")
+		(rev "v0.2")
 		(company "Lancaster University")
 		(comment 1 "Aron Eggens")
 	)
