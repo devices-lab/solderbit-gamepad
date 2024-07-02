@@ -7,7 +7,7 @@
 
 ## v0.2
 
-![`Device in version 0.2](media/version-images/solderbit-gamepad-v0.2.png "solder:bit Gamepad version 0.2")
+![Device in version 0.2](media/version-images/solderbit-gamepad-v0.2.png "solder:bit Gamepad v0.2")
 
 ### Added
 
@@ -25,6 +25,8 @@
 - Previous through-hole footprints.
 
 ## v0.3
+
+![Device in version 0.3](media/version-images/solderbit-gamepad-v0.3.png "solder:bit Gamepad v0.3")
 
 ### Added
 
@@ -44,6 +46,8 @@
 
 ## v0.4
 
+![Device in version 0.4](media/version-images/solderbit-gamepad-v0.4.png "solder:bit Gamepad v0.4")
+
 ### Added
 
 - Devices Lab logo and corresponding footprint.
@@ -61,6 +65,8 @@
 - Removed the 0.1uF capacitor located near the shift register because it is not needed.
 
 ## v0.5 (18 June, 2024)
+
+![Device in version 0.5](media/version-images/solderbit-gamepad-v0.5.png "solder:bit Gamepad v0.5")
 
 ### Added
 
@@ -107,6 +113,8 @@
 - Ensured the B_Mask does not overlap with where the micro:bit will rest.
 
 ## v0.6 (1 July, 2024)
+
+![Device in version 0.6](media/version-images/solderbit-gamepad-v0.6.png "solder:bit Gamepad v0.6")
 
 ### Added
 
