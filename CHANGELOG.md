@@ -2,13 +2,6 @@
 
 This changelog documents the iterative design process and changes made to the Solder:bit Gamepad PCB across various versions. The changelog is intended to provide a clear, historical record of modifications, enhancements, and decisions made throughout the project development. Each version captures specific changes categorized under "Added", "Changed", "Removed", and "Fixed" to provide a structured overview of the development progression.
 
-## Categories Explained
-
-- **Added**: New components, features, or enhancements included in the PCB design.
-- **Changed**: Modifications to existing components, features, or design aspects that were altered but not completely removed.
-- **Removed**: Components, features, or elements that were completely eliminated from the PCB design.
-- **Fixed**: Corrections or adjustments made to improve previous design versions without significant alterations.
-
 ## v0.1
 
 ### Added
@@ -143,9 +136,9 @@ This changelog documents the iterative design process and changes made to the So
 
 - Removed copper from the mechanical hole on the battery holder.
 
-## v0.7
+## v0.7 (started 2 July, 2024)
 
-### Changes (started 2 July, 2024)
+### Changes
 
 - Imporoved and cleaned up schematic labels and reference designators.
 
