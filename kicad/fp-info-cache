@@ -1,4 +1,4 @@
-23409612093890957
+23407897801276877
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -88444,13 +88444,6 @@ SOD-323
 0
 2
 2
-Solderbit_Gamepad
-Schottky_Diode_SOT-23
-SOT-23, Handsoldering
-SOT-23
-0
-3
-3
 Solderbit_Gamepad
 Shift_Register_74HC165D
 

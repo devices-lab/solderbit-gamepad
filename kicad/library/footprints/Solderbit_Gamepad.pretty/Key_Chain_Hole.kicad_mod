@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "Ref**"
 		(at 0.25 5.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "Key_Chain_Hole"
-		(at 0 4 0)
+	(property "Value" "Val**"
+		(at 0 7.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)

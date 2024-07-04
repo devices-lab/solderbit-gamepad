@@ -56,7 +56,7 @@
 			)
 		)
 	)
-	(property "Value" "Sliding_Switch_DPDT"
+	(property "Value" "MST22D18G2 125"
 		(at 0 8.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -70,7 +70,7 @@
 		)
 	)
 	(property "Footprint" "Sliding_Switch_DPDT"
-		(at 0 7.75 0)
+		(at 0 7.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -105,6 +105,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "SHOU HAN"
+		(at 0 10.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "777710b7-bd5f-4ab2-a36f-b5bb14b3e5e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

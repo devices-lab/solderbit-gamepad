@@ -913,7 +913,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at -5.588 8.382 0)
+			(at -0.762 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,18 +921,17 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "WS2812B-B/T"
-			(at -1.524 -7.112 0)
+		(property "Value" "WS2812B"
+			(at -0.254 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:NeoPixel_WS2812B"
-			(at -1.778 -8.636 0)
+			(at -0.254 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,34 +949,12 @@
 			)
 		)
 		(property "Description" "NeoPixel (WS2812B)"
-			(at -2.54 0 0)
+			(at 0.254 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(symbol "NeoPixel_WS2812B_0_0"
-			(rectangle
-				(start -6.35 7.62)
-				(end 5.08 -1.27)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(text "WS2812B"
-				(at -6.604 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
 			)
 		)
 		(symbol "NeoPixel_WS2812B_0_1"
@@ -995,6 +972,17 @@
 			)
 		)
 		(symbol "NeoPixel_WS2812B_1_0"
+			(rectangle
+				(start -6.35 7.62)
+				(end 5.08 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at -11.43 5.08 0)
 				(length 5.08)
@@ -1291,12 +1279,11 @@
 			)
 		)
 		(property "Value" "BAT60B"
-			(at -0.254 11.43 0)
+			(at 0 -3.048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Solderbit_Gamepad:Schottky_Diode_SOD-323"

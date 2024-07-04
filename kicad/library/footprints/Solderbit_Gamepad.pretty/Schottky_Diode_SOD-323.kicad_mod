@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Value" "Schottky_Diode_SOD-323"
+	(property "Value" "BAT60B"
 		(at 0.1 6.25 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -84,6 +84,19 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Manufacturer" "FUXINSEMI"
+		(at 0 7.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "17307590-e0d2-46d9-b58f-4efbcbc75199")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)

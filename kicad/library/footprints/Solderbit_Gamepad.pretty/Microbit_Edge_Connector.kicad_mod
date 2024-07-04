@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "U1"
-		(at 0 -9 0)
+	(property "Reference" "J1"
+		(at 0 13 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -16,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "microbit_pcb_edge"
-		(at 0 -7 0)
+	(property "Value" "Microbit_Edge_Connector"
+		(at 0 15 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -30,7 +30,7 @@
 		)
 	)
 	(property "Footprint" "Microbit_Edge_Connector"
-		(at 0.08 8.98 0)
+		(at 0.05 10.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)

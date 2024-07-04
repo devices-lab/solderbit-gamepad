@@ -125,22 +125,19 @@ This changelog documents the iterative design process and changes made to the So
 - Created pads out of the copper polygons in the edge connector.
 - Created an extra footprint for the left bumper button, due to a swapped pin orientation.
 - Added dimensions of the board in the User.1 layer.
+- Detailed comments to aid the reading and understading of the schematic.
 
 ### Changed
 
 - Corrected schematic for all capacitors to have a value of 1uF (previously D3, D4, and D5 had capacitor values of 100nF).
 - Made the GND pad on B.Cu a little longer to ensure good connection with the GND zone.
 - Updated version numbers on the board to v0.6.
+- Imporoved and cleaned up schematic labels and reference designators.
+- The separating lines in between each section in the schematic, made it match the official micro:bit v2 schematic.
 
 ### Removed
 
 - Removed copper from the mechanical hole on the battery holder.
-
-## v0.7 (started 2 July, 2024)
-
-### Changes
-
-- Imporoved and cleaned up schematic labels and reference designators.
 
 ## Future work and BOM items
 

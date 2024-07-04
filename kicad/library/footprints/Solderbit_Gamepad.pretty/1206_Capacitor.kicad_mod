@@ -41,8 +41,8 @@
 			)
 		)
 	)
-	(property "Value" "1206_Capacitor"
-		(at 0 2.5 0)
+	(property "Value" "CL31B105KBHNNNE"
+		(at 0 6.25 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "d16e2670-786f-4e93-8805-45c64ffa3fdf")
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Footprint" "1206_Capacitor"
-		(at 0 4.5 0)
+		(at 0 2.55 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -89,6 +89,19 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Samsung Electro-Mechanics"
+		(at 0.05 4.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "74e452ee-4395-4dba-9020-f04c25e286d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 		)
 	)
