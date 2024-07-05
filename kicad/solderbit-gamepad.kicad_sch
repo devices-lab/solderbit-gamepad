@@ -6154,7 +6154,7 @@
 		)
 		(uuid 9e4d9adb-2eaa-4b9c-85d2-9cf2f723570c)
 	)
-	(text_box "P0 is connected to the serial (SER) input of the shift register, handling data transmission from the micro:bit."
+	(text_box "P0 is connected to the serial (SER) output of the shift register, handling data transmission to the micro:bit."
 		(exclude_from_sim no)
 		(at 90.17 30.48 0)
 		(size 25.4 13.97)
@@ -6176,7 +6176,7 @@
 		)
 		(uuid "103a3a96-4db6-4af3-aea9-4761841f4217")
 	)
-	(text_box "The NeoPixels receive data from the PL/DATA input, allowing for control over their color and brightness."
+	(text_box "The NeoPixels receive data from the PL/DATA output, allowing for control over their color and brightness."
 		(exclude_from_sim no)
 		(at 160.02 22.86 0)
 		(size 24.13 15.24)
@@ -6220,7 +6220,7 @@
 		)
 		(uuid "1bfb55bf-a549-435c-8b21-be47bbd9ee03")
 	)
-	(text_box "P2 serves as the clock (CLK) input for the shift register."
+	(text_box "P2 outputs the clock (CLK) signal for the shift register."
 		(exclude_from_sim no)
 		(at 132.08 82.55 0)
 		(size 19.05 10.16)
@@ -6264,7 +6264,7 @@
 		)
 		(uuid "6e92e775-33cc-4a72-be5b-3eec97b7a1ad")
 	)
-	(text_box "The 74H165 is an 8-bit Parallel-In/Serial-Out shift register. It converts parallel data to serial output, allowing for simultaneous data capture and sequential output. "
+	(text_box "The 74H165 is an 8-bit parallel-in/serial-out shift register. It converts parallel data to serial output, allowing for simultaneous data capture and sequential output. "
 		(exclude_from_sim no)
 		(at 27.94 93.98 0)
 		(size 49.53 10.16)
@@ -6286,10 +6286,10 @@
 		)
 		(uuid "8ac4dccb-89c1-49de-928d-03a0128705b0")
 	)
-	(text_box "This switch selects the power source for the board, allowing a choice between battery power and USB power from the micro:bit."
+	(text_box "The double-pole double-throw (DPDT) switch selects the power source for the board, allowing a choice between on-board battery power and micro:bit's power source."
 		(exclude_from_sim no)
 		(at 219.71 93.98 0)
-		(size 30.48 12.7)
+		(size 34.29 13.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -6355,7 +6355,7 @@
 	(text_box "These footprints are non-functional and included purely for aesthetic purposes."
 		(exclude_from_sim no)
 		(at 256.54 114.3 0)
-		(size 21.59 10.16)
+		(size 22.86 10.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -6374,10 +6374,10 @@
 		)
 		(uuid "d390ac54-d066-4cff-a9ae-e6e0a319698f")
 	)
-	(text_box "A diode is placed between the micro:bits's USB power and the battery connection to prevent current from flowing back to the micro:bit's USB port, protecting the circuit."
+	(text_box "A diode is placed between the micro:bits's power source and the battery connection to prevent current from flowing back to the on-board battery. Schottky diodes also have a lower forward voltage drop compared to standard silicon diodes."
 		(exclude_from_sim no)
-		(at 243.84 19.05 0)
-		(size 35.56 13.97)
+		(at 243.84 17.78 0)
+		(size 35.56 17.78)
 		(stroke
 			(width 0)
 			(type default)

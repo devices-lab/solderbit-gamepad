@@ -19461,6 +19461,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/library/3d_models/microbit_v2.step"
+			(hide yes)
 			(offset
 				(xyz 0 -6.85 -2.5)
 			)
