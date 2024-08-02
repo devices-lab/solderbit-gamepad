@@ -10,7 +10,7 @@ Join us as we explore the intersection of learning, gaming, and creativity with 
 
 ## Project status
 
-The solder:bit Gamepad is currently in the development stage, undergoing rigorous testing with its second prototype. We are actively refining the design to ensure it meets our educational objectives and user expectations.
+The solder:bit Gamepad is currently in the development stage, undergoing testing with its second prototype. We are refining the design to ensure it meets our educational objectives and user expectations.
 
 See [CHANGELOG.md](/CHANGELOG.md) for the latest pre-release versions and changes.
 
