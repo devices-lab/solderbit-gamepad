@@ -139,7 +139,12 @@ This changelog documents the iterative design process and changes made to the So
 
 - Removed copper from the mechanical hole on the battery holder.
 
-## Future work and BOM items
+## v0.7 (started 22 January, 2025)
 
+### Proposed changes
+- [ ] Make the battery logo a bit thinner 
+- [ ] Remove pro2network+ logo and UKRI logo and replace with something else
 - [ ] Rename SW7 and SW8 to S7 and S8 in layout
 - [ ] Add support for standalone battery holder with JST JST S2B-PH-SM4-TB [C295747]
+- [ ] Try to find different package for NeoPixels
+- [ ] Find a new diode
