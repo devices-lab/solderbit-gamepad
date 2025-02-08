@@ -95,9 +95,10 @@
 		)
 	)
 	(property "Manufacturer" "XUNPU"
-		(at 0 0 0)
+		(at 0 9.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "6fe6ef08-d40c-482a-9749-ad8434fb3e29")
 		(effects
 			(font

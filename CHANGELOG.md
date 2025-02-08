@@ -142,9 +142,27 @@ This changelog documents the iterative design process and changes made to the So
 ## v0.7 (started 22 January, 2025)
 
 ### Proposed changes
-- [ ] Make the battery logo a bit thinner 
-- [ ] Remove pro2network+ logo and UKRI logo and replace with something else
-- [ ] Rename SW7 and SW8 to S7 and S8 in layout
+
+- [ ] Make the battery logo a bit thinner
 - [ ] Add support for standalone battery holder with JST JST S2B-PH-SM4-TB [C295747]
 - [ ] Try to find different package for NeoPixels
-- [ ] Find a new diode
+- [ ] Find a new diode with a much larger package
+- [ ] Set up BOM and P&P for partial assembly
+- [ ] Expand the PXT extension for several new blocks
+- [ ] Make the pads for screws on the front a more circular shape and have text in copper
+- [ ] Add a message to the back of the battery holder with instruction to what to choose from.
+- [ ] Add some embedded graphics and mayeb the lancaster university logo?
+
+### Added
+
+- [x] P-Channel MOSFET for reverse polarity protection
+- [x] JST PH-2 connector for an external battery box attachment, placed in parallel with the 
+
+### Changed
+
+- Made the version number larger, and added a silkscreen box
+
+### Removed
+
+- [x] pro2network+ logo and UKRI logo and replace with something else
+- [x] Removed "Shift register" as it was hardly visible due to vias, only U designator now
