@@ -1,9 +1,11 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Capacitor"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -76,7 +78,7 @@
 		(symbol "Capacitor_0_1"
 			(polyline
 				(pts
-					(xy -2.032 -0.762) (xy 2.032 -0.762)
+					(xy -2.032 0.762) (xy 2.032 0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -88,7 +90,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 0.762) (xy 2.032 0.762)
+					(xy -2.032 -0.762) (xy 2.032 -0.762)
 				)
 				(stroke
 					(width 0.508)
@@ -137,6 +139,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Devices-Lab_Logo"
 		(exclude_from_sim no)
@@ -222,6 +225,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Key_Chain_Hole"
 		(exclude_from_sim no)
@@ -295,6 +299,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LSS_Left"
 		(exclude_from_sim no)
@@ -376,6 +381,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "LSS_Right"
 		(exclude_from_sim no)
@@ -440,14 +446,6 @@
 			)
 		)
 		(symbol "LSS_Right_1_1"
-			(text "Lancaster city \nright"
-				(at 1.016 -9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(text "R"
 				(at 0.508 -3.81 0)
 				(effects
@@ -456,7 +454,16 @@
 					)
 				)
 			)
+			(text "Lancaster city \nright"
+				(at 1.016 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Lancaster_Cityscape_Image"
 		(exclude_from_sim no)
@@ -521,9 +528,10 @@
 			)
 		)
 		(symbol "Lancaster_Cityscape_Image_1_1"
-			(circle
-				(center 0 -3.81)
-				(radius 1.27)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy -3.81 -3.81) (xy 2.54 -3.81) (xy 3.81 -3.81)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -544,10 +552,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 2.54 -3.81) (xy 1.27 -3.81)
-				)
+			(circle
+				(center 0 -3.81)
+				(radius 1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -558,7 +565,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -3.81 -3.81) (xy 2.54 -3.81) (xy 3.81 -3.81)
+					(xy 2.54 -3.81) (xy 1.27 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -577,6 +584,134 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "MBR120VLSFT1G"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR120VLSFT1G"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:SOD-123F_L2.8-W1.8-LS3.7-RD"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON-Semicon_MBR120VLSFT1G_ON-Semicon-ON-MBR120VLSFT1G_C223608.html"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C223608"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MBR120VLSFT1G_0_1"
+			(polyline
+				(pts
+					(xy -2.03 1.52) (xy -2.03 1.78) (xy -1.52 1.78) (xy -1.52 -2.03) (xy -1.02 -2.03) (xy -1.02 -1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "MBR120VLSFT1G_1_1"
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 3.81)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "Microbit_Edge_Connector"
 		(exclude_from_sim no)
@@ -638,32 +773,21 @@
 					(type none)
 				)
 			)
-			(circle
-				(center -15.24 2.54)
-				(radius 1.7961)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -7.62 2.54)
-				(radius 1.7961)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -16.51 -3.81) (xy -16.51 1.27)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -15.24 2.54)
+				(radius 1.7961)
 				(stroke
 					(width 0)
 					(type default)
@@ -696,6 +820,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center -7.62 2.54)
+				(radius 1.7961)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy -6.35 1.27) (xy -6.35 -3.81)
@@ -712,6 +847,17 @@
 				(pts
 					(xy -1.27 -3.81) (xy -1.27 1.27)
 				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.54)
+				(radius 1.7961)
 				(stroke
 					(width 0)
 					(type default)
@@ -744,6 +890,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 7.62 2.54)
+				(radius 1.7961)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 8.89 -3.81) (xy 8.89 1.27)
@@ -768,43 +925,21 @@
 					(type none)
 				)
 			)
+			(circle
+				(center 15.24 2.54)
+				(radius 1.7961)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 16.51 1.27) (xy 16.51 -3.81)
 				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 2.54)
-				(radius 1.7961)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 7.62 2.54)
-				(radius 1.7961)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 15.24 2.54)
-				(radius 1.7961)
 				(stroke
 					(width 0)
 					(type default)
@@ -904,6 +1039,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "NeoPixel_WS2812B"
 		(pin_names
@@ -1019,24 +1155,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 10.16 1.27 180)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin input line
 				(at 10.16 5.08 180)
 				(length 5.08)
@@ -1055,7 +1173,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 10.16 1.27 180)
+				(length 5.08)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Pro2_Logo"
 		(exclude_from_sim no)
@@ -1141,9 +1278,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Resistor"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
 		)
@@ -1262,11 +1402,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Schottky_Diode"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1334,7 +1479,7 @@
 		(symbol "Schottky_Diode_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 				)
 				(stroke
 					(width 0)
@@ -1346,7 +1491,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1393,6 +1538,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Shift_Register_74HC165D"
 		(pin_names
@@ -1449,35 +1595,17 @@
 			)
 		)
 		(symbol "Shift_Register_74HC165D_0_0"
-			(pin input line
-				(at 8.89 2.54 180)
+			(pin power_in line
+				(at -17.78 16.51 0)
 				(length 5.08)
-				(name "~PL"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 8.89 7.62 180)
-				(length 5.08)
-				(name "DS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
+				(number "16"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1558,60 +1686,6 @@
 				)
 			)
 			(pin input line
-				(at 8.89 0 180)
-				(length 5.08)
-				(name "~CE"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -17.78 16.51 0)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 8.89 5.08 180)
-				(length 5.08)
-				(name "CP"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -17.78 1.27 0)
 				(length 5.08)
 				(name "D4"
@@ -1683,24 +1757,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 8.89 16.51 180)
-				(length 5.08)
-				(name "~Q7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -17.78 -11.43 0)
 				(length 5.08)
@@ -1712,6 +1768,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 8.89 16.51 180)
+				(length 5.08)
+				(name "~Q7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1737,6 +1811,78 @@
 					)
 				)
 			)
+			(pin input line
+				(at 8.89 7.62 180)
+				(length 5.08)
+				(name "DS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 5.08 180)
+				(length 5.08)
+				(name "CP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 2.54 180)
+				(length 5.08)
+				(name "~PL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 8.89 0 180)
+				(length 5.08)
+				(name "~CE"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
 		(symbol "Shift_Register_74HC165D_1_0"
 			(rectangle
@@ -1751,10 +1897,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Sliding_Switch_DPDT"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1871,24 +2020,6 @@
 		)
 		(symbol "Sliding_Switch_DPDT_1_1"
 			(pin passive line
-				(at 5.08 2.54 180)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "B"
@@ -1899,6 +2030,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1927,24 +2076,6 @@
 		)
 		(symbol "Sliding_Switch_DPDT_2_1"
 			(pin passive line
-				(at 5.08 2.54 180)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "B"
@@ -1955,6 +2086,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1981,11 +2130,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Tactile_Switch_2_Pin"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2206,9 +2360,10 @@
 			)
 		)
 		(symbol "Tactile_Switch_2_Pin_0_1"
-			(circle
-				(center 0 -2.032)
-				(radius 0.508)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -1.27 -2.54)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2229,10 +2384,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -1.27 2.54) (xy -1.27 -2.54)
-				)
+			(circle
+				(center 0 2.032)
+				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -2242,7 +2396,7 @@
 				)
 			)
 			(circle
-				(center 0 2.032)
+				(center 0 -2.032)
 				(radius 0.508)
 				(stroke
 					(width 0)
@@ -2291,6 +2445,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Tactile_Switch_4_Pin"
 		(pin_names
@@ -2348,6 +2503,29 @@
 			)
 		)
 		(symbol "Tactile_Switch_4_Pin_0_1"
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 2.032)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(circle
 				(center 0 -2.032)
 				(radius 0.508)
@@ -2373,31 +2551,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -5.08) (xy -1.27 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -2.54) (xy 1.27 2.54)
+					(xy 1.27 5.08) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -2421,7 +2575,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 5.08) (xy -1.27 5.08)
+					(xy 1.27 -2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2431,9 +2585,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 0 2.032)
-				(radius 0.508)
+			(polyline
+				(pts
+					(xy 1.27 -5.08) (xy -1.27 -5.08)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2517,6 +2672,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "UKRI_Logo"
 		(exclude_from_sim no)
@@ -2602,5 +2758,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
