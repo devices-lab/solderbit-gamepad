@@ -4,6 +4,15 @@ import csv
 import sys
 
 def main():
+    """
+    Processes JLCPCB fabrication output files in a specified directory by:
+    - Identifying and validating the presence of top and bottom component placement (CPL) files and a BOM file.
+    - Updating the headers of the CPL files to match JLCPCB requirements.
+    - Renaming the CPL and BOM files to the expected JLCPCB naming convention.
+    Prompts for a directory if not provided as a command-line argument, and prints progress and error messages.
+    Returns:
+        None
+    """
     # Get directory from command line argument or user input
     if len(sys.argv) > 1:
         directory = sys.argv[1]
