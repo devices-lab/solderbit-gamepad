@@ -1,0 +1,112 @@
+(footprint "Button_Label_Arrow"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 0.15 2.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d970aba8-b220-4fab-856e-a7d2b2d01d8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0.2 3.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d1849cb-e89a-455c-afee-93239d414385")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71f676b0-af56-44a2-b7cd-814f510dd8f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "770f072f-d271-4e5b-ad8d-187c9b608547")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_poly
+		(pts
+			(xy -2.254406 -2.244406) (xy 2.248138 -2.244406) (xy -0.002141 0.005875) (xy -0.004125 0.005875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "96c35b17-0ea2-4dd8-84df-ee12919cb540")
+	)
+	(fp_poly
+		(pts
+			(xy -2.254406 -2.244406) (xy 2.248138 -2.244406) (xy -0.002141 0.005875) (xy -0.004125 0.005875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "04f49f39-14bd-4763-8d27-6f3bf36089bc")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "b14af562-711f-4b1c-bb88-9fc80f2efe78")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.31 -2.32) (xy 2.29 -2.32) (xy 2.29 -2.19) (xy 0 0.1) (xy -2.31 -2.21)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -141,28 +141,41 @@ This changelog documents the iterative design process and changes made to the So
 
 ## v0.7 (started 22 January, 2025)
 
-### Proposed changes
-
-- [ ] Make the battery logo a bit thinner
-- [ ] Add support for standalone battery holder with JST JST S2B-PH-SM4-TB [C295747]
-- [ ] Try to find different package for NeoPixels
-- [ ] Find a new diode with a much larger package
-- [ ] Set up BOM and P&P for partial assembly
-- [ ] Expand the PXT extension for several new blocks
-- [ ] Make the pads for screws on the front a more circular shape and have text in copper
-- [ ] Add a message to the back of the battery holder with instruction to what to choose from.
-- [ ] Add some embedded graphics and mayeb the lancaster university logo?
+![Device in version 0.7](media/version-images/solderbit-gamepad-v0.7.png "solder:bit Gamepad v0.7")
 
 ### Added
 
-- [x] P-Channel MOSFET for reverse polarity protection
-- [x] JST PH-2 connector for an external battery box attachment, placed in parallel with the 
+- Support for the standalone battery holder with JST S2B-PH-SM4-TB [LCSC C295747]
+- Slot for the cable to pass through
+- P-channel MOSFET for reverse polarity protection on the battery holder
+- 3 Ohm resistor to limit the current to prevent the diode from overheating
+- Silkscreen text to indicate that the battery is double footprinted
+- Loops for a double-ended lanyard to make the design more like a badge
+- LDO to regulate all power inputs to the solder:bit
+- Silkscreen marking "+" and "-" for JST battery
 
 ### Changed
 
-- Made the version number larger, and added a silkscreen box
+- Diode upgraded to a larger package, using the MBR120VLSFT1G with SOD-123FL package
+- BOM updated to include LCSC part numbers and correct values
+- Schematic set up for partial assembly
+- Version number incremented on silkscreen to v0.7 and added silkscreen comment box
+- Multiple footprints text and designators, line width improvements
+- Back pad on the shoulder button made wider for soldering iron tip access
+- Shoulder button pads made larger for soldering iron tip
+- MOSFET replaced with one with ESD protection
+- All labels made 50% larger
+- "X" label rotated to match "R" label orientation
+- Arrow labels made 10% larger to match the side length of other labels
+- Schematic updated to match the new FET with ESD protection
+- Most of the board re-routed
+- All DRC warnings resolved
 
 ### Removed
 
-- [x] pro2network+ logo and UKRI logo and replace with something else
-- [x] Removed "Shift register" as it was hardly visible due to vias, only U designator now
+- "Shift register" text (was hardly visible due to vias, now only reference designator remains)
+
+## Future Work
+
+- Make the pads on the screws more circular on the front to fit larger screws
+- Make the text (P0, P1, etc.) in the edge connector appear by removing the copper, like on the micro:bit

@@ -95,9 +95,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.8,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 4.0,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -116,7 +116,160 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_overlap|105223576|55370642|8c489712-95d1-4960-a295-b7fe4163d851|f1ca9ee5-aefc-43de-8986-94ef928b1950",
+          ""
+        ],
+        [
+          "silk_overlap|113223576|55370642|86c03164-93a9-4a22-870a-b8c838bd3a68|3d87b86f-2930-4542-b344-d5c6a5913044",
+          ""
+        ],
+        [
+          "silk_overlap|124864719|79214719|0680a942-c668-46c0-a3f4-f798d1482ead|c6a086d9-becb-46d1-8223-fa5bb9a803bb",
+          ""
+        ],
+        [
+          "silk_overlap|125764719|69104719|dd73f1c3-f3a8-410c-b795-687909dab96b|dc3160ce-8540-458e-bac5-d215bd1f1f71",
+          ""
+        ],
+        [
+          "silk_overlap|125764719|76964719|4dcec081-9b73-41a6-96b1-df935659861e|71f02cc0-3959-4cec-bda1-799fe7de850e",
+          ""
+        ],
+        [
+          "silk_overlap|126034330|69489110|f0a46557-1d33-47be-9920-83c9baffd480|dc3160ce-8540-458e-bac5-d215bd1f1f71",
+          ""
+        ],
+        [
+          "silk_overlap|126764719|69119719|87fb3938-a7f3-4701-991e-d9d2015c96a3|dc3160ce-8540-458e-bac5-d215bd1f1f71",
+          ""
+        ],
+        [
+          "silk_overlap|126814719|76964719|4dcec081-9b73-41a6-96b1-df935659861e|ff26ea7b-0ced-4590-8014-3676d30a9f2c",
+          ""
+        ],
+        [
+          "silk_overlap|130764719|61314719|65d42200-0e4a-4dce-8fac-c17ded4c40eb|41ec6d91-5237-44e2-8dd0-04b28c21ca53",
+          ""
+        ],
+        [
+          "silk_overlap|130764719|67414719|ebebe8ca-32f2-45c9-9043-85bffabb7f62|41ec6d91-5237-44e2-8dd0-04b28c21ca53",
+          ""
+        ],
+        [
+          "silk_overlap|130764719|72314719|ebebe8ca-32f2-45c9-9043-85bffabb7f62|90d73933-fa6d-4e23-8cd2-b9b5fa579ec0",
+          ""
+        ],
+        [
+          "silk_overlap|130764719|78414719|8eb1de4e-8a77-40e1-b0df-2849ca7f63e4|90d73933-fa6d-4e23-8cd2-b9b5fa579ec0",
+          ""
+        ],
+        [
+          "silk_overlap|131144666|56931169|6554ef71-d008-4256-8d47-db70b15fb809|cddf68d0-764d-4607-a8a8-e18dbc310cc6",
+          ""
+        ],
+        [
+          "silk_overlap|135075000|50525000|71a99d6d-7801-41f4-bbd0-f2854dbfe61c|2e4fde95-1917-451e-b4cf-6694f1e17214",
+          ""
+        ],
+        [
+          "silk_overlap|141514719|39564719|b2352cd7-f8e9-4318-9d69-320e4be3f826|05bfb121-a47c-414c-b36e-6f55f2551253",
+          ""
+        ],
+        [
+          "silk_overlap|147014719|39564719|b12ef6f2-7db7-4600-8fb5-50b9423c58db|4d9ecb70-5706-44df-a1ad-2a7ca7bdc6b3",
+          ""
+        ],
+        [
+          "silk_overlap|61514719|39564719|a0e91a06-26bb-4e01-b161-3733c8aa4f7b|f6eedb74-3f82-4189-9f59-c89704313dfa",
+          ""
+        ],
+        [
+          "silk_overlap|67014719|39564719|a90e33da-857e-494f-abb2-706b94b36117|1b207d57-c4e4-4ee8-b675-116af46fcf36",
+          ""
+        ],
+        [
+          "silk_overlap|77764719|61314719|af1f3f7b-7650-4319-8c43-2eb921ea852d|3f3412ad-5796-4520-9aa1-7dd4dd0e0318",
+          ""
+        ],
+        [
+          "silk_overlap|77764719|78414719|003a64d6-0297-4286-8f3d-b4f7c14fd4a2|3f3412ad-5796-4520-9aa1-7dd4dd0e0318",
+          ""
+        ],
+        [
+          "silk_overlap|82434500|79304619|1c7d7ffb-2cd5-41e7-9043-402b62e01d79|47001897-9608-419a-9243-11999acff4ed",
+          ""
+        ],
+        [
+          "silk_overlap|82967900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|b9c4e6fa-43c5-4c8f-8b8b-3fdc49d07c5b",
+          ""
+        ],
+        [
+          "silk_overlap|83704500|79304619|1c7d7ffb-2cd5-41e7-9043-402b62e01d79|726f892c-282c-4718-a7e1-8fd8c1830a7a",
+          ""
+        ],
+        [
+          "silk_overlap|84237900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|3b53d59b-c54a-4a1c-937c-ea7e5750d42a",
+          ""
+        ],
+        [
+          "silk_overlap|84974500|79304619|1c7d7ffb-2cd5-41e7-9043-402b62e01d79|0f47a85f-ad65-4111-99e2-813fc0a16e72",
+          ""
+        ],
+        [
+          "silk_overlap|85507900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|d9015b8e-6272-4d07-b4b5-feb28f0737d7",
+          ""
+        ],
+        [
+          "silk_overlap|86244500|79304619|1c7d7ffb-2cd5-41e7-9043-402b62e01d79|cdc10262-c7c1-4a9b-8f83-ce57b1aeb1a9",
+          ""
+        ],
+        [
+          "silk_overlap|86777900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|18e44d8c-8ffb-46f4-859c-e9b9caa1cfef",
+          ""
+        ],
+        [
+          "silk_overlap|87514500|79304619|1c7d7ffb-2cd5-41e7-9043-402b62e01d79|aa646ae0-e9ef-43f6-b502-90f3545719c5",
+          ""
+        ],
+        [
+          "silk_overlap|88047900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|d8f30d92-f99e-47f5-afcc-2906f4741d70",
+          ""
+        ],
+        [
+          "silk_overlap|88784500|79304619|1c7d7ffb-2cd5-41e7-9043-402b62e01d79|bc44b137-3133-49ae-8455-b94b8fb63d13",
+          ""
+        ],
+        [
+          "silk_overlap|89317900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|4d7f1335-3fe1-4b49-90b2-22b53db769bb",
+          ""
+        ],
+        [
+          "silk_overlap|90054500|79304619|1c7d7ffb-2cd5-41e7-9043-402b62e01d79|caf5a941-7d5a-4ec8-bbd7-ba717fb95f1d",
+          ""
+        ],
+        [
+          "silk_overlap|90587900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|dc9f240b-fc3b-4d5c-b096-0f733e90f9d4",
+          ""
+        ],
+        [
+          "silk_overlap|91324500|79304619|1c7d7ffb-2cd5-41e7-9043-402b62e01d79|2f09c4f6-f1ae-4bbf-9246-d9a8aec0e950",
+          ""
+        ],
+        [
+          "silk_overlap|91857900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|8ba339d1-7d29-471c-8a5b-86dc2018d413",
+          ""
+        ],
+        [
+          "silk_overlap|97223576|55370642|c8473281-69b9-4d36-9977-b82250f7f705|cda89dca-27ea-49de-a5df-c0dcc6debb54",
+          ""
+        ],
+        [
+          "silk_overlap|97273797|67406481|4bc0258c-88d7-4126-b2fc-c8e305562b3e|fd149ede-f4f9-4de1-b594-5c50d04c3582",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -163,7 +316,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "warning",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -523,7 +676,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Solderbit_Gamepad"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -563,10 +718,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../fabrication/Eurocircuits/gerbers-v0.6/",
-      "pos_files": "",
+      "plot": "../fabrication/JLCPCB/gerbers-v0.7/",
+      "pos_files": "../fabrication/JLCPCB/gerbers-v0.7/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "solderbit-gamepad.step",
       "svg": "",
       "vrml": ""
     },
@@ -574,7 +729,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "../fabrication/JLCPCB/gerbers-v0.7/solderbit-gamepad.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -585,20 +740,212 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Availability",
+            "name": "Availability",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "CUI_purchase_URL",
+            "name": "CUI_purchase_URL",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Check_prices",
+            "name": "Check_prices",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MANUFACTURER",
+            "name": "MANUFACTURER",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MF",
+            "name": "MF",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MP",
+            "name": "MP",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "OC_FARNELL",
+            "name": "OC_FARNELL",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "OC_NEWARK",
+            "name": "OC_NEWARK",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "PACKAGE",
+            "name": "PACKAGE",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "PARTREV",
+            "name": "PARTREV",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Package",
+            "name": "Package",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Price",
+            "name": "Price",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Purchase-URL",
+            "name": "Purchase-URL",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "RS_Components_1707987_Purchase_URL",
+            "name": "RS_Components_1707987_Purchase_URL",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "STANDARD",
+            "name": "STANDARD",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "SUPPLIER",
+            "name": "SUPPLIER",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "SnapEDA_Link",
+            "name": "SnapEDA_Link",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pins",
+            "name": "Sim.Pins",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Type",
+            "name": "Sim.Type",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "LCSC Part",
+            "name": "LCSC Part",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Device",
+            "name": "Sim.Device",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": false,
+        "name": "JLC PCBA",
+        "sort_asc": true,
+        "sort_field": "Value"
+      }
+    ],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
-        {
-          "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
         {
           "group_by": true,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
@@ -611,19 +958,19 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -701,7 +1048,7 @@
           "group_by": false,
           "label": "Package",
           "name": "Package",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -744,6 +1091,36 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Basic JLCPCB part",
+          "name": "Basic",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -751,7 +1128,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
