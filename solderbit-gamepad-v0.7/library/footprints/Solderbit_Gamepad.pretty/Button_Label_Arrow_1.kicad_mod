@@ -1,0 +1,114 @@
+(footprint "Button_Label_Arrow_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "Ref**"
+		(at 0.15 2.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d970aba8-b220-4fab-856e-a7d2b2d01d8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0.2 3.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d1849cb-e89a-455c-afee-93239d414385")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71f676b0-af56-44a2-b7cd-814f510dd8f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "770f072f-d271-4e5b-ad8d-187c9b608547")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_poly
+		(pts
+			(xy -1.062632 -1.062632) (xy -2.125264 -2.125264) (xy 2.125263 -2.125264) (xy 1.062632 -1.062632)
+			(xy 0 -0.000001) (xy -1.062632 -1.062632)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Cu")
+		(uuid "69611c4f-eb4d-4c72-9fcb-3fdf566fc8d2")
+	)
+	(fp_poly
+		(pts
+			(xy -1.062632 -1.062632) (xy -2.125264 -2.125264) (xy 2.125263 -2.125264) (xy 1.062632 -1.062632)
+			(xy 0 -0.000001) (xy -1.062632 -1.062632)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "f2787fa0-f484-4792-a3de-19a0c5b4c0d4")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "b14af562-711f-4b1c-bb88-9fc80f2efe78")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.2 -2.2) (xy 2.2 -2.2) (xy 2.2 -2.1) (xy 0 0.1) (xy -2.2 -2.1)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

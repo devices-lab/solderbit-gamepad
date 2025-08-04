@@ -1,0 +1,237 @@
+(footprint "NeoPixel_WS2812B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5f0935bc-4c52-450d-aeca-f1925124ae2a")
+		(effects
+			(font
+				(face "Segoe UI This")
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.272505 -0.560311) (xy -1.19705 -0.545159) (xy -1.138027 -0.522251) (xy -1.092361 -0.492657)
+					(xy -1.057727 -0.45659) (xy -1.032732 -0.413376) (xy -1.01705 -0.361532) (xy -1.01147 -0.298921)
+					(xy -1.015509 -0.248982) (xy -1.027223 -0.204155) (xy -1.046227 -0.162712) (xy -1.071615 -0.125753)
+					(xy -1.103056 -0.093485) (xy -1.14098 -0.065547) (xy -1.183458 -0.043151) (xy -1.231472 -0.025858)
+					(xy -1.231472 -0.02311) (xy -1.210252 -0.014286) (xy -1.189156 -0.000884) (xy -1.149528 0.034958)
+					(xy -1.112953 0.079043) (xy -1.081201 0.125205) (xy -0.896065 0.415) (xy -1.149467 0.415) (xy -1.301813 0.162819)
+					(xy -1.334603 0.111589) (xy -1.366355 0.072998) (xy -1.399877 0.048391) (xy -1.417927 0.042009)
+					(xy -1.437796 0.039842) (xy -1.497208 0.039842) (xy -1.497208 0.415) (xy -1.71782 0.415) (xy -1.71782 -0.126852)
+					(xy -1.497208 -0.126852) (xy -1.401587 -0.126852) (xy -1.355843 -0.13176) (xy -1.318407 -0.145603)
+					(xy -1.287464 -0.168007) (xy -1.263122 -0.198226) (xy -1.248694 -0.232331) (xy -1.243745 -0.271627)
+					(xy -1.250068 -0.318637) (xy -1.267388 -0.35295) (xy -1.295501 -0.377872) (xy -1.337152 -0.394323)
+					(xy -1.397435 -0.400587) (xy -1.497208 -0.400587) (xy -1.497208 -0.126852) (xy -1.71782 -0.126852)
+					(xy -1.71782 -0.565879) (xy -1.368064 -0.565879)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.216887 0.415) (xy -0.804352 0.415) (xy -0.804352 -0.565879) (xy -0.239418 -0.565879) (xy -0.239418 -0.386238)
+					(xy -0.583739 -0.386238) (xy -0.583739 -0.167274) (xy -0.263354 -0.167274) (xy -0.263354 0.011693)
+					(xy -0.583739 0.011693) (xy -0.583739 0.236031) (xy -0.216887 0.236031)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.506376 -0.386238) (xy 0.160712 -0.386238) (xy 0.160712 -0.143827) (xy 0.478411 -0.143827)
+					(xy 0.478411 0.035141) (xy 0.160712 0.035141) (xy 0.160712 0.415) (xy -0.0599 0.415) (xy -0.0599 -0.565879)
+					(xy 0.506376 -0.565879)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.146109 -0.306004) (xy 0.958958 -0.280603) (xy 1.092803 -0.135828) (xy 0.968484 -0.050038)
+					(xy 0.874939 -0.223511) (xy 0.781333 -0.050038) (xy 0.656342 -0.135828) (xy 0.790919 -0.280603)
+					(xy 0.603707 -0.306004) (xy 0.652189 -0.444734) (xy 0.824381 -0.370484) (xy 0.79501 -0.565879)
+					(xy 0.954867 -0.565879) (xy 0.925436 -0.370484) (xy 1.096223 -0.444734)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.783095 -0.306004) (xy 1.595944 -0.280603) (xy 1.729789 -0.135828) (xy 1.605469 -0.050038)
+					(xy 1.511924 -0.223511) (xy 1.418318 -0.050038) (xy 1.293327 -0.135828) (xy 1.427905 -0.280603)
+					(xy 1.240693 -0.306004) (xy 1.289175 -0.444734) (xy 1.461366 -0.370484) (xy 1.431996 -0.565879)
+					(xy 1.591853 -0.565879) (xy 1.562421 -0.370484) (xy 1.733208 -0.444734)
+				)
+			)
+		)
+	)
+	(property "Value" "WS2812B-B/T"
+		(at 0.275 9.275 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02669a30-2fc7-4652-8222-8cf09c34a552")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d55084dc-c76a-4c99-8508-c6ef96bb7057")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80204f59-66b2-4a48-be6a-c38f20cfc635")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Worldsemi"
+		(at 0.05 10.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "26fe6cd2-ee58-40bf-b065-93bfc0792933")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(solder_mask_margin 0.038)
+	(attr smd)
+	(fp_line
+		(start -2.5 2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c69d6f7-a470-4d0e-b126-469ece8629b7")
+	)
+	(fp_line
+		(start -0.75 -2.5)
+		(end 0.75 -2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "758b765c-8b4d-4813-a0fa-ed0c9eb97ae3")
+	)
+	(fp_line
+		(start 0.75 2.5)
+		(end -0.75 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfcab24b-96af-4f8f-adb7-b53e6e423155")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "035f2084-7595-4f75-9fc3-c70f1c52f1cd")
+	)
+	(fp_poly
+		(pts
+			(xy -2.5 3) (xy -2.83 3.24) (xy -2.83 2.76) (xy -2.5 3)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ea207141-5680-49e1-9582-ed805cb8487d")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -2.5) (xy 2.5 -0.23) (xy 2.5 -0.986734) (xy 2.5 -2.5) (xy 2.45 -2.5) (xy 2.45 -1.77937) (xy 2.186165 -1.51)
+			(xy 1.108 -1.51) (xy 0.8 -1.79) (xy 0.8 -2.5)
+		)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "d9d2dfdb-fc63-4f09-aa68-29084f8568ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a169d2e0-21c8-42d4-8ad6-b8af23b854d0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.625 2.975 90)
+		(size 2.55 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "718ada94-3ded-44be-8df8-fac0f78d7962")
+	)
+	(pad "2" smd roundrect
+		(at 1.625 2.975 90)
+		(size 2.55 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "636410c6-b197-4e96-8ab1-fe613a0e2d49")
+	)
+	(pad "3" smd roundrect
+		(at 1.625 -2.975 90)
+		(size 2.55 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "7d487852-2878-4356-a8ee-ee53d357aa78")
+	)
+	(pad "4" smd roundrect
+		(at -1.625 -2.975 90)
+		(size 2.55 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "3c7cd2d0-164c-4927-aab1-98ac8b7d9cf5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/3d_models/neopixel_WS2812B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

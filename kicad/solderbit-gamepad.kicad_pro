@@ -729,7 +729,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../fabrication/JLCPCB/gerbers-v0.7/solderbit-gamepad.csv",
+    "bom_export_filename": "../../../Desktop/solderbit-gamepad.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -934,7 +934,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": true,

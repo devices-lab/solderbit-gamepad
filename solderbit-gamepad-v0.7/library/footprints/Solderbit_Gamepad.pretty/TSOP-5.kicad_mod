@@ -1,0 +1,220 @@
+(footprint "TSOP-5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TSOP-5 package (comparable to TSOT-23), https://www.vishay.com/docs/71200/71200.pdf")
+	(tags "Jedec MO-193C TSOP-5L")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "33105be5-ffca-4c66-932b-5c041ceb00e4")
+		(effects
+			(font
+				(face "Segoe UI This")
+				(size 1 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -0.954379 -0.560311) (xy -0.897787 -0.545159) (xy -0.85352 -0.522251) (xy -0.81927 -0.492657)
+					(xy -0.793295 -0.45659) (xy -0.774548 -0.413376) (xy -0.762787 -0.361532) (xy -0.758602 -0.298921)
+					(xy -0.761631 -0.248982) (xy -0.770417 -0.204155) (xy -0.78467 -0.162712) (xy -0.803711 -0.125753)
+					(xy -0.827292 -0.093485) (xy -0.855734 -0.065547) (xy -0.887593 -0.043151) (xy -0.923603 -0.025858)
+					(xy -0.923603 -0.02311) (xy -0.907689 -0.014286) (xy -0.891867 -0.000884) (xy -0.862146 0.034958)
+					(xy -0.834714 0.079043) (xy -0.8109 0.125205) (xy -0.672048 0.415) (xy -0.8621 0.415) (xy -0.97636 0.162819)
+					(xy -1.000952 0.111589) (xy -1.024766 0.072998) (xy -1.049907 0.048391) (xy -1.063445 0.042009)
+					(xy -1.078346 0.039842) (xy -1.122905 0.039842) (xy -1.122905 0.415) (xy -1.288365 0.415) (xy -1.288365 -0.126852)
+					(xy -1.122905 -0.126852) (xy -1.05119 -0.126852) (xy -1.016882 -0.13176) (xy -0.988805 -0.145603)
+					(xy -0.965598 -0.168007) (xy -0.947341 -0.198226) (xy -0.93652 -0.232331) (xy -0.932808 -0.271627)
+					(xy -0.937551 -0.318637) (xy -0.95054 -0.35295) (xy -0.971625 -0.377872) (xy -1.002863 -0.394323)
+					(xy -1.048076 -0.400587) (xy -1.122905 -0.400587) (xy -1.122905 -0.126852) (xy -1.288365 -0.126852)
+					(xy -1.288365 -0.565879) (xy -1.026048 -0.565879)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.162665 0.415) (xy -0.603264 0.415) (xy -0.603264 -0.565879) (xy -0.179563 -0.565879) (xy -0.179563 -0.386238)
+					(xy -0.437804 -0.386238) (xy -0.437804 -0.167274) (xy -0.197515 -0.167274) (xy -0.197515 0.011693)
+					(xy -0.437804 0.011693) (xy -0.437804 0.236031) (xy -0.162665 0.236031)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.379782 -0.386238) (xy 0.120534 -0.386238) (xy 0.120534 -0.143827) (xy 0.358808 -0.143827)
+					(xy 0.358808 0.035141) (xy 0.120534 0.035141) (xy 0.120534 0.415) (xy -0.044924 0.415) (xy -0.044924 -0.565879)
+					(xy 0.379782 -0.565879)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.859582 -0.306004) (xy 0.719219 -0.280603) (xy 0.819603 -0.135828) (xy 0.726363 -0.050038)
+					(xy 0.656204 -0.223511) (xy 0.586 -0.050038) (xy 0.492256 -0.135828) (xy 0.59319 -0.280603) (xy 0.452781 -0.306004)
+					(xy 0.489142 -0.444734) (xy 0.618286 -0.370484) (xy 0.596258 -0.565879) (xy 0.716151 -0.565879)
+					(xy 0.694077 -0.370484) (xy 0.822167 -0.444734)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.337321 -0.306004) (xy 1.196958 -0.280603) (xy 1.297342 -0.135828) (xy 1.204102 -0.050038)
+					(xy 1.133943 -0.223511) (xy 1.063739 -0.050038) (xy 0.969995 -0.135828) (xy 1.070929 -0.280603)
+					(xy 0.93052 -0.306004) (xy 0.966881 -0.444734) (xy 1.096025 -0.370484) (xy 1.073997 -0.565879)
+					(xy 1.19389 -0.565879) (xy 1.171816 -0.370484) (xy 1.299906 -0.444734)
+				)
+			)
+		)
+	)
+	(property "Value" "TSOP-5"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1966c09-1aae-4810-87cd-8bc5376fd678")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9101be42-15a2-457a-8f69-a24210f3e74c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b191f269-a62f-4db7-af72-5cbe0a4341f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.8 -1.5)
+		(end 0.8 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "788742c4-2abe-4061-be53-cef3fa124b48")
+	)
+	(fp_line
+		(start -0.8 1.5)
+		(end 0.8 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04d4a0c0-dc3b-4407-85fa-9513a4cedb5d")
+	)
+	(fp_line
+		(start 0.85 0.55)
+		(end 0.85 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6a20f3c-b9d4-4fef-954d-094d2b0ab321")
+	)
+	(fp_poly
+		(pts
+			(xy -1.4 -1.4) (xy -1.64 -1.73) (xy -1.16 -1.73) (xy -1.4 -1.4)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a63b7d90-ea66-4a9f-8728-b07869c313e6")
+	)
+	(fp_rect
+		(start -2.3 -1.9)
+		(end 2.3 1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "22e4072e-fa71-40f5-8eb5-ac41463cd7db")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "701177a3-9068-46ec-8134-f14ac961d88a")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.48 -0.95)
+		(size 1.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ca45f4cf-6eb5-41dc-8f6a-fe90f3e77c2c")
+	)
+	(pad "2" smd roundrect
+		(at -1.48 0)
+		(size 1.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "410d9039-a4fb-4134-99e5-2648af14709f")
+	)
+	(pad "3" smd roundrect
+		(at -1.48 0.95)
+		(size 1.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6cee9f10-ef15-44ba-a78f-a547111247fc")
+	)
+	(pad "4" smd roundrect
+		(at 1.475 0.95)
+		(size 1.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "4276acb4-5f2f-4a93-a3b2-13ce2a161e3e")
+	)
+	(pad "5" smd roundrect
+		(at 1.48 -0.95)
+		(size 1.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "66889dba-eb0c-4e2a-aaaa-5318b4319af0")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/TSOP-5_1.65x3.05mm_P0.95mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
