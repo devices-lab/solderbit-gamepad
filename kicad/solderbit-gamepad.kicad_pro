@@ -118,14 +118,6 @@
       ],
       "drc_exclusions": [
         [
-          "silk_overlap|105223576|55370642|8c489712-95d1-4960-a295-b7fe4163d851|f1ca9ee5-aefc-43de-8986-94ef928b1950",
-          ""
-        ],
-        [
-          "silk_overlap|113223576|55370642|86c03164-93a9-4a22-870a-b8c838bd3a68|3d87b86f-2930-4542-b344-d5c6a5913044",
-          ""
-        ],
-        [
           "silk_overlap|124864719|79214719|0680a942-c668-46c0-a3f4-f798d1482ead|c6a086d9-becb-46d1-8223-fa5bb9a803bb",
           ""
         ],
@@ -135,10 +127,6 @@
         ],
         [
           "silk_overlap|125764719|76964719|4dcec081-9b73-41a6-96b1-df935659861e|71f02cc0-3959-4cec-bda1-799fe7de850e",
-          ""
-        ],
-        [
-          "silk_overlap|126034330|69489110|f0a46557-1d33-47be-9920-83c9baffd480|dc3160ce-8540-458e-bac5-d215bd1f1f71",
           ""
         ],
         [
@@ -163,10 +151,6 @@
         ],
         [
           "silk_overlap|130764719|78414719|8eb1de4e-8a77-40e1-b0df-2849ca7f63e4|90d73933-fa6d-4e23-8cd2-b9b5fa579ec0",
-          ""
-        ],
-        [
-          "silk_overlap|131144666|56931169|6554ef71-d008-4256-8d47-db70b15fb809|cddf68d0-764d-4607-a8a8-e18dbc310cc6",
           ""
         ],
         [
@@ -259,14 +243,6 @@
         ],
         [
           "silk_overlap|91857900|75824819|c659f650-fa85-49ac-af32-fa1396e04f0a|8ba339d1-7d29-471c-8a5b-86dc2018d413",
-          ""
-        ],
-        [
-          "silk_overlap|97223576|55370642|c8473281-69b9-4d36-9977-b82250f7f705|cda89dca-27ea-49de-a5df-c0dcc6debb54",
-          ""
-        ],
-        [
-          "silk_overlap|97273797|67406481|4bc0258c-88d7-4126-b2fc-c8e305562b3e|fd149ede-f4f9-4de1-b594-5c50d04c3582",
           ""
         ]
       ],
@@ -670,6 +646,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -718,8 +695,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../fabrication/JLCPCB/gerbers-v0.7/",
-      "pos_files": "../fabrication/JLCPCB/gerbers-v0.7/",
+      "plot": "../fabrication/JLCPCB/gerbers-v0.8/",
+      "pos_files": "../fabrication/JLCPCB/gerbers-v0.8/",
       "specctra_dsn": "",
       "step": "solderbit-gamepad.step",
       "svg": "",
@@ -729,7 +706,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "../../../Desktop/solderbit-gamepad.csv",
+    "bom_export_filename": "../fabrication/JLCPCB/gerbers-v0.8/solderbit-gamepad.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -742,7 +719,7 @@
     },
     "bom_presets": [
       {
-        "exclude_dnp": false,
+        "exclude_dnp": true,
         "fields_ordered": [
           {
             "group_by": true,
@@ -923,6 +900,18 @@
             "label": "Sim.Device",
             "name": "Sim.Device",
             "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Basic JLCPCB part",
+            "name": "Basic",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Part type",
+            "name": "Part type",
+            "show": false
           }
         ],
         "filter_string": "",
@@ -934,7 +923,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": true,
@@ -1120,6 +1109,12 @@
           "group_by": false,
           "label": "Basic JLCPCB part",
           "name": "Basic",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part type",
+          "name": "Part type",
           "show": false
         }
       ],

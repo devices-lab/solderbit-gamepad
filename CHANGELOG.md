@@ -175,7 +175,23 @@ This changelog documents the iterative design process and changes made to the So
 
 - "Shift register" text (was hardly visible due to vias, now only reference designator remains)
 
-## Future Work
+## v0.8 (started 2 February, 2026)
 
-- Make the pads on the screws more circular on the front to fit larger screws
-- Make the text (P0, P1, etc.) in the edge connector appear by removing the copper, like on the micro:bit
+![Device in version 0.8](media/version-images/solderbit-gamepad-v0.8.png "solder:bit Gamepad v0.8")
+
+### Added
+
+- HWIDX QR code (https://hwidx.org/1/0/0.8)
+
+### Changed
+
+- Replaced the custom micro:bit PCB edge connector with a new SMTSO adaptor 
+- Placed the new board orgin at the centre SMTSO
+- Moved the upper portion of the edge (where the custom micro:bit PCB connector used to be) slightly more (had to remove a straight line and connect two curves together)
+- Moved NeoPixels and surrounding components slightly down
+- Replaced the old Devices Lab logo with a new one
+
+### Removed
+
+- Pro2 Network+ logo
+- UKRI logo

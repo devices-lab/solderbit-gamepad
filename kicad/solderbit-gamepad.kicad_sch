@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "solder:bit Gamepad")
-		(date "2025-06-19")
-		(rev "v0.7")
+		(date "2026-02-02")
+		(rev "v0.8")
 		(company "Devices Lab")
 		(comment 1 "Lancaster University")
 		(comment 2 "Aron Eggens")
@@ -1392,334 +1392,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Solderbit_Gamepad:Microbit_Edge_Connector"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -0.254 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Microbit_Edge_Connector"
-				(at 0.254 15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Solderbit_Gamepad:Microbit_Edge_Connector"
-				(at 1.778 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Custom designed edge connector for the micro:bit"
-				(at 0.762 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Microbit_Edge_Connector_1_1"
-				(rectangle
-					(start -19.05 5.08)
-					(end 19.05 -3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -16.51 -3.81) (xy -16.51 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -15.24 2.54)
-					(radius 1.7961)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -13.97 1.27) (xy -13.97 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -3.81) (xy -8.89 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -7.62 2.54)
-					(radius 1.7961)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 1.27) (xy -6.35 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 1.7961)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 1.27) (xy 6.35 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 2.54)
-					(radius 1.7961)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -3.81) (xy 8.89 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 13.97 1.27) (xy 13.97 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 15.24 2.54)
-					(radius 1.7961)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 1.27) (xy 16.51 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -6.35 90)
-					(length 2.54)
-					(name "P0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -7.62 -6.35 90)
-					(length 2.54)
-					(name "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 -6.35 90)
-					(length 2.54)
-					(name "3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 15.24 -6.35 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3302,6 +2974,110 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Virtual_Modules:SMTSO4020MTJ"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMTSO4020MTJ"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Virtual_Modules:SMD-1_BD8.7-D6.2"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2916373"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMTSO4020MTJ_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V0"
 			(power)
 			(pin_numbers
@@ -3691,6 +3467,16 @@
 		)
 		(uuid cbd9b227-ce9a-420a-b5ca-d96eb5007f98)
 	)
+	(text "PO"
+		(exclude_from_sim no)
+		(at 105.41 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d1451bd-13a4-489d-a4fc-630e498ff935")
+	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
 		(at 15.748 167.386 0)
@@ -3704,6 +3490,16 @@
 			(justify left bottom)
 		)
 		(uuid "1ee3185d-93eb-483e-a6c4-b5c218c009d1")
+	)
+	(text "P2"
+		(exclude_from_sim no)
+		(at 120.65 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3400b6ee-ad08-4ef4-b44e-2ddcec3bec1b")
 	)
 	(text "PISO shift register"
 		(exclude_from_sim no)
@@ -3747,7 +3543,7 @@
 		)
 		(uuid "b61b847b-184d-4de0-9fdb-066cb838f9ad")
 	)
-	(text "micro:bit edge connector "
+	(text "micro:bit SMTSO adaptor"
 		(exclude_from_sim no)
 		(at 88.138 19.05 0)
 		(effects
@@ -3774,6 +3570,58 @@
 			(justify left bottom)
 		)
 		(uuid "e0091991-58c9-44e8-aba6-b1cf37a36187")
+	)
+	(text "P1"
+		(exclude_from_sim no)
+		(at 113.03 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e19d157d-54ca-4d3d-af73-6639e8d1b4d9")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 135.89 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed88a5a8-6ac9-4f4d-9fda-fea4bbfee5e0")
+	)
+	(text "3V"
+		(exclude_from_sim no)
+		(at 128.27 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fa5137e8-1565-4ddf-890b-8fee9cb4e926")
+	)
+	(text_box "Design notes"
+		(exclude_from_sim no)
+		(at 106.68 172.72 0)
+		(size 15.24 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 233 233 233 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "25acbba9-5785-4565-b4bc-8d6c8531fba3")
 	)
 	(text_box "Six 4-pin and two 2-pin tactile buttons are connected to the shift register, each configured with a pull-down resistor."
 		(exclude_from_sim no)
@@ -3867,6 +3715,29 @@
 		)
 		(uuid "52f9da25-5219-498f-b16c-d49f511ebbd2")
 	)
+	(text_box "Silkscreen & layout notes"
+		(exclude_from_sim no)
+		(at 89.535 177.8 0)
+		(size 15.24 5.715)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 238 205 205 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "56d3712d-17fa-476c-873d-987a0a1c4a56")
+	)
 	(text_box "P0 is connected to the serial (SER) output of the shift register."
 		(exclude_from_sim no)
 		(at 90.805 55.88 0)
@@ -3915,8 +3786,8 @@
 	)
 	(text_box "3.3V low dropout (LDO) voltage regulator."
 		(exclude_from_sim no)
-		(at 250.825 78.74 0)
-		(size 18.415 7.62)
+		(at 257.81 76.2 0)
+		(size 18.415 9.525)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3935,6 +3806,29 @@
 			(justify left top)
 		)
 		(uuid "67e06291-f2b1-4528-8b5e-852ff43c9b0c")
+	)
+	(text_box "Block name"
+		(exclude_from_sim no)
+		(at 89.535 172.72 0)
+		(size 15.24 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 220 234 213 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "8d614be5-16b2-4bca-9c5c-f484d41e0d25")
 	)
 	(text_box "Switch to select micro:bit power or an on-board power source."
 		(exclude_from_sim no)
@@ -3959,10 +3853,33 @@
 		)
 		(uuid "ba859df0-d4e6-4ef4-bbb9-1766b59056a3")
 	)
+	(text_box "LCSC (JLCPCB) part numbers"
+		(exclude_from_sim no)
+		(at 106.68 177.8 0)
+		(size 17.78 5.715)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0.04)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 132 0 132 1)
+			)
+			(justify left top)
+		)
+		(uuid "c7a63510-3600-4a25-9bc6-0b53d40fe954")
+	)
 	(text_box "P1 is shared between the parallel load (PL) control of the shift register and data (DATA) output to the NeoPixels."
 		(exclude_from_sim no)
 		(at 111.125 55.88 0)
-		(size 20.32 15.875)
+		(size 20.32 17.78)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3981,6 +3898,28 @@
 			(justify left top)
 		)
 		(uuid "d78531fa-3be8-4e90-82b3-fb957779080b")
+	)
+	(text_box "This information is provided \"as-is\". You bear the risk of using it. Some information relates to pre-released specification which may change without notice. Author makes no warranties, express or implied, with respect to the information provided here."
+		(exclude_from_sim no)
+		(at 128.27 170.815 0)
+		(size 41.275 15.875)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 194 0 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 255 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "def56e2d-5e15-4b15-ac26-0e9b7ef3be17")
 	)
 	(text_box "The 74H165 is an 8-bit parallel-in/serial-out shift register. It converts parallel signals to serial output."
 		(exclude_from_sim no)
@@ -4482,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 48.26) (xy 128.27 40.64)
+			(xy 128.27 48.26) (xy 128.27 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4842,7 +4781,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 40.64) (xy 120.65 52.07)
+			(xy 120.65 38.1) (xy 120.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5080,6 +5019,17 @@
 		)
 		(uuid "d2b91e07-3d25-40f3-92f3-84d89ad2447f")
 	)
+	(polyline
+		(pts
+			(xy 72.39 190.5) (xy 174.625 190.5)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 220 234 213 1)
+		)
+		(uuid "d541a561-fd8b-41d5-9a4c-703c5425339b")
+	)
 	(wire
 		(pts
 			(xy 97.79 110.49) (xy 97.79 130.81)
@@ -5102,7 +5052,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 40.64) (xy 135.89 43.18)
+			(xy 135.89 38.1) (xy 135.89 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5142,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 113.03 49.53)
+			(xy 113.03 38.1) (xy 113.03 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5182,7 +5132,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 45.72) (xy 105.41 40.64)
+			(xy 105.41 45.72) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5872,6 +5822,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 83.82 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e811f7b4-6b62-4765-b105-5e13a6382fe1")
 		)
@@ -5882,6 +5841,99 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Virtual_Modules:SMTSO4020MTJ")
+		(at 135.89 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0750ab51-61ee-4685-b253-f4df2103e4a6")
+		(property "Reference" "CN5"
+			(at 137.922 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSOM310BTR"
+			(at 140.97 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:SMTSOM310BTR"
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2915635"
+			(at 146.05 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 135.89 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc690a3a-d4f2-4db6-9033-4a8c95698db3")
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -6167,6 +6219,15 @@
 				)
 			)
 		)
+		(property "Part type" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6bd1e9f-579e-4aaf-a34b-41f33954e9b6")
 		)
@@ -6352,6 +6413,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 48.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6547,6 +6617,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 73.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6828,6 +6907,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ca679ec-5949-4c52-aab0-685d9669703e")
 		)
@@ -7101,6 +7189,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 114.3 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbb3f468-c0bf-4364-bb7a-90c0f6b248e4")
 		)
@@ -7220,6 +7317,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Basic"
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7476,6 +7582,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 57.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d516705-eb97-4f6c-b44e-333ea96b7e79")
 		)
@@ -7595,6 +7710,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Basic"
+			(at 31.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7718,6 +7842,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 266.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "998ae807-58ea-479a-b7b4-0d4a051cb22b")
 		)
@@ -7836,6 +7969,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 248.92 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7970,6 +8112,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended promotional"
+			(at 59.69 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb3273e3-8760-43ef-9197-0321923045b7")
 		)
@@ -8087,6 +8238,99 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Virtual_Modules:SMTSO4020MTJ")
+		(at 120.65 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43dedc37-1318-47e2-84e8-757046a61bc5")
+		(property "Reference" "CN3"
+			(at 122.682 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSOM310BTR"
+			(at 125.73 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:SMTSOM310BTR"
+			(at 128.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2915635"
+			(at 130.81 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 120.65 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c496b895-1a2c-4c5d-8866-50d475d5a2b2")
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "CN3")
 					(unit 1)
 				)
 			)
@@ -8332,6 +8576,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 245.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e0d34f7-7b65-49f1-99d2-e7e783b9d62f")
 		)
@@ -8342,115 +8595,6 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Solderbit_Gamepad:Microbit_Edge_Connector")
-		(at 120.65 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "562d76c4-3bff-489b-bcc6-7863672f4b15")
-		(property "Reference" "J1"
-			(at 120.396 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Microbit_Edge_Connector"
-			(at 120.904 18.796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Solderbit_Gamepad:Microbit_Edge_Connector"
-			(at 122.428 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Custom designed edge connector for the micro:bit"
-			(at 121.412 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" ""
-			(at 120.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 120.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 120.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 120.65 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26ca90b5-12fd-4a31-8243-af2816e33381")
-		)
-		(pin "2"
-			(uuid "6acecf62-4402-42f0-b52a-daa01cc6072e")
-		)
-		(pin "3"
-			(uuid "9db46480-c7e1-4d67-afc9-79c6fd9bd233")
-		)
-		(pin "5"
-			(uuid "ca073d66-1c23-437a-a5ac-8bdede1224e1")
-		)
-		(pin "4"
-			(uuid "fa37d6c6-862d-40bf-a144-b0b82e194ffc")
-		)
-		(instances
-			(project "solderbit-gamepad"
-				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8534,6 +8678,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" ""
+			(at 46.99 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8651,6 +8804,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8979,6 +9141,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a3930b8-c6fe-41fb-8257-69c386105e6d")
 		)
@@ -9167,6 +9338,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 167.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b77d2d89-2961-4db7-8364-0bbd601792dd")
 		)
@@ -9177,6 +9357,99 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Virtual_Modules:SMTSO4020MTJ")
+		(at 113.03 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72ee69c0-0de3-42f3-899e-0369485ccda4")
+		(property "Reference" "CN2"
+			(at 115.062 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSOM310BTR"
+			(at 118.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:SMTSOM310BTR"
+			(at 120.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2915635"
+			(at 123.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 113.03 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abe20c26-a2f9-429b-b453-ba7ae4434526")
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "CN2")
 					(unit 1)
 				)
 			)
@@ -9353,6 +9626,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Basic"
+			(at 114.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9542,6 +9824,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 234.95 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37122e70-359d-41c6-916e-47af98f35cec")
 		)
@@ -9661,6 +9952,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Basic"
+			(at 69.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9846,6 +10146,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Basic"
+			(at 207.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10236,6 +10545,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31df091a-f36b-4eb9-9840-916c4348945a")
 		)
@@ -10495,6 +10813,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Basic"
+			(at 167.64 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10882,6 +11209,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 255.27 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d7babd7-8fe0-4bc9-873a-d555c98f3b48")
 		)
@@ -11002,6 +11338,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 22.86 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "493f8c25-e2d3-4f86-a267-f3cd7bf40b8c")
 		)
@@ -11120,6 +11465,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 194.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11513,6 +11867,15 @@
 				)
 			)
 		)
+		(property "Part type" ""
+			(at 236.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86d61a03-9c05-48be-a279-582b2f24400e")
 		)
@@ -11590,6 +11953,99 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Virtual_Modules:SMTSO4020MTJ")
+		(at 128.27 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9608fa1-43da-4116-95bc-82af357614cc")
+		(property "Reference" "CN4"
+			(at 130.302 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSOM310BTR"
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:SMTSOM310BTR"
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2915635"
+			(at 138.43 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 128.27 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 128.27 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db880fc2-7bcd-4f8e-8c08-ec51833a67fc")
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "CN4")
 					(unit 1)
 				)
 			)
@@ -11699,6 +12155,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Basic"
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11819,6 +12284,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 194.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -12151,6 +12625,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 87.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97d98659-d12e-4e64-b3ab-76b67f7b60a9")
 		)
@@ -12415,6 +12898,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6fd297a7-fc86-4821-bf43-a0b1cfa64827")
 		)
@@ -12542,6 +13034,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d4c06be-e3db-40c1-9883-f2df7d44bfe5")
 		)
@@ -12666,6 +13167,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 60.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68bf647e-c91c-4f8a-a2a8-f41a9ca9c8ae")
 		)
@@ -12682,6 +13192,99 @@
 			(project "solderbit-gamepad"
 				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
 					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Virtual_Modules:SMTSO4020MTJ")
+		(at 105.41 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3c7e4d6-a663-4646-9224-e9acbf1a2f3e")
+		(property "Reference" "CN1"
+			(at 107.442 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTSOM310BTR"
+			(at 110.49 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Solderbit_Gamepad:SMTSOM310BTR"
+			(at 113.03 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2915635"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 105.41 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5eedf99-2e88-4e47-8ef0-293cdeb4cde5")
+		)
+		(instances
+			(project "solderbit-gamepad"
+				(path "/5cb26b28-0a45-4802-97bd-4f21bb092ec3"
+					(reference "CN1")
 					(unit 1)
 				)
 			)
@@ -12846,6 +13449,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 247.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -13177,6 +13789,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a01fcc29-efc1-4a23-b700-36c01436ff78")
 		)
@@ -13357,6 +13978,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 260.35 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6cf1bbfa-4823-4541-bcdc-5d8863d87ce5")
 		)
@@ -13455,6 +14085,15 @@
 				)
 			)
 		)
+		(property "Part type" ""
+			(at 57.15 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d7727de-d9d0-42eb-9430-3343b18cb7c5")
 		)
@@ -13545,6 +14184,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" ""
+			(at 36.83 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13726,6 +14374,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 242.57 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13980,6 +14637,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 194.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efea86d1-5826-4cee-8610-79cb238297e9")
 		)
@@ -14172,6 +14838,15 @@
 				)
 			)
 		)
+		(property "Part type" "Extended"
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5c414fc-baef-423f-869a-059fe56a1cd2")
 		)
@@ -14305,6 +14980,15 @@
 				)
 			)
 		)
+		(property "Part type" "Basic"
+			(at 128.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9500846-e6be-4948-8fc1-cb12a2d2c94c")
 		)
@@ -14423,6 +15107,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Part type" "Extended"
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
