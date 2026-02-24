@@ -2,7 +2,7 @@
 
 ![solder:bit Gamepad](./renders/v0.8/transparent.png "A render of the latest version of the board")
 
-The solder:bit Gamepad1 kit is designed to teach PCB assembly using surface-mount technology (SMT) to users of various abilities, including novices. Once assembled, the device functions as a gamepad that connects to a BBC micro:bit.
+The solder:bit Gamepad kit is designed to teach PCB assembly using surface-mount technology (SMT) to users of various abilities, including novices. Once assembled, the device functions as a gamepad that connects to a BBC micro:bit.
 
 ## Project status
 
