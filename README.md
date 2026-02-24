@@ -1,4 +1,4 @@
-# solder:bit Gamepad for the BBC micro:bit
+# solder:bit Gamepad
 
 ![solder:bit Gamepad](./renders/v0.8/transparent.png "A render of the latest version of the board")
 
@@ -19,3 +19,7 @@ This project is licensed under the GNU General Public License (GPL), version 3. 
 The GPL ensures that all modifications and improvements to the solder:bit Gamepad remain free and open for the public benefit. By using this project, you agree to abide by its terms and conditions.
 
 For more details on the license, please see the [LICENSE](/LICENSE.txt) file included in this repository.
+
+<div align="center">
+  <img src="media/hwidx.png" width="100"/>
+</div>
