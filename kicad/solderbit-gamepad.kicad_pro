@@ -656,7 +656,10 @@
     "pinned_footprint_libs": [
       "Solderbit_Gamepad"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "SolderbitGamepad",
+      "Solderbit_Gamepad"
+    ]
   },
   "meta": {
     "filename": "solderbit-gamepad.kicad_pro",

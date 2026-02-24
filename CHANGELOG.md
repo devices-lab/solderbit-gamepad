@@ -1,6 +1,6 @@
-# PCB Design Changelog for solder:bit Gamepad
+# Changelog for solder:bit Gamepad
 
-This changelog documents the iterative design process and changes made to the Solder:bit Gamepad PCB across various versions. The changelog is intended to provide a clear, historical record of modifications, enhancements, and decisions made throughout the project development. Each version captures specific changes categorized under "Added", "Changed", "Removed", and "Fixed" to provide a structured overview of the development progression.
+Each version captures specific changes categorized under "Added", "Changed", "Removed", and "Fixed" to provide an overview of the development progression.
 
 ## v0.1
 
