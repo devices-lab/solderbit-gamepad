@@ -2,15 +2,19 @@
 
 ![solder:bit Gamepad](./media/v0.8/main.png "A render of the latest solder:bit Gamepad")
 
-TThe solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) components. When assembled, the device functions as a gamepad that connects to a BBC micro:bit. You can then program it as the input controls for any micro:bit project you create!
+The solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) components. When assembled, the device functions as a gamepad that connects to a BBC micro:bit. You can then program it as the input controls for any micro:bit project you create!
 
 This soldering kit is designed to accommodate a wide range of soldering abilities, from complete novices to more experienced solderers. To support this, the kit comes in two variants:
 
-1. **Bare PCB** — you start with just the printed circuit board (PCB) and solder all of the components yourself. Some components are small, making for a fun challenge for those up to the task!
+### Bare PCB
+
+You start with just the printed circuit board (PCB) and solder all of the components yourself. Some components are small, making for a fun challenge for those up to the task!
 
 ![Bare PCB](./media/v0.8/bare-pcb.png)
 
-2. **Partially-assembled PCB** — this variant comes with some of the smaller components already pre-soldered. All components required for the device to function, including the power protection circuitry, are pre-placed. One button and one LED are also pre-soldered. Your task is to solder the remaining components.
+### Partially-assembled PCB
+
+This variant comes with some of the smaller components already pre-soldered. All components required for the device to function, including the power protection circuitry, are pre-placed. One button and one LED are also pre-soldered. Your task is to solder the remaining components.
 
 ![Partially-assembled PCB](./media/v0.8/partially-assembled.png)
 
