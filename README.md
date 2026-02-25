@@ -36,7 +36,7 @@ To fabricate the **bare PCB**, use the files in the [gerbers-v0.8](/fabrication/
 
 To fabricate the **partially-assembled PCB**, use the files in the [gerbers-v0.8-partial-assembly](/fabrication/gerbers-v0.8-partial-assembly/) folder. This contains the same Gerber files, along with the BOM, component position list (CPL) file, and a solder paste layer with paste only in the locations of the components for partial assembly.
 
-> [!NOTE]
+> [!WARNING]
 > The BOM and CPL files are formatted specifically for [JLCPCB](https://jlcpcb.com/), with all components sourced from [LCSC](https://www.lcsc.com/). If you need the fabrication files in a different format, you can export them from the [KiCad project files](/solderbit-gamepad-v0.8/).
 
 ### Components
@@ -65,7 +65,7 @@ For the **bare PCB** variant, you will need to source all of the components for 
 
 _\* Generic component; the LCSC part number is provided as a reference, but any equivalent component in the same package can be substituted._
 
-For the **partially-assembled PCB** variant, you only need to source all remaining components that are not pre-soldered:
+For the **partially-assembled PCB** variant, you only need to source the remaining components that are not pre-soldered:
 
 | Reference | Quantity | Part            | Package    | LCSC Part                                                     |
 | --------- | -------- | --------------- | ---------- | ------------------------------------------------------------- |
@@ -79,7 +79,7 @@ _\* Generic component; the LCSC part number is provided as a reference, but any 
 
 In either variant, the battery pack is attached to the back of the solder:bit Gamepad with adhesive hook-and-loop tape. You will need approximately 4 cm of 20 mm-wide tape, [like this one](https://www.amazon.co.uk/dp/B004XIKDLQ).
 
-You may notice that the back of the solder:bit Gamepad has pads for an [SMT battery holder](https://www.lcsc.com/product-detail/C964881.html). If you would prefer to use this instead of attaching an external battery pack, you are welcome to do so.
+You may notice on back of the solder:bit Gamepad there are pads for an [SMT battery holder](https://www.lcsc.com/product-detail/C964881.html). If you would prefer to use this instead of attaching an external battery pack, you are welcome to do so.
 
 ### BBC micro:bit
 
@@ -122,7 +122,7 @@ The following items are optional but useful:
 > To minimise health hazards, we recommend using lead-free and rosin-free solder and flux.
 
 > [!TIP]
-> If you are running this as a workshop activity, an HDMI microscope connected to a display is very useful for streaming a soldering demonstration to the entire room.
+> If you are running this as a workshop/event activity, an [HDMI digital microscope](https://www.amazon.co.uk/dp/B09VPPS96M) connected to a display is very useful for streaming a soldering demonstration to the entire room.
 
 > [!TIP]
 > Smaller soldering iron tips make it easier to reach tight spaces, but they transfer heat less effectively. We recommend trying out a few different tip sizes and choosing one that works well with your soldering iron.
