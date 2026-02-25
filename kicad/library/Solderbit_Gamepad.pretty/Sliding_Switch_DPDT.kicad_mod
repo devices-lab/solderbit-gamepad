@@ -801,7 +801,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/3d_models/slide_switch.step"
+	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/slide_switch.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -155,7 +155,7 @@
 		(uuid "2355cb01-1927-43b5-9088-05502457dfe1")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/3d_models/SMTSO_steel.step"
+	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/SMTSO_steel.step"
 		(offset
 			(xyz 0 -0 0)
 		)
@@ -166,7 +166,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/library/3d_models/M3X6mm.step"
+	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/M3X6mm.step"
 		(offset
 			(xyz 0 0 7)
 		)

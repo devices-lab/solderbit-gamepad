@@ -223,7 +223,7 @@
 		(uuid "3c7cd2d0-164c-4927-aab1-98ac8b7d9cf5")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/3d_models/neopixel_WS2812B.step"
+	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/neopixel_WS2812B.step"
 		(offset
 			(xyz 0 0 0)
 		)

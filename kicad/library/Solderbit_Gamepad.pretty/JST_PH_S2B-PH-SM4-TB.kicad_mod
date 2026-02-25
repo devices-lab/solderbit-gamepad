@@ -355,7 +355,7 @@
 		(uuid "98a48eef-0633-4e53-b6e9-e3edc1cea1a7")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/3d_models/jst_connector.step"
+	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/jst_connector.step"
 		(offset
 			(xyz 0 -4.5 0)
 		)

@@ -221,7 +221,7 @@
 		(uuid "65c0a887-76e0-416e-af26-f28cda40ad81")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/3d_models/tact_switch.step"
+	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/tact_switch.step"
 		(offset
 			(xyz 0 0 0)
 		)

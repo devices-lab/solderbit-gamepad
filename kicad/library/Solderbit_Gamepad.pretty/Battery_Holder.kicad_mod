@@ -332,7 +332,7 @@
 		(uuid "26c5a779-e34c-44cb-b745-60b1e3a12a1e")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/3d_models/battery_holder.step"
+	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/battery_holder.step"
 		(offset
 			(xyz 0 -5.5 0)
 		)

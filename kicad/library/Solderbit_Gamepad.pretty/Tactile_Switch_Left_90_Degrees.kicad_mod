@@ -417,7 +417,7 @@
 		(uuid "a1669a2f-0e73-42fa-9947-87767442d310")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/library/3d_models/shoulder_button.step"
+	(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/shoulder_button.step"
 		(offset
 			(xyz 0 1 7.4)
 		)
