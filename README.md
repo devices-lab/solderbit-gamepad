@@ -137,13 +137,19 @@ You can program the solder:bit Gamepad in [MakeCode](https://makecode.microbit.o
 
 You can test if your assembled device works by flashing the micro:bit with the [demo file](/demo/microbit-solderbit-gamepad-demo.hex).
 
-## Project status
+## Project status and contributing
 
 This project is actively maintained. See [CHANGELOG.md](/CHANGELOG.md) for the latest changes.
 
-## Credits
+At this time, external contributions are not being accepted. If you have suggestions or have found an issue, feel free to open a GitHub issue and we will take a look.
 
-Special thanks to everyone at the Lancaster University [Devices Lab](https://www.devices-lab.org/).
+## Contact
+
+If you are interested in using solder:bit kits for your classroom, university, conference, or any other workshop or event, feel free to reach out to me @mac-aron or email Devices Lab at [device-lab@lancaster.ac.uk](mailto:device-lab@lancaster.ac.uk).
+
+## Acknowledgements
+
+Special thanks to everyone at the [Devices Lab](https://www.devices-lab.org/) for their ongoing support on this project and for their help running soldering workshops. Thanks also to [pro² network+](https://prosquared.org/) for organising two summer schools where the solder:bit Gamepad was featured, and to Eurocircuits for expediting our PCB orders when we were short on time. Finally, thank you to all the participants who discovered a new skill in soldering.
 
 ## License
 
