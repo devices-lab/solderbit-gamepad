@@ -22,6 +22,9 @@ The solder:bit Gamepad is a great device for teaching soldering at workshops and
 
 ## Getting started
 
+> [!WARNING]
+> This device is a research prototype and is provided as-is. Use it at your own risk. The authors take no responsibility for any damage, injury, or loss arising from its use.
+
 To get started, you will need the following:
 
 1. The printed circuit boards (PCBs), which you will need to have manufactured.
@@ -50,7 +53,7 @@ To fabricate the **partially-assembled PCB**, use the files in the [gerbers-v0.8
 
 For the **bare PCB** variant, you will need to source all of the components for the solder:bit Gamepad:
 
-| Reference | Quantity | Part                  | Package                 | LCSC Part                                                     |
+| Reference | Quantity | Part                  | Package                 | LCSC part number                                              |
 | --------- | -------- | --------------------- | ----------------------- | ------------------------------------------------------------- |
 | C1–C8     | 8        | 1 µF \*               | 1206                    | [C1848](https://www.lcsc.com/product-detail/C1848.html)       |
 | CN1–CN5   | 5        | SMTSOM310BTR          | SMD                     | [C2915635](https://www.lcsc.com/product-detail/C2915635.html) |
@@ -97,6 +100,8 @@ You will need the following:
 The [BBC micro:bit Go](https://microbit.org/buy/bbc-microbit-go/) kit includes all of the above.
 
 If you already have the micro:bit and a Micro-USB cable, you can purchase the [battery pack](https://microbit.org/buy/microbit-battery-pack/) and AAA batteries separately.
+
+See the [programming](#programming) section below for how to write code to control the solder:bit Segment.
 
 ### Equipment and materials for soldering
 
@@ -153,7 +158,7 @@ If you are interested in using solder:bit kits for your classroom, university, c
 
 ## Acknowledgements
 
-Special thanks to everyone at the [Devices Lab](https://www.devices-lab.org/) for their ongoing support on this project and for their help running soldering workshops. Thanks also to [pro² network+](https://prosquared.org/) for organising two summer schools where the solder:bit Gamepad was featured, and to Eurocircuits for expediting our PCB orders when we were short on time. Finally, thank you to all the participants who discovered a new skill in soldering.
+Special thanks to everyone at the [Devices Lab](https://www.devices-lab.org/) for their ongoing support on this project and for their help running soldering workshops. Thanks also to [pro² network+](https://prosquared.org/) for organising two summer schools where the solder:bit Gamepad was featured. Finally, thank you to all the participants who discovered a new skill in soldering.
 
 ## License
 
@@ -163,6 +168,4 @@ The GPL ensures that all modifications and improvements to the solder:bit Gamepa
 
 For more details on the license, please see the [LICENSE](/LICENSE) file included in this repository.
 
-<div align="center">
-  <img src="media/v0.8/hwidx.png" width="100"/>
-</div>
+![Back of the solder:bit Gamepad](./media/v0.8/back.png "A render of the back of the latest solder:bit Gamepad")
