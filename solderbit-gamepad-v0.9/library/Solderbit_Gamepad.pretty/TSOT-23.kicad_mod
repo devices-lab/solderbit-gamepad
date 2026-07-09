@@ -1,0 +1,227 @@
+(footprint "TSOT-23"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf")
+	(tags "TSOT-23 Hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1581205e-e4ca-4aad-a49d-0e5aaf13d426")
+		(effects
+			(font
+				(face "Segoe UI This")
+				(size 1 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -0.954379 -0.560311) (xy -0.897787 -0.545159) (xy -0.85352 -0.522251) (xy -0.81927 -0.492657)
+					(xy -0.793295 -0.45659) (xy -0.774548 -0.413376) (xy -0.762787 -0.361532) (xy -0.758602 -0.298921)
+					(xy -0.761631 -0.248982) (xy -0.770417 -0.204155) (xy -0.78467 -0.162712) (xy -0.803711 -0.125753)
+					(xy -0.827292 -0.093485) (xy -0.855734 -0.065547) (xy -0.887593 -0.043151) (xy -0.923603 -0.025858)
+					(xy -0.923603 -0.02311) (xy -0.907689 -0.014286) (xy -0.891867 -0.000884) (xy -0.862146 0.034958)
+					(xy -0.834714 0.079043) (xy -0.8109 0.125205) (xy -0.672048 0.415) (xy -0.8621 0.415) (xy -0.97636 0.162819)
+					(xy -1.000952 0.111589) (xy -1.024766 0.072998) (xy -1.049907 0.048391) (xy -1.063445 0.042009)
+					(xy -1.078346 0.039842) (xy -1.122905 0.039842) (xy -1.122905 0.415) (xy -1.288365 0.415) (xy -1.288365 -0.126852)
+					(xy -1.122905 -0.126852) (xy -1.05119 -0.126852) (xy -1.016882 -0.13176) (xy -0.988805 -0.145603)
+					(xy -0.965598 -0.168007) (xy -0.947341 -0.198226) (xy -0.93652 -0.232331) (xy -0.932808 -0.271627)
+					(xy -0.937551 -0.318637) (xy -0.95054 -0.35295) (xy -0.971625 -0.377872) (xy -1.002863 -0.394323)
+					(xy -1.048076 -0.400587) (xy -1.122905 -0.400587) (xy -1.122905 -0.126852) (xy -1.288365 -0.126852)
+					(xy -1.288365 -0.565879) (xy -1.026048 -0.565879)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.162665 0.415) (xy -0.603264 0.415) (xy -0.603264 -0.565879) (xy -0.179563 -0.565879) (xy -0.179563 -0.386238)
+					(xy -0.437804 -0.386238) (xy -0.437804 -0.167274) (xy -0.197515 -0.167274) (xy -0.197515 0.011693)
+					(xy -0.437804 0.011693) (xy -0.437804 0.236031) (xy -0.162665 0.236031)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.379782 -0.386238) (xy 0.120534 -0.386238) (xy 0.120534 -0.143827) (xy 0.358808 -0.143827)
+					(xy 0.358808 0.035141) (xy 0.120534 0.035141) (xy 0.120534 0.415) (xy -0.044924 0.415) (xy -0.044924 -0.565879)
+					(xy 0.379782 -0.565879)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.859582 -0.306004) (xy 0.719219 -0.280603) (xy 0.819603 -0.135828) (xy 0.726363 -0.050038)
+					(xy 0.656204 -0.223511) (xy 0.586 -0.050038) (xy 0.492256 -0.135828) (xy 0.59319 -0.280603) (xy 0.452781 -0.306004)
+					(xy 0.489142 -0.444734) (xy 0.618286 -0.370484) (xy 0.596258 -0.565879) (xy 0.716151 -0.565879)
+					(xy 0.694077 -0.370484) (xy 0.822167 -0.444734)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.337321 -0.306004) (xy 1.196958 -0.280603) (xy 1.297342 -0.135828) (xy 1.204102 -0.050038)
+					(xy 1.133943 -0.223511) (xy 1.063739 -0.050038) (xy 0.969995 -0.135828) (xy 1.070929 -0.280603)
+					(xy 0.93052 -0.306004) (xy 0.966881 -0.444734) (xy 1.096025 -0.370484) (xy 1.073997 -0.565879)
+					(xy 1.19389 -0.565879) (xy 1.171816 -0.370484) (xy 1.299906 -0.444734)
+				)
+			)
+		)
+	)
+	(property "Value" "TSOT-23"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6228fcb5-8e63-4687-8ee8-d1c21c037b48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b572e12c-5bc5-498b-8aa9-a955099b6cc4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53c6e550-8698-402e-ad61-bb5cb64ab54e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.945 0.5)
+		(end 0.945 1.56)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f17da93e-fd85-44b5-b048-8bcfef2fba45")
+	)
+	(fp_line
+		(start 0.945 1.56)
+		(end -0.905 1.56)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43ae34df-da02-4403-a5f0-9959cfc55c0d")
+	)
+	(fp_line
+		(start 0.96 -1.56)
+		(end -0.89 -1.56)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd8d3286-7a3b-4fbb-9b43-5659cd6ca1d9")
+	)
+	(fp_line
+		(start 0.96 -1.56)
+		(end 0.96 -0.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97c6ee63-ad4c-402f-9fa0-0c162b50b006")
+	)
+	(fp_poly
+		(pts
+			(xy -1.71 -1.52) (xy -1.95 -1.85) (xy -1.47 -1.85) (xy -1.71 -1.52)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e3a66d1d-a32e-40e3-9614-4220b0ca4e91")
+	)
+	(fp_rect
+		(start -2.9 -2)
+		(end 2.9 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "73cb9322-a889-45a6-ac84-668aec60fe4d")
+	)
+	(fp_circle
+		(center -1.72 -1.7)
+		(end -1.72 -1.625)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "c0e7c510-ccc7-42b4-99c4-c25a43817fa7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "ed72ef38-b304-4064-9bce-225d6a7e147c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.455 -0.95)
+		(size 1.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3caa8293-36ef-4dbd-bb5b-fdcc30a5267a")
+	)
+	(pad "2" smd roundrect
+		(at -1.455 0.9375)
+		(size 1.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e19aee19-0c56-4273-9156-82c7df765838")
+	)
+	(pad "3" smd roundrect
+		(at 1.455 0)
+		(size 1.5 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "cc0ea941-b066-41d0-8f51-f6d89a26c364")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

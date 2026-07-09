@@ -195,3 +195,12 @@ Each version captures specific changes categorized under "Added", "Changed", "Re
 
 - Pro2 Network+ logo
 - UKRI logo
+
+## v0.9 (started 15 July, 2026)
+
+![Device in version 0.9](media/version-images/solderbit-gamepad-v0.9.png "solder:bit Gamepad v0.9")
+
+### Changed
+
+- Added larger copper pads around the SMTSOs for hand-soldering
+- Updated the HWIDX QR code

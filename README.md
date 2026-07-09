@@ -1,6 +1,6 @@
 # solder:bit Gamepad
 
-![solder:bit Gamepad](./media/v0.8/main.png "A render of the latest solder:bit Gamepad")
+![solder:bit Gamepad](./media/v0.9/main.png "A render of the latest solder:bit Gamepad")
 
 The solder:bit Gamepad is a kit for learning to solder with surface-mount (SMT) components. When assembled, the device functions as a gamepad that connects to a BBC micro:bit. You can then program it as the input controls for any micro:bit project you create!
 
@@ -10,13 +10,13 @@ This soldering kit is designed to accommodate a wide range of soldering abilitie
 
 You start with just the printed circuit board (PCB) and solder all of the components yourself. Some components are small, making for a fun challenge for those up to the task!
 
-![Bare PCB](./media/v0.8/bare-pcb.png)
+![Bare PCB](./media/v0.9/bare-pcb.png)
 
 ### Partially-assembled PCB
 
-This variant comes with some of the smaller components already pre-soldered. All components required for the device to function, including the power protection circuitry, are pre-placed. One button and one LED are also pre-soldered. Your task is to solder the remaining components.
+This variant comes with some of the smaller components already pre-soldered. All components required for the device to function, including the power protection circuitry, along with one button and one LED are pre-soldered. Your task is to solder the remaining components!
 
-![Partially-assembled PCB](./media/v0.8/partially-assembled.png)
+![Partially-assembled PCB](./media/v0.9/partially-assembled.png)
 
 The solder:bit Gamepad is a great device for teaching soldering at workshops and events where participants have varying ability levels. The partially-assembled PCB is ideal for novices because there are still plenty of larger components to solder. More experienced participants can take on the challenge of assembling the smaller components. Having everyone work on the same device also means the instructor only needs to guide the group through one assembly process, and everyone walks away with the same result.
 
@@ -39,12 +39,12 @@ The solder:bit Gamepad fabrication files are open source, so you can order the P
 > [!NOTE]
 > PCBA services cost significantly more than fabricating bare PCBs and sourcing your own components. If you are running a workshop or event with only a few participants, it may be worth fabricating the bare PCBs and partially assembling them yourself.
 
-To fabricate the **bare PCB**, use the files in the [gerbers-v0.8](/fabrication/gerbers-v0.8/) folder.
+To fabricate the **bare PCB**, use the files in the [gerbers-v0.9](/fabrication/gerbers-v0.9-bare-pcb/) folder.
 
-To fabricate the **partially-assembled PCB**, use the files in the [gerbers-v0.8-partial-assembly](/fabrication/gerbers-v0.8-partial-assembly/) folder. This contains the same Gerber files, along with the BOM, component position list (CPL) file, and a solder paste layer with paste only in the locations of the components for partial assembly.
+To fabricate the **partially-assembled PCB**, use the files in the [gerbers-v0.9-partial-assembly](/fabrication/gerbers-v0.9-partial-assembly/) folder. This contains the same Gerber files, along with the BOM, component position list (CPL) file, and a solder paste layer with paste only in the locations of the components for partial assembly.
 
 > [!WARNING]
-> The BOM and CPL files are formatted specifically for [JLCPCB](https://jlcpcb.com/), with all components sourced from [LCSC](https://www.lcsc.com/). If you need the fabrication files in a different format, you can export them from the [KiCad project files](/solderbit-gamepad-v0.8/).
+> The BOM and CPL files are formatted specifically for [JLCPCB](https://jlcpcb.com/), with all components sourced from [LCSC](https://www.lcsc.com/). If you need the fabrication files in a different format, you can export them from the [KiCad project files](/solderbit-gamepad-v0.9/).
 
 ### Components
 
@@ -168,4 +168,4 @@ The GPL ensures that all modifications and improvements to the solder:bit Gamepa
 
 For more details on the license, please see the [LICENSE](/LICENSE) file included in this repository.
 
-![Back of the solder:bit Gamepad](./media/v0.8/back.png "A render of the back of the latest solder:bit Gamepad")
+![Back of the solder:bit Gamepad](./media/v0.9/back.png "A render of the back of the latest solder:bit Gamepad")
