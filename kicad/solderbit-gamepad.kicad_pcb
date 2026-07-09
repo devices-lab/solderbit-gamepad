@@ -22111,6 +22111,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/library/Solderbit_Gamepad.3dshapes/battery_holder.step"
+			(hide yes)
 			(offset
 				(xyz 0 -5.5 0)
 			)
