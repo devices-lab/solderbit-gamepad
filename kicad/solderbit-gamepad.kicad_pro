@@ -134,7 +134,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|89893547|70250334|617512c6-c2a3-4eaf-97d7-481f910a8aa0|58599b94-4bee-4d07-8a1d-e99c90c42c0b",
+          "Intentional"
+        ]
+      ],
       "meta": {
         "version": 2
       },
