@@ -158,7 +158,7 @@ If you are interested in using solder:bit kits for your classroom, university, c
 
 ## Acknowledgements
 
-Special thanks to everyone at the [Devices Lab](https://www.devices-lab.org/) for their ongoing support on this project and for their help running soldering workshops. Thanks also to [pro² network+](https://prosquared.org/) for organising two summer schools where the solder:bit Gamepad was featured. Finally, thank you to all the participants who discovered a new skill in soldering.
+Special thanks to everyone at the [Devices Lab](https://www.devices-lab.org/) for their ongoing support on this project and for their help running soldering workshops. Thanks also to [pro² network+](https://prosquared.org/) for organising summer schools where the solder:bit Gamepad is featured. Finally, thank you to all the participants who discovered a new skill in soldering.
 
 ## License
 
