@@ -144,7 +144,7 @@ Coming soon...
 
 You can program the solder:bit Gamepad in [MakeCode](https://makecode.microbit.org/) using the [pxt-solderbit-gamepad](https://github.com/devices-lab/pxt-solderbit-gamepad) extension.
 
-You can test if your assembled device works by flashing the micro:bit with the [demo file](/demo/microbit-solderbit-gamepad-demo.hex).
+You can test if your assembled device works by flashing the micro:bit with the [demo file](/demo/microbit-solderbit-Gamepad-test-program-micropython.hex).
 
 ## Project status and contributing
 
